@@ -12,7 +12,7 @@
 | result     | Outcome of the game from team1 perspective    | Categorical| W, L, T                             | Game-level   | Based on score1 and score2                                           |
 | score1     | Score for the first team                      | Integer    | Non-negative                        | Game-level   | Matches official box score                                           |
 | score2     | Score for the second team                     | Integer    | Non-negative                        | Game-level   | Matches official box score                                           |
-| home_away  | Indicates whether team1 is Home or Away       | Categorical| H, A                                | Game-level   | Should Always be H                                                   |
+| home_away  | Indicates whether team1 is Home or Away       | Categorical| {Home, Away}                                | Game-level   | Always home                                                   |
 
 
 ## NFL Data
