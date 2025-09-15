@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repo aggregates **match-level data** for Europe’s “Top 5” leagues, downloaded **per season** from Football-Data.co.uk, then **combined and normalized** with Python/pandas into **one CSV per league**. We keep a compact, modeling-friendly schema (dates, teams, full-time score/result, match week when available, and Bet365 odds) and add derived fields (season start year and per-team match points).
+This repo aggregates **match-level data** for Europe’s “Top 5” leagues, downloaded **per season** from Football-Data.co.uk, then **combined and normalized** with Python/pandas into **one CSV per league**. We keep a compact format (dates, teams, full-time score/result, match week when available, and Bet365 odds) and add derived fields (season start year and per-team match points).
 
 - **Primary source:** Football-Data.co.uk — data download page: https://www.football-data.co.uk/data.php  
 - **Leagues covered:** Premier League (E0), Serie A (I1), Bundesliga (D1), Ligue 1 (F1), La Liga (SP1)  
@@ -29,7 +29,7 @@ These come *verbatim* from Football-Data season files before normalization:
 
 | Column | Description |
 |---|---|
-| `Date` | Match date in **yyyy/mm/dd** format (string in the raw files). |
+| `Date` | Match date in **dd/mm/yyyy** format (string in the raw files). |
 | `HomeTeam` | Home team name (string). |
 | `AwayTeam` | Away team name (string). |
 | `FTHG` | Full-time home goals (int). |
