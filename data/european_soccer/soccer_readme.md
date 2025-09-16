@@ -17,9 +17,10 @@ This repo aggregates **match-level data** for Europe’s “Top 5” leagues, do
 
 ## What’s inside
 
-- `raw_data/` — Raw season CSVs per league (downloaded from Football-Data).  
-- `code/` — Python utilities to load, normalize, and export league-level CSVs.  
-- `final_data/` — Final per-league CSVs (e.g., `premier_league.csv`, `serie_a.csv`, etc.).
+- `code/` — Python code that was used to load, normalize, and export league-level CSVs.  
+- `data/` — includes all data gathered for the project – both raw and final.
+  - `original/` — Original raw data found (pulled from github cited).
+  - `processed/` — Final per-league CSVs (e.g., `premier_league.csv`, `serie_a.csv`, etc.).
 
 ---
 
