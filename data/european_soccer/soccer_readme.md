@@ -11,15 +11,16 @@ This repo aggregates **match-level data** for Europe’s “Top 5” leagues, do
 - **Leagues covered:** Premier League (E0), Serie A (I1), Bundesliga (D1), Ligue 1 (F1), La Liga (SP1)  
 - **Data:** One row per regular-season match
 
-> Note: This directory previously referenced the *xgabora/Club-Football-Match-Data-2000-2025* project for exploration. The current pipeline downloads **directly** from Football-Data.co.uk. See **References** below.
+> Note: This directory has also referenced the *xgabora/Club-Football-Match-Data-2000-2025* project for exploration. Though we have also included downloads **directly** from Football-Data.co.uk as well. See **References** below.
 
 ---
 
 ## What’s inside
 
-- `raw_data/` — Raw season CSVs per league (downloaded from Football-Data).  
-- `code/` — Python utilities to load, normalize, and export league-level CSVs.  
-- `final_data/` — Final per-league CSVs (e.g., `premier_league.csv`, `serie_a.csv`, etc.).
+- `code/` — Python code that was used to load, normalize, and export league-level CSVs.  
+- `data/` — includes all data gathered for the project – both raw and final.
+  - `original/` — Original raw data found (pulled from github cited).
+  - `processed/` — Final per-league CSVs (e.g., `premier_league.csv`, `serie_a.csv`, etc.).
 
 ---
 

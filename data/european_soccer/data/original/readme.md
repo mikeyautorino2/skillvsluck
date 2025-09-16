@@ -1,4 +1,17 @@
-# About this directory: `data/european_soccer`
+# About this directory: `data/european_soccer/data/original/`
+
+## Purpose
+
+This folder stores **unaltered snapshot(s)** of upstream soccer datasets used for exploration and cross-checks.  
+These files are kept **as-downloaded** so that downstream scripts can reproduce our processing steps and compare against the source.
+
+---
+
+## Files in this folder
+
+- `Original_Matches.csv` — match-level records (multi-league, multi-season) as provided by the the github repo (mentioned below).  
+- `Original_EloRatings.csv` — team Elo ratings snapshot from the same project (if present in your copy).
+
 ## General
 Import Soccer League data from https://github.com/xgabora/Club-Football-Match-Data-2000-2025
 ---
@@ -56,18 +69,3 @@ Import Soccer League data from https://github.com/xgabora/Club-Football-Match-Da
 | **📦 `C_PHB`**| *float* |Likeliness of match falling into the Highly Physical Balanced match cluster. |
 
 Description provided by the author of the repository.
-
-## Serie A
-*Add Data description here*
-
-## Premier League
-*Add Data description here*
-
-## LaLiga/Bundesliga
-1. Import the GitHub data
-2. Clean and remove the irrelevant columns, keep these columns: "Division","MatchDate", "HomeTeam", "AwayTeam", "HTHome", "HTAway", "HTResult", "OddHome","OddDraw","OddAway","MaxHome","MaxDraw","MaxAway","Over25","Under25","MaxOver25","MaxUnder25","HandiHome","HandiAway"
-3. Filter out for the Divisions "SP1" (La Liga) and "D1" (Bundesliga)
-4. Calculate the points for wins, draws, losses for Home and Away and add it as "ScoreHome" column and "ScoreAway" column to the df.
-5. Find out the match season and add as a column
-6. Sort by most recent matches
-7. Save the data frames as a csv
