@@ -1,4 +1,17 @@
-# About this directory: `data/european_soccer`
+# About this directory: `data/european_soccer/data/original/`
+
+## Purpose
+
+This folder stores **unaltered snapshot(s)** of upstream soccer datasets used for exploration and cross-checks.  
+These files are kept **as-downloaded** so that downstream scripts can reproduce our processing steps and compare against the source.
+
+---
+
+## Files in this folder
+
+- `Original_Matches.csv` — match-level records (multi-league, multi-season) as provided by the the github repo (mentioned below).  
+- `Original_EloRatings.csv` — team Elo ratings snapshot from the same project (if present in your copy).
+
 ## General
 Import Soccer League data from https://github.com/xgabora/Club-Football-Match-Data-2000-2025
 ---
