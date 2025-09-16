@@ -11,7 +11,7 @@ This repo aggregates **match-level data** for Europe’s “Top 5” leagues, do
 - **Leagues covered:** Premier League (E0), Serie A (I1), Bundesliga (D1), Ligue 1 (F1), La Liga (SP1)  
 - **Data:** One row per regular-season match
 
-> Note: This directory previously referenced the *xgabora/Club-Football-Match-Data-2000-2025* project for exploration. The current pipeline downloads **directly** from Football-Data.co.uk. See **References** below.
+> Note: This directory has also referenced the *xgabora/Club-Football-Match-Data-2000-2025* project for exploration. Though we have also included downloads **directly** from Football-Data.co.uk as well. See **References** below.
 
 ---
 
