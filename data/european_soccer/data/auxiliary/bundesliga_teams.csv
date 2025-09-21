@@ -1,0 +1,455 @@
+Season,Team_Standardized,Team_Full_Name
+2000,BAY,Bayern Munich
+2000,BOC,Bochum
+2000,COT,Cottbus
+2000,DOR,Dortmund
+2000,EINF,Ein Frankfurt
+2000,KOL,FC Koln
+2000,FRE,Freiburg
+2000,HAM,Hamburg
+2000,HANR,Hansa Rostock
+2000,HER,Hertha
+2000,KAI,Kaiserslautern
+2000,LEV,Leverkusen
+2000,MGL,MGladbach
+2000,MUN1,Munich 1860
+2000,NUR,Nurnberg
+2000,SCH,Schalke 04
+2000,STP,St Pauli
+2000,STU,Stuttgart
+2000,UNT,Unterhaching
+2000,WERB,Werder Bremen
+2000,WOL,Wolfsburg
+2001,BAY,Bayern Munich
+2001,COT,Cottbus
+2001,DOR,Dortmund
+2001,KOL,FC Koln
+2001,FRE,Freiburg
+2001,HAM,Hamburg
+2001,HANR,Hansa Rostock
+2001,HER,Hertha
+2001,KAI,Kaiserslautern
+2001,LEV,Leverkusen
+2001,MGL,MGladbach
+2001,MUN1,Munich 1860
+2001,NUR,Nurnberg
+2001,SCH,Schalke 04
+2001,STP,St Pauli
+2001,STU,Stuttgart
+2001,WERB,Werder Bremen
+2001,WOL,Wolfsburg
+2002,BAY,Bayern Munich
+2002,BIE,Bielefeld
+2002,BOC,Bochum
+2002,COT,Cottbus
+2002,DOR,Dortmund
+2002,HAM,Hamburg
+2002,HAN,Hannover
+2002,HANR,Hansa Rostock
+2002,HER,Hertha
+2002,KAI,Kaiserslautern
+2002,LEV,Leverkusen
+2002,MGL,MGladbach
+2002,MUN1,Munich 1860
+2002,NUR,Nurnberg
+2002,SCH,Schalke 04
+2002,STU,Stuttgart
+2002,WERB,Werder Bremen
+2002,WOL,Wolfsburg
+2003,BAY,Bayern Munich
+2003,BOC,Bochum
+2003,DOR,Dortmund
+2003,EINF,Ein Frankfurt
+2003,KOL,FC Koln
+2003,FRE,Freiburg
+2003,HAM,Hamburg
+2003,HAN,Hannover
+2003,HANR,Hansa Rostock
+2003,HER,Hertha
+2003,KAI,Kaiserslautern
+2003,LEV,Leverkusen
+2003,MGL,MGladbach
+2003,MUN1,Munich 1860
+2003,SCH,Schalke 04
+2003,STU,Stuttgart
+2003,WERB,Werder Bremen
+2003,WOL,Wolfsburg
+2004,BAY,Bayern Munich
+2004,BIE,Bielefeld
+2004,BOC,Bochum
+2004,DOR,Dortmund
+2004,FRE,Freiburg
+2004,HAM,Hamburg
+2004,HAN,Hannover
+2004,HANR,Hansa Rostock
+2004,HER,Hertha
+2004,KAI,Kaiserslautern
+2004,LEV,Leverkusen
+2004,MGL,MGladbach
+2004,MAI,Mainz
+2004,NUR,Nurnberg
+2004,SCH,Schalke 04
+2004,STU,Stuttgart
+2004,WERB,Werder Bremen
+2004,WOL,Wolfsburg
+2005,BAY,Bayern Munich
+2005,BIE,Bielefeld
+2005,DOR,Dortmund
+2005,DUI,Duisburg
+2005,EINF,Ein Frankfurt
+2005,KOL,FC Koln
+2005,HAM,Hamburg
+2005,HAN,Hannover
+2005,HER,Hertha
+2005,KAI,Kaiserslautern
+2005,LEV,Leverkusen
+2005,MGL,MGladbach
+2005,MAI,Mainz
+2005,NUR,Nurnberg
+2005,SCH,Schalke 04
+2005,STU,Stuttgart
+2005,WERB,Werder Bremen
+2005,WOL,Wolfsburg
+2006,AAC,Aachen
+2006,BAY,Bayern Munich
+2006,BIE,Bielefeld
+2006,BOC,Bochum
+2006,COT,Cottbus
+2006,DOR,Dortmund
+2006,EINF,Ein Frankfurt
+2006,HAM,Hamburg
+2006,HAN,Hannover
+2006,HER,Hertha
+2006,LEV,Leverkusen
+2006,MGL,MGladbach
+2006,MAI,Mainz
+2006,NUR,Nurnberg
+2006,SCH,Schalke 04
+2006,STU,Stuttgart
+2006,WERB,Werder Bremen
+2006,WOL,Wolfsburg
+2007,BAY,Bayern Munich
+2007,BIE,Bielefeld
+2007,BOC,Bochum
+2007,COT,Cottbus
+2007,DOR,Dortmund
+2007,DUI,Duisburg
+2007,EINF,Ein Frankfurt
+2007,HAM,Hamburg
+2007,HAN,Hannover
+2007,HANR,Hansa Rostock
+2007,HER,Hertha
+2007,KAR,Karlsruhe
+2007,LEV,Leverkusen
+2007,NUR,Nurnberg
+2007,SCH,Schalke 04
+2007,STU,Stuttgart
+2007,WERB,Werder Bremen
+2007,WOL,Wolfsburg
+2008,BAY,Bayern Munich
+2008,BIE,Bielefeld
+2008,BOC,Bochum
+2008,COT,Cottbus
+2008,DOR,Dortmund
+2008,EINF,Ein Frankfurt
+2008,KOL,FC Koln
+2008,HAM,Hamburg
+2008,HAN,Hannover
+2008,HER,Hertha
+2008,HOF,Hoffenheim
+2008,KAR,Karlsruhe
+2008,LEV,Leverkusen
+2008,MGL,MGladbach
+2008,SCH,Schalke 04
+2008,STU,Stuttgart
+2008,WERB,Werder Bremen
+2008,WOL,Wolfsburg
+2009,BAY,Bayern Munich
+2009,BOC,Bochum
+2009,DOR,Dortmund
+2009,EINF,Ein Frankfurt
+2009,KOL,FC Koln
+2009,FRE,Freiburg
+2009,HAM,Hamburg
+2009,HAN,Hannover
+2009,HER,Hertha
+2009,HOF,Hoffenheim
+2009,LEV,Leverkusen
+2009,MGL,MGladbach
+2009,MAI,Mainz
+2009,NUR,Nurnberg
+2009,SCH,Schalke 04
+2009,STU,Stuttgart
+2009,WERB,Werder Bremen
+2009,WOL,Wolfsburg
+2010,BAY,Bayern Munich
+2010,DOR,Dortmund
+2010,EINF,Ein Frankfurt
+2010,KOL,FC Koln
+2010,FRE,Freiburg
+2010,HAM,Hamburg
+2010,HAN,Hannover
+2010,HOF,Hoffenheim
+2010,KAI,Kaiserslautern
+2010,LEV,Leverkusen
+2010,MGL,MGladbach
+2010,MAI,Mainz
+2010,NUR,Nurnberg
+2010,SCH,Schalke 04
+2010,STP,St Pauli
+2010,STU,Stuttgart
+2010,WERB,Werder Bremen
+2010,WOL,Wolfsburg
+2011,AUG,Augsburg
+2011,BAY,Bayern Munich
+2011,DOR,Dortmund
+2011,KOL,FC Koln
+2011,FRE,Freiburg
+2011,HAM,Hamburg
+2011,HAN,Hannover
+2011,HER,Hertha
+2011,HOF,Hoffenheim
+2011,KAI,Kaiserslautern
+2011,LEV,Leverkusen
+2011,MGL,MGladbach
+2011,MAI,Mainz
+2011,NUR,Nurnberg
+2011,SCH,Schalke 04
+2011,STU,Stuttgart
+2011,WERB,Werder Bremen
+2011,WOL,Wolfsburg
+2012,AUG,Augsburg
+2012,BAY,Bayern Munich
+2012,DOR,Dortmund
+2012,EINF,Ein Frankfurt
+2012,FORD,Fortuna Dusseldorf
+2012,FRE,Freiburg
+2012,GREF,Greuther Furth
+2012,HAM,Hamburg
+2012,HAN,Hannover
+2012,HOF,Hoffenheim
+2012,LEV,Leverkusen
+2012,MGL,MGladbach
+2012,MAI,Mainz
+2012,NUR,Nurnberg
+2012,SCH,Schalke 04
+2012,STU,Stuttgart
+2012,WERB,Werder Bremen
+2012,WOL,Wolfsburg
+2013,AUG,Augsburg
+2013,BAY,Bayern Munich
+2013,BRA,Braunschweig
+2013,DOR,Dortmund
+2013,EINF,Ein Frankfurt
+2013,FRE,Freiburg
+2013,HAM,Hamburg
+2013,HAN,Hannover
+2013,HER,Hertha
+2013,HOF,Hoffenheim
+2013,LEV,Leverkusen
+2013,MGL,MGladbach
+2013,MAI,Mainz
+2013,NUR,Nurnberg
+2013,SCH,Schalke 04
+2013,STU,Stuttgart
+2013,WERB,Werder Bremen
+2013,WOL,Wolfsburg
+2014,AUG,Augsburg
+2014,BAY,Bayern Munich
+2014,DOR,Dortmund
+2014,EINF,Ein Frankfurt
+2014,KOL,FC Koln
+2014,FRE,Freiburg
+2014,HAM,Hamburg
+2014,HAN,Hannover
+2014,HER,Hertha
+2014,HOF,Hoffenheim
+2014,LEV,Leverkusen
+2014,MGL,MGladbach
+2014,MAI,Mainz
+2014,PAD,Paderborn
+2014,SCH,Schalke 04
+2014,STU,Stuttgart
+2014,WERB,Werder Bremen
+2014,WOL,Wolfsburg
+2015,AUG,Augsburg
+2015,BAY,Bayern Munich
+2015,DAR,Darmstadt
+2015,DOR,Dortmund
+2015,EINF,Ein Frankfurt
+2015,KOL,FC Koln
+2015,HAM,Hamburg
+2015,HAN,Hannover
+2015,HER,Hertha
+2015,HOF,Hoffenheim
+2015,ING,Ingolstadt
+2015,LEV,Leverkusen
+2015,MGL,MGladbach
+2015,MAI,Mainz
+2015,SCH,Schalke 04
+2015,STU,Stuttgart
+2015,WERB,Werder Bremen
+2015,WOL,Wolfsburg
+2016,AUG,Augsburg
+2016,BAY,Bayern Munich
+2016,DAR,Darmstadt
+2016,DOR,Dortmund
+2016,EINF,Ein Frankfurt
+2016,KOL,FC Koln
+2016,FRE,Freiburg
+2016,HAM,Hamburg
+2016,HER,Hertha
+2016,HOF,Hoffenheim
+2016,ING,Ingolstadt
+2016,LEV,Leverkusen
+2016,MGL,MGladbach
+2016,MAI,Mainz
+2016,LEI,RB Leipzig
+2016,SCH,Schalke 04
+2016,WERB,Werder Bremen
+2016,WOL,Wolfsburg
+2017,AUG,Augsburg
+2017,BAY,Bayern Munich
+2017,DOR,Dortmund
+2017,EINF,Ein Frankfurt
+2017,KOL,FC Koln
+2017,FRE,Freiburg
+2017,HAM,Hamburg
+2017,HAN,Hannover
+2017,HER,Hertha
+2017,HOF,Hoffenheim
+2017,LEV,Leverkusen
+2017,MGL,MGladbach
+2017,MAI,Mainz
+2017,LEI,RB Leipzig
+2017,SCH,Schalke 04
+2017,STU,Stuttgart
+2017,WERB,Werder Bremen
+2017,WOL,Wolfsburg
+2018,AUG,Augsburg
+2018,BAY,Bayern Munich
+2018,DOR,Dortmund
+2018,EINF,Ein Frankfurt
+2018,FORD,Fortuna Dusseldorf
+2018,FRE,Freiburg
+2018,HAN,Hannover
+2018,HER,Hertha
+2018,HOF,Hoffenheim
+2018,LEV,Leverkusen
+2018,MGL,MGladbach
+2018,MAI,Mainz
+2018,NUR,Nurnberg
+2018,LEI,RB Leipzig
+2018,SCH,Schalke 04
+2018,STU,Stuttgart
+2018,WERB,Werder Bremen
+2018,WOL,Wolfsburg
+2019,AUG,Augsburg
+2019,BAY,Bayern Munich
+2019,DOR,Dortmund
+2019,EINF,Ein Frankfurt
+2019,KOL,FC Koln
+2019,FORD,Fortuna Dusseldorf
+2019,FRE,Freiburg
+2019,HER,Hertha
+2019,HOF,Hoffenheim
+2019,LEV,Leverkusen
+2019,MGL,MGladbach
+2019,MAI,Mainz
+2019,PAD,Paderborn
+2019,LEI,RB Leipzig
+2019,SCH,Schalke 04
+2019,UNI,Union Berlin
+2019,WERB,Werder Bremen
+2019,WOL,Wolfsburg
+2020,AUG,Augsburg
+2020,BAY,Bayern Munich
+2020,BIE,Bielefeld
+2020,DOR,Dortmund
+2020,EINF,Ein Frankfurt
+2020,KOL,FC Koln
+2020,FRE,Freiburg
+2020,HER,Hertha
+2020,HOF,Hoffenheim
+2020,LEV,Leverkusen
+2020,MGL,MGladbach
+2020,MAI,Mainz
+2020,LEI,RB Leipzig
+2020,SCH,Schalke 04
+2020,STU,Stuttgart
+2020,UNI,Union Berlin
+2020,WERB,Werder Bremen
+2020,WOL,Wolfsburg
+2021,AUG,Augsburg
+2021,BAY,Bayern Munich
+2021,BIE,Bielefeld
+2021,BOC,Bochum
+2021,DOR,Dortmund
+2021,EINF,Ein Frankfurt
+2021,KOL,FC Koln
+2021,FRE,Freiburg
+2021,GREF,Greuther Furth
+2021,HER,Hertha
+2021,HOF,Hoffenheim
+2021,LEV,Leverkusen
+2021,MGL,MGladbach
+2021,MAI,Mainz
+2021,LEI,RB Leipzig
+2021,STU,Stuttgart
+2021,UNI,Union Berlin
+2021,WOL,Wolfsburg
+2022,AUG,Augsburg
+2022,BAY,Bayern Munich
+2022,BOC,Bochum
+2022,DOR,Dortmund
+2022,EINF,Ein Frankfurt
+2022,KOL,FC Koln
+2022,FRE,Freiburg
+2022,HER,Hertha
+2022,HOF,Hoffenheim
+2022,LEV,Leverkusen
+2022,MGL,MGladbach
+2022,MAI,Mainz
+2022,LEI,RB Leipzig
+2022,SCH,Schalke 04
+2022,STU,Stuttgart
+2022,UNI,Union Berlin
+2022,WERB,Werder Bremen
+2022,WOL,Wolfsburg
+2023,AUG,Augsburg
+2023,BAY,Bayern Munich
+2023,BOC,Bochum
+2023,DAR,Darmstadt
+2023,DOR,Dortmund
+2023,EINF,Ein Frankfurt
+2023,KOL,FC Koln
+2023,FRE,Freiburg
+2023,HEI,Heidenheim
+2023,HOF,Hoffenheim
+2023,LEV,Leverkusen
+2023,MGL,MGladbach
+2023,MAI,Mainz
+2023,LEI,RB Leipzig
+2023,STU,Stuttgart
+2023,UNI,Union Berlin
+2023,WERB,Werder Bremen
+2023,WOL,Wolfsburg
+2024,AUG,Augsburg
+2024,BAY,Bayern Munich
+2024,BOC,Bochum
+2024,DOR,Dortmund
+2024,EINF,Ein Frankfurt
+2024,FRE,Freiburg
+2024,HEI,Heidenheim
+2024,HOF,Hoffenheim
+2024,HOLK,Holstein Kiel
+2024,LEV,Leverkusen
+2024,M'G,M'gladbach
+2024,MGL,MGladbach
+2024,MAI,Mainz
+2024,LEI,RB Leipzig
+2024,STP,St Pauli
+2024,STU,Stuttgart
+2024,UNI,Union Berlin
+2024,WERB,Werder Bremen
+2024,WOL,Wolfsburg
