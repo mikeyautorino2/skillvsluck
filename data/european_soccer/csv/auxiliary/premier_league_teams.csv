@@ -1,0 +1,495 @@
+Season,Team_Standardized,Team_Full_Name
+2002,ARS,Arsenal
+2002,AVL,Aston Villa
+2002,BIR,Birmingham
+2002,BLA,Blackburn
+2002,BOL,Bolton
+2002,CHA,Charlton
+2002,CHE,Chelsea
+2002,EVE,Everton
+2002,FUL,Fulham
+2002,LEE,Leeds
+2002,LIV,Liverpool
+2002,MANC,Man City
+2002,MANU,Man United
+2002,MID,Middlesbrough
+2002,NEW,Newcastle
+2002,SOU,Southampton
+2002,SUN,Sunderland
+2002,TOT,Tottenham
+2002,WBA,West Brom
+2002,WHU,West Ham
+2004,ARS,Arsenal
+2004,AVL,Aston Villa
+2004,BIR,Birmingham
+2004,BLA,Blackburn
+2004,BOL,Bolton
+2004,CHA,Charlton
+2004,CHE,Chelsea
+2004,EVE,Everton
+2004,FUL,Fulham
+2004,LIV,Liverpool
+2004,MANC,Man City
+2004,MANU,Man United
+2004,MID,Middlesbrough
+2004,NEW,Newcastle
+2004,POR,Portsmouth
+2004,SUN,Sunderland
+2004,TOT,Tottenham
+2004,WBA,West Brom
+2004,WHU,West Ham
+2004,WIG,Wigan
+2005,ARS,Arsenal
+2005,AVL,Aston Villa
+2005,BIR,Birmingham
+2005,BLA,Blackburn
+2005,BOL,Bolton
+2005,CHA,Charlton
+2005,CHE,Chelsea
+2005,EVE,Everton
+2005,FUL,Fulham
+2005,LIV,Liverpool
+2005,MANC,Man City
+2005,MANU,Man United
+2005,MID,Middlesbrough
+2005,NEW,Newcastle
+2005,POR,Portsmouth
+2005,REA,Reading
+2005,SHU,Sheffield United
+2005,SUN,Sunderland
+2005,TOT,Tottenham
+2005,WAT,Watford
+2005,WBA,West Brom
+2005,WHU,West Ham
+2005,WIG,Wigan
+2006,ARS,Arsenal
+2006,AVL,Aston Villa
+2006,BIR,Birmingham
+2006,BLA,Blackburn
+2006,BOL,Bolton
+2006,CHA,Charlton
+2006,CHE,Chelsea
+2006,DER,Derby
+2006,EVE,Everton
+2006,FUL,Fulham
+2006,LIV,Liverpool
+2006,MANC,Man City
+2006,MANU,Man United
+2006,MID,Middlesbrough
+2006,NEW,Newcastle
+2006,POR,Portsmouth
+2006,REA,Reading
+2006,SHU,Sheffield United
+2006,SUN,Sunderland
+2006,TOT,Tottenham
+2006,WAT,Watford
+2006,WBA,West Brom
+2006,WHU,West Ham
+2006,WIG,Wigan
+2007,ARS,Arsenal
+2007,AVL,Aston Villa
+2007,BIR,Birmingham
+2007,BLA,Blackburn
+2007,BOL,Bolton
+2007,CHA,Charlton
+2007,CHE,Chelsea
+2007,DER,Derby
+2007,EVE,Everton
+2007,FUL,Fulham
+2007,HUL,Hull
+2007,LIV,Liverpool
+2007,MANC,Man City
+2007,MANU,Man United
+2007,MID,Middlesbrough
+2007,NEW,Newcastle
+2007,POR,Portsmouth
+2007,REA,Reading
+2007,SHU,Sheffield United
+2007,STO,Stoke
+2007,SUN,Sunderland
+2007,TOT,Tottenham
+2007,WAT,Watford
+2007,WBA,West Brom
+2007,WHU,West Ham
+2007,WIG,Wigan
+2008,ARS,Arsenal
+2008,AVL,Aston Villa
+2008,BIR,Birmingham
+2008,BLA,Blackburn
+2008,BOL,Bolton
+2008,BUR,Burnley
+2008,CHE,Chelsea
+2008,DER,Derby
+2008,EVE,Everton
+2008,FUL,Fulham
+2008,HUL,Hull
+2008,LIV,Liverpool
+2008,MANC,Man City
+2008,MANU,Man United
+2008,MID,Middlesbrough
+2008,NEW,Newcastle
+2008,POR,Portsmouth
+2008,REA,Reading
+2008,STO,Stoke
+2008,SUN,Sunderland
+2008,TOT,Tottenham
+2008,WBA,West Brom
+2008,WHU,West Ham
+2008,WIG,Wigan
+2008,WOL,Wolves
+2009,ARS,Arsenal
+2009,AVL,Aston Villa
+2009,BIR,Birmingham
+2009,BLA,Blackburn
+2009,BLA,Blackpool
+2009,BOL,Bolton
+2009,BUR,Burnley
+2009,CHE,Chelsea
+2009,EVE,Everton
+2009,FUL,Fulham
+2009,HUL,Hull
+2009,LIV,Liverpool
+2009,MANC,Man City
+2009,MANU,Man United
+2009,MID,Middlesbrough
+2009,NEW,Newcastle
+2009,POR,Portsmouth
+2009,STO,Stoke
+2009,SUN,Sunderland
+2009,TOT,Tottenham
+2009,WBA,West Brom
+2009,WHU,West Ham
+2009,WIG,Wigan
+2009,WOL,Wolves
+2010,ARS,Arsenal
+2010,AVL,Aston Villa
+2010,BIR,Birmingham
+2010,BLA,Blackburn
+2010,BLA,Blackpool
+2010,BOL,Bolton
+2010,BUR,Burnley
+2010,CHE,Chelsea
+2010,EVE,Everton
+2010,FUL,Fulham
+2010,HUL,Hull
+2010,LIV,Liverpool
+2010,MANC,Man City
+2010,MANU,Man United
+2010,NEW,Newcastle
+2010,NOR,Norwich
+2010,POR,Portsmouth
+2010,QPR,QPR
+2010,STO,Stoke
+2010,SUN,Sunderland
+2010,SWA,Swansea
+2010,TOT,Tottenham
+2010,WBA,West Brom
+2010,WHU,West Ham
+2010,WIG,Wigan
+2010,WOL,Wolves
+2011,ARS,Arsenal
+2011,AVL,Aston Villa
+2011,BIR,Birmingham
+2011,BLA,Blackburn
+2011,BLA,Blackpool
+2011,BOL,Bolton
+2011,CHE,Chelsea
+2011,EVE,Everton
+2011,FUL,Fulham
+2011,LIV,Liverpool
+2011,MANC,Man City
+2011,MANU,Man United
+2011,NEW,Newcastle
+2011,NOR,Norwich
+2011,QPR,QPR
+2011,REA,Reading
+2011,SOU,Southampton
+2011,STO,Stoke
+2011,SUN,Sunderland
+2011,SWA,Swansea
+2011,TOT,Tottenham
+2011,WBA,West Brom
+2011,WHU,West Ham
+2011,WIG,Wigan
+2011,WOL,Wolves
+2012,ARS,Arsenal
+2012,AVL,Aston Villa
+2012,BLA,Blackburn
+2012,BOL,Bolton
+2012,CAR,Cardiff
+2012,CHE,Chelsea
+2012,CRY,Crystal Palace
+2012,EVE,Everton
+2012,FUL,Fulham
+2012,HUL,Hull
+2012,LIV,Liverpool
+2012,MANC,Man City
+2012,MANU,Man United
+2012,NEW,Newcastle
+2012,NOR,Norwich
+2012,QPR,QPR
+2012,REA,Reading
+2012,SOU,Southampton
+2012,STO,Stoke
+2012,SUN,Sunderland
+2012,SWA,Swansea
+2012,TOT,Tottenham
+2012,WBA,West Brom
+2012,WHU,West Ham
+2012,WIG,Wigan
+2012,WOL,Wolves
+2013,ARS,Arsenal
+2013,AVL,Aston Villa
+2013,BUR,Burnley
+2013,CAR,Cardiff
+2013,CHE,Chelsea
+2013,CRY,Crystal Palace
+2013,EVE,Everton
+2013,FUL,Fulham
+2013,HUL,Hull
+2013,LEI,Leicester
+2013,LIV,Liverpool
+2013,MANC,Man City
+2013,MANU,Man United
+2013,NEW,Newcastle
+2013,NOR,Norwich
+2013,QPR,QPR
+2013,REA,Reading
+2013,SOU,Southampton
+2013,STO,Stoke
+2013,SUN,Sunderland
+2013,SWA,Swansea
+2013,TOT,Tottenham
+2013,WBA,West Brom
+2013,WHU,West Ham
+2013,WIG,Wigan
+2014,ARS,Arsenal
+2014,AVL,Aston Villa
+2014,BUR,Burnley
+2014,CAR,Cardiff
+2014,CHE,Chelsea
+2014,CRY,Crystal Palace
+2014,EVE,Everton
+2014,FUL,Fulham
+2014,HUL,Hull
+2014,LEI,Leicester
+2014,LIV,Liverpool
+2014,MANC,Man City
+2014,MANU,Man United
+2014,NEW,Newcastle
+2014,NOR,Norwich
+2014,QPR,QPR
+2014,SOU,Southampton
+2014,STO,Stoke
+2014,SUN,Sunderland
+2014,SWA,Swansea
+2014,TOT,Tottenham
+2014,WBA,West Brom
+2014,WHU,West Ham
+2015,ARS,Arsenal
+2015,AVL,Aston Villa
+2015,BOU,Bournemouth
+2015,BUR,Burnley
+2015,CHE,Chelsea
+2015,CRY,Crystal Palace
+2015,EVE,Everton
+2015,HUL,Hull
+2015,LEI,Leicester
+2015,LIV,Liverpool
+2015,MANC,Man City
+2015,MANU,Man United
+2015,MID,Middlesbrough
+2015,NEW,Newcastle
+2015,NOR,Norwich
+2015,QPR,QPR
+2015,SOU,Southampton
+2015,STO,Stoke
+2015,SUN,Sunderland
+2015,SWA,Swansea
+2015,TOT,Tottenham
+2015,WAT,Watford
+2015,WBA,West Brom
+2015,WHU,West Ham
+2016,ARS,Arsenal
+2016,BOU,Bournemouth
+2016,BUR,Burnley
+2016,CHE,Chelsea
+2016,CRY,Crystal Palace
+2016,EVE,Everton
+2016,HUL,Hull
+2016,LEI,Leicester
+2016,LIV,Liverpool
+2016,MANC,Man City
+2016,MANU,Man United
+2016,MID,Middlesbrough
+2016,SOU,Southampton
+2016,STO,Stoke
+2016,SUN,Sunderland
+2016,SWA,Swansea
+2016,TOT,Tottenham
+2016,WAT,Watford
+2016,WBA,West Brom
+2016,WHU,West Ham
+2017,ARS,Arsenal
+2017,BOU,Bournemouth
+2017,BHA,Brighton
+2017,BUR,Burnley
+2017,CHE,Chelsea
+2017,CRY,Crystal Palace
+2017,EVE,Everton
+2017,HUD,Huddersfield
+2017,HUL,Hull
+2017,LEI,Leicester
+2017,LIV,Liverpool
+2017,MANC,Man City
+2017,MANU,Man United
+2017,MID,Middlesbrough
+2017,NEW,Newcastle
+2017,SOU,Southampton
+2017,STO,Stoke
+2017,SUN,Sunderland
+2017,SWA,Swansea
+2017,TOT,Tottenham
+2017,WAT,Watford
+2017,WBA,West Brom
+2017,WHU,West Ham
+2018,ARS,Arsenal
+2018,BOU,Bournemouth
+2018,BHA,Brighton
+2018,BUR,Burnley
+2018,CAR,Cardiff
+2018,CHE,Chelsea
+2018,CRY,Crystal Palace
+2018,EVE,Everton
+2018,FUL,Fulham
+2018,HUD,Huddersfield
+2018,LEI,Leicester
+2018,LIV,Liverpool
+2018,MANC,Man City
+2018,MANU,Man United
+2018,NEW,Newcastle
+2018,SOU,Southampton
+2018,TOT,Tottenham
+2018,WAT,Watford
+2018,WHU,West Ham
+2018,WOL,Wolves
+2019,ARS,Arsenal
+2019,AVL,Aston Villa
+2019,BOU,Bournemouth
+2019,BHA,Brighton
+2019,BUR,Burnley
+2019,CHE,Chelsea
+2019,CRY,Crystal Palace
+2019,EVE,Everton
+2019,LEI,Leicester
+2019,LIV,Liverpool
+2019,MANC,Man City
+2019,MANU,Man United
+2019,NEW,Newcastle
+2019,NOR,Norwich
+2019,SHU,Sheffield United
+2019,SOU,Southampton
+2019,TOT,Tottenham
+2019,WAT,Watford
+2019,WHU,West Ham
+2019,WOL,Wolves
+2020,ARS,Arsenal
+2020,AVL,Aston Villa
+2020,BHA,Brighton
+2020,BUR,Burnley
+2020,CHE,Chelsea
+2020,CRY,Crystal Palace
+2020,EVE,Everton
+2020,FUL,Fulham
+2020,LEE,Leeds
+2020,LEI,Leicester
+2020,LIV,Liverpool
+2020,MANC,Man City
+2020,MANU,Man United
+2020,NEW,Newcastle
+2020,SHU,Sheffield United
+2020,SOU,Southampton
+2020,TOT,Tottenham
+2020,WBA,West Brom
+2020,WHU,West Ham
+2020,WOL,Wolves
+2021,ARS,Arsenal
+2021,AVL,Aston Villa
+2021,BRE,Brentford
+2021,BHA,Brighton
+2021,BUR,Burnley
+2021,CHE,Chelsea
+2021,CRY,Crystal Palace
+2021,EVE,Everton
+2021,LEE,Leeds
+2021,LEI,Leicester
+2021,LIV,Liverpool
+2021,MANC,Man City
+2021,MANU,Man United
+2021,NEW,Newcastle
+2021,NOR,Norwich
+2021,SOU,Southampton
+2021,TOT,Tottenham
+2021,WAT,Watford
+2021,WHU,West Ham
+2021,WOL,Wolves
+2022,ARS,Arsenal
+2022,AVL,Aston Villa
+2022,BOU,Bournemouth
+2022,BRE,Brentford
+2022,BHA,Brighton
+2022,CHE,Chelsea
+2022,CRY,Crystal Palace
+2022,EVE,Everton
+2022,FUL,Fulham
+2022,LEE,Leeds
+2022,LEI,Leicester
+2022,LIV,Liverpool
+2022,MANC,Man City
+2022,MANU,Man United
+2022,NEW,Newcastle
+2022,NOTF,Nott'm Forest
+2022,SOU,Southampton
+2022,TOT,Tottenham
+2022,WHU,West Ham
+2022,WOL,Wolves
+2023,ARS,Arsenal
+2023,AVL,Aston Villa
+2023,BOU,Bournemouth
+2023,BRE,Brentford
+2023,BHA,Brighton
+2023,BUR,Burnley
+2023,CHE,Chelsea
+2023,CRY,Crystal Palace
+2023,EVE,Everton
+2023,FUL,Fulham
+2023,LIV,Liverpool
+2023,LUT,Luton
+2023,MANC,Man City
+2023,MANU,Man United
+2023,NEW,Newcastle
+2023,NOTF,Nott'm Forest
+2023,SHU,Sheffield United
+2023,TOT,Tottenham
+2023,WHU,West Ham
+2023,WOL,Wolves
+2024,ARS,Arsenal
+2024,AVL,Aston Villa
+2024,BOU,Bournemouth
+2024,BRE,Brentford
+2024,BHA,Brighton
+2024,CHE,Chelsea
+2024,CRY,Crystal Palace
+2024,EVE,Everton
+2024,FUL,Fulham
+2024,IPS,Ipswich
+2024,LEI,Leicester
+2024,LIV,Liverpool
+2024,MANC,Man City
+2024,MANU,Man United
+2024,NEW,Newcastle
+2024,NOTF,Nott'm Forest
+2024,SOU,Southampton
+2024,TOT,Tottenham
+2024,WHU,West Ham
+2024,WOL,Wolves
