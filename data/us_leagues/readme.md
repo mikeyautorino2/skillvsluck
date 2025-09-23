@@ -101,7 +101,7 @@ Overall, the dataset is complete with no missing values, and column names are co
 
 | Property       | Value     |
 | -------------- | --------- |
-| # of Rows      | 70,905    |
+| # of Rows      | 66410    |
 | # of Columns   | 8         |
 | Missing Values | 0 (0.00%) |
 
@@ -111,13 +111,13 @@ Descriptive statistics of **scores**:
 
 | Metric                | `score1` | `score2` |
 | --------------------- | -------- | -------- |
-| **# of Observations** | 70905    | 70905    |
+| **# of Observations** | 66410    | 66410    |
 | **Mean**              | 105.646  | 102.163  |
 | **Mode**              | 106.000  | 103.000  |
 | **Std Deviation**     | 14.396   | 14.069   |
 | **Variance**          | 207.254  | 197.937  |
 | **Skewness**          | 0.073    | 0.067    |
-| **Kurtosis**          | 0.118    | 0.144    |
+| **Kurtosis**          | 0.119    | 0.144    |
 | **Min**               | 18.000   | 19.000   |
 | **Q1**                | 96.000   | 93.000   |
 | **Q2 (Median)**       | 105.000  | 102.000  |
@@ -129,14 +129,14 @@ Descriptive statistics of **results**:
 
 | Result             | Count | Proportion (%) |
 | ------------------ | ----- | -------------- |
-| Home Team **Win**  | 43379 | 61.18          |
-| Home Team **Loss** | 46735 | 38.82          |
+| Home Team **Win**  | 27526 | 38.82          |
+| Home Team **Loss** | 43379 | 61.18          |
 | **Tie**            | 0     | 0.00           |
 
 ### 2.3 Discussion
 
-Table 1 shows the dataset contains 70,905 observations with 8 rows of data for each, and no missing values. In Table 3, we see that the numeric variables (score1, score2) have moderately symmetric descriptive statistics. The variability is moderate, with standard deviations at about 14 points, but score1 is on average slightly higher than score2. The skewness values are close to zero, which implies that the data is not lopsided. The kurtosis values are slightly positive, which implies a distribution of data that is slightly more peaked than a normal distribution, which means a slightly higher concentration of values near the center of the distribution and fewer values at the tails. This interpretation of the kurtosis is reflected in the histograms for score1 and score2 shown in Figure 1.
-In Table 4, the result variable shows evidence of a home-court advantage, with home teams winning 61.18% of games. Team frequencies represented in Table 6, Table 7, and Table 8, reflect the fact that the dataset spans 76 NBA seasons: long-standing franchises such as the Boston Celtics (BOS), New York Knicks (NYK) and Los Angeles Lakers (LAL) appear more often, while teams with short histories such as the Waterloo Hawks (WAT), Sheboygan Redskins (SBS) and St. Louis Bombers (SLB) appear at low frequencies.
+Table 1 shows the dataset contains 66410 observations with 8 rows of data for each, and no missing values. In Table 3, we see that the numeric variables (score1, score2) have moderately symmetric descriptive statistics. The variability is moderate, with standard deviations at about 14 points, but score1 is on average slightly higher than score2. The skewness values are close to zero, which implies that the data is not lopsided. The kurtosis values are slightly positive, which implies a distribution of data that is slightly more peaked than a normal distribution, which means a slightly higher concentration of values near the center of the distribution and fewer values at the tails. This interpretation of the kurtosis is reflected in the histograms for score1 and score2 shown in Figure 1.
+In Table 4, the result variable show evidence to counter a home-court advantage, with home teams losing 61.18% of games. Team frequencies represented in Table 6, Table 7, and Table 8, reflect the fact that the dataset spans 76 NBA seasons: long-standing franchises such as the Boston Celtics (BOS), New York Knicks (NYK) and Los Angeles Lakers (LAL) appear more often, while teams with short histories such as the Waterloo Hawks (WAT), Sheboygan Redskins (SBS) and St. Louis Bombers (SLB) appear at low frequencies.
 In Figure 1, the empirical cumulative distribution functions (ECDFs) for score1 and score2 both produce a smooth, nearly linear progression between roughly 80 and 120 points. This reflects the fact that the majority of NBA game scores fall within this range. About 25% of scores are below 96 points and about 75% of scores are below 115 points, which is consistent with the quartiles reported in Table 3. The graphs of the functions also show the compactness of the distributions, with around 90% of all game scores falling between 85 and 120 points, and very small tails of extreme low and high outcomes. This reflects the fact that the rules and typical pace of play in NBA games result in natural boundaries on the distribution of points. Additionally, the median scores of 105 (team1) and 103 (team2), and the minimum scores of 18 (team1) and 19 (team2) show that even the lowest-scoring teams achieve meaningful point totals, and most score a significant amount. This could potentially be used to suggest that the NBA teams are generally at similar performance levels (every team is able to put up at least some fight against their opponent).
 
 ### 2.4 NBA Reference
