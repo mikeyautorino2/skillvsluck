@@ -1,153 +1,142 @@
 # European Soccer Data - Descriptive Statistics
 
-This document presents comprehensive descriptive statistics for European soccer match data across four major leagues:
-- Premier League
-- Serie A
-- Bundesliga
-- La Liga
+*Generated on: 2025-09-23 10:13:23*
+
+This report presents comprehensive descriptive statistics for European soccer match data across four major leagues:
+- **Premier League** (England)
+- **Serie A** (Italy) 
+- **Bundesliga** (Germany)
+- **La Liga** (Spain)
 
 ## Dataset Overview
 
-The analysis covers 33,522 matches across four major European leagues from 1999-2024:
-- **Total matches analyzed**: 33,522
-- **Temporal coverage**: 1999-2024 seasons
-- **Data completeness**: 97.5% of matches have betting odds data
+The analysis covers **34,952 matches** across four major European leagues from 2000-2024:
+- **Temporal coverage**: 2000-2024 seasons
+- **Betting odds coverage**: 98.9% of matches
 - **Geographic coverage**: England, Italy, Germany, Spain
 
 ### League Coverage
-- **Premier League**: 7,981 matches (2002-2024)
-- **Serie A**: 9,026 matches (1999-2024)
+- **Premier League**: 9,410 matches (2000-2024)
+- **Serie A**: 9,012 matches (2000-2024)
 - **Bundesliga**: 7,522 matches (2000-2024)
 - **La Liga**: 9,008 matches (2000-2024)
 
-## 1. Match Results Summary
+## 1. Match Results Analysis
 
 ### Result Distribution by League
 
 | League | Total Matches | Home Wins (%) | Draws (%) | Away Wins (%) |
 |--------|---------------|---------------|-----------|---------------|
-| Premier League | 7,980 | 45.9 | 24.1 | 30.0 |
+| Premier League | 9,410 | 45.8 | 24.6 | 29.6 |
 | Serie A | 9,012 | 44.6 | 27.1 | 28.3 |
-| Bundesliga | 7,522 | 35.3 | 39.5 | 25.2 |
-| La Liga | 9,008 | 35.0 | 42.5 | 22.5 |
+| Bundesliga | 7,522 | 45.7 | 24.7 | 29.7 |
+| La Liga | 9,008 | 47.1 | 25.2 | 27.7 |
 
 ### Overall Statistics (All Leagues Combined)
 
-- **Total Matches**: 33,522
-- **Home Win Rate**: 40.2%
-- **Draw Rate**: 33.3%
-- **Away Win Rate**: 26.4%
+- **Total Matches**: 34,952
+- **Home Win Rate**: 45.8%
+- **Draw Rate**: 25.4%
+- **Away Win Rate**: 28.8%
 
 ### Key Findings - Match Results
 
-- Home advantage is evident across all leagues
-- Draw rates vary between leagues
-- Away win percentages are consistently lower than home wins
+- **Home advantage** is evident across all leagues (average 45.8% home win rate)
+- **Most competitive league**: Bundesliga (29.7% away wins)
+- **Strongest home advantage**: La Liga (47.1% home wins)
+- **Most draws**: Serie A (27.1% draws)
 
-## 2. Goal Statistics
+## 2. Goal Statistics Analysis
 
 ### Average Goals by League
 
 | League | Avg Home Goals | Std Home Goals | Avg Away Goals | Std Away Goals | Avg Total Goals | Std Total Goals |
-|--------|----------------|----------------|----------------|----------------|-----------------|-----------------|
-| Premier League | 1.54 | 1.31 | 1.20 | 1.17 | 2.74 | 1.67 |
-| Serie A | 1.51 | 1.23 | 1.17 | 1.11 | 2.68 | 1.65 |
-| Bundesliga | 1.45 | 1.21 | 1.15 | 1.16 | 2.61 | 0.49 |
-| La Liga | 1.48 | 1.18 | 1.10 | 1.11 | 2.58 | 0.49 |
+|--------|----------------|----------------|----------------|----------------|-----------------|------------------|
+| Premier League | 1.53 | 1.30 | 1.18 | 1.16 | 2.72 | 1.67 |
+| Serie A | 1.50 | 1.23 | 1.17 | 1.11 | 2.68 | 1.65 |
+| Bundesliga | 1.67 | 1.36 | 1.28 | 1.20 | 2.95 | 1.72 |
+| La Liga | 1.55 | 1.31 | 1.13 | 1.11 | 2.67 | 1.68 |
 
 ### Overall Goal Statistics
 
-- **Average Home Goals**: 1.49 ± 1.23
-- **Average Away Goals**: 1.15 ± 1.14
-- **Average Total Goals per Match**: 2.65 ± 1.23
+- **Average Home Goals per Match**: 1.56
+- **Average Away Goals per Match**: 1.19
+- **Average Total Goals per Match**: 2.75
 
-### Goal Distribution Analysis
+### Key Findings - Goal Statistics
 
-- Most common total goals per match: [Most frequent value]
-- Range of total goals: [Min] - [Max]
-- Goals follow approximately normal distribution
-- Home teams score more goals on average than away teams
+- **Highest scoring league**: Bundesliga (2.95 goals/match)
+- **Lowest scoring league**: La Liga (2.67 goals/match)
+- **Home teams score more**: 1.56 vs 1.19 goals per match
+- **Goal range across leagues**: 2.67 - 2.95 goals/match
 
 ## 3. Betting Odds Analysis
 
 ### Average Betting Odds by League
 
-| League | Matches with Odds | Avg Home Odds | Std Home Odds | Avg Draw Odds | Std Draw Odds | Avg Away Odds | Std Away Odds |
-|--------|-------------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Premier League | 7,980 | 2.80 | 1.99 | 4.05 | 1.22 | 4.79 | 4.04 |
-| Serie A | 8,355 | 2.64 | 1.62 | 3.71 | 0.94 | 4.55 | 3.26 |
-| Bundesliga | 7,447 | 2.54 | 1.68 | 3.92 | 1.18 | 4.31 | 3.37 |
-| La Liga | 8,918 | 2.57 | 1.89 | 3.87 | 1.41 | 4.71 | 4.11 |
+| League | Matches with Odds | Coverage (%) | Avg Home Odds | Std Home Odds | Avg Draw Odds | Std Draw Odds | Avg Away Odds | Std Away Odds |
+|--------|-------------------|--------------|---------------|---------------|---------------|---------------|---------------|---------------|
+| Premier League | 9,327 | 99.1 | 2.74 | 1.91 | 3.97 | 1.17 | 4.73 | 3.95 |
+| Serie A | 8,893 | 98.7 | 2.61 | 1.60 | 3.69 | 0.93 | 4.56 | 3.23 |
+| Bundesliga | 7,447 | 99.0 | 2.54 | 1.68 | 3.92 | 1.18 | 4.31 | 3.37 |
+| La Liga | 8,918 | 99.0 | 2.57 | 1.89 | 3.87 | 1.41 | 4.71 | 4.11 |
 
 ### Betting Market Insights
 
-- **Data Coverage**: 97.5% of matches have betting odds data
-- **Average Home Odds**: 2.64 ± 1.81
-- **Average Draw Odds**: 3.88 ± 1.21
-- **Average Away Odds**: 4.60 ± 3.73
+- **Overall odds coverage**: 98.9% (34,585 matches)
+- **Average Home Odds**: 2.62
+- **Average Draw Odds**: 3.86
+- **Average Away Odds**: 4.59
 
-### Odds Interpretation
+### Key Findings - Betting Odds
 
-- Lower odds indicate higher probability according to bookmakers
-- Home odds are typically lowest (reflecting home advantage)
-- Draw odds are generally highest
-- Odds vary by league reflecting competitive balance
+- **Lowest home odds** (strongest home favorites): Bundesliga (2.54)
+- **Highest away odds** (weakest away teams): Premier League (4.73)
+- **Market expectation**: Home wins favored (lower odds), away wins least likely (higher odds)
 
-## 4. League Comparisons
+## 4. League Comparative Rankings
 
-### Competitive Balance
+### Competitive Balance (by Away Win %)
+1. **Bundesliga**: 29.7% away wins
+2. **Premier League**: 29.6% away wins
+3. **Serie A**: 28.3% away wins
+4. **La Liga**: 27.7% away wins
 
-- **Most Competitive** (highest away win %): Premier League (30.0%)
-- **Strongest Home Advantage** (highest home win %): Premier League (45.9%)
-- **Most Draws**: La Liga (42.5%)
+### Goal Scoring (by Total Goals per Match)
+1. **Bundesliga**: 2.95 goals/match
+2. **Premier League**: 2.72 goals/match
+3. **Serie A**: 2.68 goals/match
+4. **La Liga**: 2.67 goals/match
 
-### Scoring Patterns
-
-- **Highest Scoring** (most goals per match): Premier League (2.74)
-- **Lowest Scoring** (fewest goals per match): La Liga (2.58)
-- **Most Predictable** (lowest goal variance): Bundesliga & La Liga (0.49)
-
-### Betting Market Characteristics
-
-- **Most Balanced Odds**: [League with most similar home/away odds]
-- **Highest Odds Variation**: [League with highest standard deviations]
+### Home Advantage Strength (by Home Win %)
+1. **La Liga**: 47.1% home wins
+2. **Premier League**: 45.8% home wins
+3. **Bundesliga**: 45.7% home wins
+4. **Serie A**: 44.6% home wins
 
 ## 5. Statistical Summary
 
-### Key Metrics Across All Leagues
+### Dataset Characteristics
 
-1. **Sample Size**: 33,522 matches analyzed
-2. **Temporal Coverage**: 1999 - 2024
-3. **Home Advantage**: Confirmed across all leagues (40.2% home win rate)
-4. **Goal Scoring**: Approximately 2.65 goals per match
-5. **Market Efficiency**: Betting odds available for 97.5% of matches
+- **Sample Size**: 34,952 matches across 4 leagues
+- **Temporal Coverage**: 25 seasons (2000-2024)
+- **Data Completeness**: 100% match results, 98.9% betting odds
+- **Geographic Scope**: Top 4 European football leagues
 
-### Data Quality
+### Key Statistical Insights
 
-- **Completeness**: 100% of matches have complete result and goal data
-- **Missing Data**: Primarily in betting odds columns
-- **Consistency**: Results consistent across seasons within leagues
+1. **Home Advantage Universal**: All leagues show significant home advantage (45.8% vs 28.8%)
+2. **League Variation**: Away win rates vary from 27.7% to 29.7%
+3. **Goal Scoring Consistency**: Average goals range 2.67-2.95 across leagues
+4. **Market Coverage**: Betting data available for 98.9% of matches
 
-## 6. Methodology Notes
+### Methodology Notes
 
-### Data Processing
-
-- Missing values handled by exclusion from specific calculations
-- Outliers retained to preserve natural variation
-- No data transformation applied to maintain interpretability
-
-### Statistical Measures
-
-- **Central Tendency**: Arithmetic mean used for averages
-- **Variability**: Standard deviation for spread measures
-- **Percentages**: Calculated from valid observations only
-
-### Limitations
-
-- Betting odds availability varies by season and league
-- Some matches may have incomplete goal or result data
-- Analysis assumes data representativeness of league characteristics
+- **Data Source**: Football-Data.co.uk processed CSV files
+- **Analysis Period**: 2000-2024 seasons
+- **Statistical Measures**: Arithmetic means and standard deviations
+- **Missing Data**: Excluded from calculations (primarily betting odds)
+- **Result Classification**: Win/Draw/Loss from home team perspective
 
 ---
 
-*Analysis based on European soccer match data including Premier League, Serie A, Bundesliga, and La Liga. Statistics computed using standard descriptive methods with appropriate handling of missing values.*
