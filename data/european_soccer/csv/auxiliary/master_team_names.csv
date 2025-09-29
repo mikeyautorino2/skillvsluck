@@ -1,0 +1,2040 @@
+league,season,team_std,team_full
+bundesliga,2024,AUG,Augsburg
+bundesliga,2024,BAY,Bayern Munich
+bundesliga,2024,BOC,Bochum
+bundesliga,2024,DOR,Dortmund
+bundesliga,2024,EINF,Ein Frankfurt
+bundesliga,2024,FRE,Freiburg
+bundesliga,2024,HEI,Heidenheim
+bundesliga,2024,HOF,Hoffenheim
+bundesliga,2024,HOLK,Holstein Kiel
+bundesliga,2024,LEVK,Leverkusen
+bundesliga,2024,M'G,M'gladbach
+bundesliga,2024,MAI,Mainz
+bundesliga,2024,MGL,MGladbach
+bundesliga,2024,RBL,RB Leipzig
+bundesliga,2024,STP,St Pauli
+bundesliga,2024,STU,Stuttgart
+bundesliga,2024,UNI,Union Berlin
+bundesliga,2024,WERB,Werder Bremen
+bundesliga,2024,WOB,Wolfsburg
+bundesliga,2023,AUG,Augsburg
+bundesliga,2023,BAY,Bayern Munich
+bundesliga,2023,BOC,Bochum
+bundesliga,2023,DAR,Darmstadt
+bundesliga,2023,DOR,Dortmund
+bundesliga,2023,EINF,Ein Frankfurt
+bundesliga,2023,FRE,Freiburg
+bundesliga,2023,HEI,Heidenheim
+bundesliga,2023,HOF,Hoffenheim
+bundesliga,2023,KOL,FC Koln
+bundesliga,2023,LEVK,Leverkusen
+bundesliga,2023,MAI,Mainz
+bundesliga,2023,MGL,MGladbach
+bundesliga,2023,RBL,RB Leipzig
+bundesliga,2023,STU,Stuttgart
+bundesliga,2023,UNI,Union Berlin
+bundesliga,2023,WERB,Werder Bremen
+bundesliga,2023,WOB,Wolfsburg
+bundesliga,2022,AUG,Augsburg
+bundesliga,2022,BAY,Bayern Munich
+bundesliga,2022,BOC,Bochum
+bundesliga,2022,DOR,Dortmund
+bundesliga,2022,EINF,Ein Frankfurt
+bundesliga,2022,FRE,Freiburg
+bundesliga,2022,HERT,Hertha
+bundesliga,2022,HOF,Hoffenheim
+bundesliga,2022,KOL,FC Koln
+bundesliga,2022,LEVK,Leverkusen
+bundesliga,2022,MAI,Mainz
+bundesliga,2022,MGL,MGladbach
+bundesliga,2022,RBL,RB Leipzig
+bundesliga,2022,SCH,Schalke 04
+bundesliga,2022,STU,Stuttgart
+bundesliga,2022,UNI,Union Berlin
+bundesliga,2022,WERB,Werder Bremen
+bundesliga,2022,WOB,Wolfsburg
+bundesliga,2021,AUG,Augsburg
+bundesliga,2021,BAY,Bayern Munich
+bundesliga,2021,BIE,Bielefeld
+bundesliga,2021,BOC,Bochum
+bundesliga,2021,DOR,Dortmund
+bundesliga,2021,EINF,Ein Frankfurt
+bundesliga,2021,FRE,Freiburg
+bundesliga,2021,GREF,Greuther Furth
+bundesliga,2021,HERT,Hertha
+bundesliga,2021,HOF,Hoffenheim
+bundesliga,2021,KOL,FC Koln
+bundesliga,2021,LEVK,Leverkusen
+bundesliga,2021,MAI,Mainz
+bundesliga,2021,MGL,MGladbach
+bundesliga,2021,RBL,RB Leipzig
+bundesliga,2021,STU,Stuttgart
+bundesliga,2021,UNI,Union Berlin
+bundesliga,2021,WOB,Wolfsburg
+bundesliga,2020,AUG,Augsburg
+bundesliga,2020,BAY,Bayern Munich
+bundesliga,2020,BIE,Bielefeld
+bundesliga,2020,DOR,Dortmund
+bundesliga,2020,EINF,Ein Frankfurt
+bundesliga,2020,FRE,Freiburg
+bundesliga,2020,HERT,Hertha
+bundesliga,2020,HOF,Hoffenheim
+bundesliga,2020,KOL,FC Koln
+bundesliga,2020,LEVK,Leverkusen
+bundesliga,2020,MAI,Mainz
+bundesliga,2020,MGL,MGladbach
+bundesliga,2020,RBL,RB Leipzig
+bundesliga,2020,SCH,Schalke 04
+bundesliga,2020,STU,Stuttgart
+bundesliga,2020,UNI,Union Berlin
+bundesliga,2020,WERB,Werder Bremen
+bundesliga,2020,WOB,Wolfsburg
+bundesliga,2019,AUG,Augsburg
+bundesliga,2019,BAY,Bayern Munich
+bundesliga,2019,DOR,Dortmund
+bundesliga,2019,EINF,Ein Frankfurt
+bundesliga,2019,FORD,Fortuna Dusseldorf
+bundesliga,2019,FRE,Freiburg
+bundesliga,2019,HERT,Hertha
+bundesliga,2019,HOF,Hoffenheim
+bundesliga,2019,KOL,FC Koln
+bundesliga,2019,LEVK,Leverkusen
+bundesliga,2019,MAI,Mainz
+bundesliga,2019,MGL,MGladbach
+bundesliga,2019,PAD,Paderborn
+bundesliga,2019,RBL,RB Leipzig
+bundesliga,2019,SCH,Schalke 04
+bundesliga,2019,UNI,Union Berlin
+bundesliga,2019,WERB,Werder Bremen
+bundesliga,2019,WOB,Wolfsburg
+bundesliga,2018,AUG,Augsburg
+bundesliga,2018,BAY,Bayern Munich
+bundesliga,2018,DOR,Dortmund
+bundesliga,2018,EINF,Ein Frankfurt
+bundesliga,2018,FORD,Fortuna Dusseldorf
+bundesliga,2018,FRE,Freiburg
+bundesliga,2018,HAN,Hannover
+bundesliga,2018,HERT,Hertha
+bundesliga,2018,HOF,Hoffenheim
+bundesliga,2018,LEVK,Leverkusen
+bundesliga,2018,MAI,Mainz
+bundesliga,2018,MGL,MGladbach
+bundesliga,2018,NUR,Nurnberg
+bundesliga,2018,RBL,RB Leipzig
+bundesliga,2018,SCH,Schalke 04
+bundesliga,2018,STU,Stuttgart
+bundesliga,2018,WERB,Werder Bremen
+bundesliga,2018,WOB,Wolfsburg
+bundesliga,2017,AUG,Augsburg
+bundesliga,2017,BAY,Bayern Munich
+bundesliga,2017,DOR,Dortmund
+bundesliga,2017,EINF,Ein Frankfurt
+bundesliga,2017,FRE,Freiburg
+bundesliga,2017,HAM,Hamburg
+bundesliga,2017,HAN,Hannover
+bundesliga,2017,HERT,Hertha
+bundesliga,2017,HOF,Hoffenheim
+bundesliga,2017,KOL,FC Koln
+bundesliga,2017,LEVK,Leverkusen
+bundesliga,2017,MAI,Mainz
+bundesliga,2017,MGL,MGladbach
+bundesliga,2017,RBL,RB Leipzig
+bundesliga,2017,SCH,Schalke 04
+bundesliga,2017,STU,Stuttgart
+bundesliga,2017,WERB,Werder Bremen
+bundesliga,2017,WOB,Wolfsburg
+bundesliga,2016,AUG,Augsburg
+bundesliga,2016,BAY,Bayern Munich
+bundesliga,2016,DAR,Darmstadt
+bundesliga,2016,DOR,Dortmund
+bundesliga,2016,EINF,Ein Frankfurt
+bundesliga,2016,FRE,Freiburg
+bundesliga,2016,HAM,Hamburg
+bundesliga,2016,HERT,Hertha
+bundesliga,2016,HOF,Hoffenheim
+bundesliga,2016,ING,Ingolstadt
+bundesliga,2016,KOL,FC Koln
+bundesliga,2016,LEVK,Leverkusen
+bundesliga,2016,MAI,Mainz
+bundesliga,2016,MGL,MGladbach
+bundesliga,2016,RBL,RB Leipzig
+bundesliga,2016,SCH,Schalke 04
+bundesliga,2016,WERB,Werder Bremen
+bundesliga,2016,WOB,Wolfsburg
+bundesliga,2015,AUG,Augsburg
+bundesliga,2015,BAY,Bayern Munich
+bundesliga,2015,DAR,Darmstadt
+bundesliga,2015,DOR,Dortmund
+bundesliga,2015,EINF,Ein Frankfurt
+bundesliga,2015,HAM,Hamburg
+bundesliga,2015,HAN,Hannover
+bundesliga,2015,HERT,Hertha
+bundesliga,2015,HOF,Hoffenheim
+bundesliga,2015,ING,Ingolstadt
+bundesliga,2015,KOL,FC Koln
+bundesliga,2015,LEVK,Leverkusen
+bundesliga,2015,MAI,Mainz
+bundesliga,2015,MGL,MGladbach
+bundesliga,2015,SCH,Schalke 04
+bundesliga,2015,STU,Stuttgart
+bundesliga,2015,WERB,Werder Bremen
+bundesliga,2015,WOB,Wolfsburg
+bundesliga,2014,AUG,Augsburg
+bundesliga,2014,BAY,Bayern Munich
+bundesliga,2014,DOR,Dortmund
+bundesliga,2014,EINF,Ein Frankfurt
+bundesliga,2014,FRE,Freiburg
+bundesliga,2014,HAM,Hamburg
+bundesliga,2014,HAN,Hannover
+bundesliga,2014,HERT,Hertha
+bundesliga,2014,HOF,Hoffenheim
+bundesliga,2014,KOL,FC Koln
+bundesliga,2014,LEVK,Leverkusen
+bundesliga,2014,MAI,Mainz
+bundesliga,2014,MGL,MGladbach
+bundesliga,2014,PAD,Paderborn
+bundesliga,2014,SCH,Schalke 04
+bundesliga,2014,STU,Stuttgart
+bundesliga,2014,WERB,Werder Bremen
+bundesliga,2014,WOB,Wolfsburg
+bundesliga,2013,AUG,Augsburg
+bundesliga,2013,BAY,Bayern Munich
+bundesliga,2013,BRA,Braunschweig
+bundesliga,2013,DOR,Dortmund
+bundesliga,2013,EINF,Ein Frankfurt
+bundesliga,2013,FRE,Freiburg
+bundesliga,2013,HAM,Hamburg
+bundesliga,2013,HAN,Hannover
+bundesliga,2013,HERT,Hertha
+bundesliga,2013,HOF,Hoffenheim
+bundesliga,2013,LEVK,Leverkusen
+bundesliga,2013,MAI,Mainz
+bundesliga,2013,MGL,MGladbach
+bundesliga,2013,NUR,Nurnberg
+bundesliga,2013,SCH,Schalke 04
+bundesliga,2013,STU,Stuttgart
+bundesliga,2013,WERB,Werder Bremen
+bundesliga,2013,WOB,Wolfsburg
+bundesliga,2012,AUG,Augsburg
+bundesliga,2012,BAY,Bayern Munich
+bundesliga,2012,DOR,Dortmund
+bundesliga,2012,EINF,Ein Frankfurt
+bundesliga,2012,FORD,Fortuna Dusseldorf
+bundesliga,2012,FRE,Freiburg
+bundesliga,2012,GREF,Greuther Furth
+bundesliga,2012,HAM,Hamburg
+bundesliga,2012,HAN,Hannover
+bundesliga,2012,HOF,Hoffenheim
+bundesliga,2012,LEVK,Leverkusen
+bundesliga,2012,MAI,Mainz
+bundesliga,2012,MGL,MGladbach
+bundesliga,2012,NUR,Nurnberg
+bundesliga,2012,SCH,Schalke 04
+bundesliga,2012,STU,Stuttgart
+bundesliga,2012,WERB,Werder Bremen
+bundesliga,2012,WOB,Wolfsburg
+bundesliga,2011,AUG,Augsburg
+bundesliga,2011,BAY,Bayern Munich
+bundesliga,2011,DOR,Dortmund
+bundesliga,2011,FRE,Freiburg
+bundesliga,2011,HAM,Hamburg
+bundesliga,2011,HAN,Hannover
+bundesliga,2011,HERT,Hertha
+bundesliga,2011,HOF,Hoffenheim
+bundesliga,2011,KAI,Kaiserslautern
+bundesliga,2011,KOL,FC Koln
+bundesliga,2011,LEVK,Leverkusen
+bundesliga,2011,MAI,Mainz
+bundesliga,2011,MGL,MGladbach
+bundesliga,2011,NUR,Nurnberg
+bundesliga,2011,SCH,Schalke 04
+bundesliga,2011,STU,Stuttgart
+bundesliga,2011,WERB,Werder Bremen
+bundesliga,2011,WOB,Wolfsburg
+bundesliga,2010,BAY,Bayern Munich
+bundesliga,2010,DOR,Dortmund
+bundesliga,2010,EINF,Ein Frankfurt
+bundesliga,2010,FRE,Freiburg
+bundesliga,2010,HAM,Hamburg
+bundesliga,2010,HAN,Hannover
+bundesliga,2010,HOF,Hoffenheim
+bundesliga,2010,KAI,Kaiserslautern
+bundesliga,2010,KOL,FC Koln
+bundesliga,2010,LEVK,Leverkusen
+bundesliga,2010,MAI,Mainz
+bundesliga,2010,MGL,MGladbach
+bundesliga,2010,NUR,Nurnberg
+bundesliga,2010,SCH,Schalke 04
+bundesliga,2010,STP,St Pauli
+bundesliga,2010,STU,Stuttgart
+bundesliga,2010,WERB,Werder Bremen
+bundesliga,2010,WOB,Wolfsburg
+bundesliga,2009,BAY,Bayern Munich
+bundesliga,2009,BOC,Bochum
+bundesliga,2009,DOR,Dortmund
+bundesliga,2009,EINF,Ein Frankfurt
+bundesliga,2009,FRE,Freiburg
+bundesliga,2009,HAM,Hamburg
+bundesliga,2009,HAN,Hannover
+bundesliga,2009,HERT,Hertha
+bundesliga,2009,HOF,Hoffenheim
+bundesliga,2009,KOL,FC Koln
+bundesliga,2009,LEVK,Leverkusen
+bundesliga,2009,MAI,Mainz
+bundesliga,2009,MGL,MGladbach
+bundesliga,2009,NUR,Nurnberg
+bundesliga,2009,SCH,Schalke 04
+bundesliga,2009,STU,Stuttgart
+bundesliga,2009,WERB,Werder Bremen
+bundesliga,2009,WOB,Wolfsburg
+bundesliga,2008,BAY,Bayern Munich
+bundesliga,2008,BIE,Bielefeld
+bundesliga,2008,BOC,Bochum
+bundesliga,2008,COT,Cottbus
+bundesliga,2008,DOR,Dortmund
+bundesliga,2008,EINF,Ein Frankfurt
+bundesliga,2008,HAM,Hamburg
+bundesliga,2008,HAN,Hannover
+bundesliga,2008,HERT,Hertha
+bundesliga,2008,HOF,Hoffenheim
+bundesliga,2008,KAR,Karlsruhe
+bundesliga,2008,KOL,FC Koln
+bundesliga,2008,LEVK,Leverkusen
+bundesliga,2008,MGL,MGladbach
+bundesliga,2008,SCH,Schalke 04
+bundesliga,2008,STU,Stuttgart
+bundesliga,2008,WERB,Werder Bremen
+bundesliga,2008,WOB,Wolfsburg
+bundesliga,2007,BAY,Bayern Munich
+bundesliga,2007,BIE,Bielefeld
+bundesliga,2007,BOC,Bochum
+bundesliga,2007,COT,Cottbus
+bundesliga,2007,DOR,Dortmund
+bundesliga,2007,DUI,Duisburg
+bundesliga,2007,EINF,Ein Frankfurt
+bundesliga,2007,HAM,Hamburg
+bundesliga,2007,HAN,Hannover
+bundesliga,2007,HANR,Hansa Rostock
+bundesliga,2007,HERT,Hertha
+bundesliga,2007,KAR,Karlsruhe
+bundesliga,2007,LEVK,Leverkusen
+bundesliga,2007,NUR,Nurnberg
+bundesliga,2007,SCH,Schalke 04
+bundesliga,2007,STU,Stuttgart
+bundesliga,2007,WERB,Werder Bremen
+bundesliga,2007,WOB,Wolfsburg
+bundesliga,2006,AAC,Aachen
+bundesliga,2006,BAY,Bayern Munich
+bundesliga,2006,BIE,Bielefeld
+bundesliga,2006,BOC,Bochum
+bundesliga,2006,COT,Cottbus
+bundesliga,2006,DOR,Dortmund
+bundesliga,2006,EINF,Ein Frankfurt
+bundesliga,2006,HAM,Hamburg
+bundesliga,2006,HAN,Hannover
+bundesliga,2006,HERT,Hertha
+bundesliga,2006,LEVK,Leverkusen
+bundesliga,2006,MAI,Mainz
+bundesliga,2006,MGL,MGladbach
+bundesliga,2006,NUR,Nurnberg
+bundesliga,2006,SCH,Schalke 04
+bundesliga,2006,STU,Stuttgart
+bundesliga,2006,WERB,Werder Bremen
+bundesliga,2006,WOB,Wolfsburg
+bundesliga,2005,BAY,Bayern Munich
+bundesliga,2005,BIE,Bielefeld
+bundesliga,2005,DOR,Dortmund
+bundesliga,2005,DUI,Duisburg
+bundesliga,2005,EINF,Ein Frankfurt
+bundesliga,2005,HAM,Hamburg
+bundesliga,2005,HAN,Hannover
+bundesliga,2005,HERT,Hertha
+bundesliga,2005,KAI,Kaiserslautern
+bundesliga,2005,KOL,FC Koln
+bundesliga,2005,LEVK,Leverkusen
+bundesliga,2005,MAI,Mainz
+bundesliga,2005,MGL,MGladbach
+bundesliga,2005,NUR,Nurnberg
+bundesliga,2005,SCH,Schalke 04
+bundesliga,2005,STU,Stuttgart
+bundesliga,2005,WERB,Werder Bremen
+bundesliga,2005,WOB,Wolfsburg
+bundesliga,2004,BAY,Bayern Munich
+bundesliga,2004,BIE,Bielefeld
+bundesliga,2004,BOC,Bochum
+bundesliga,2004,DOR,Dortmund
+bundesliga,2004,FRE,Freiburg
+bundesliga,2004,HAM,Hamburg
+bundesliga,2004,HAN,Hannover
+bundesliga,2004,HANR,Hansa Rostock
+bundesliga,2004,HERT,Hertha
+bundesliga,2004,KAI,Kaiserslautern
+bundesliga,2004,LEVK,Leverkusen
+bundesliga,2004,MAI,Mainz
+bundesliga,2004,MGL,MGladbach
+bundesliga,2004,NUR,Nurnberg
+bundesliga,2004,SCH,Schalke 04
+bundesliga,2004,STU,Stuttgart
+bundesliga,2004,WERB,Werder Bremen
+bundesliga,2004,WOB,Wolfsburg
+bundesliga,2003,BAY,Bayern Munich
+bundesliga,2003,BOC,Bochum
+bundesliga,2003,DOR,Dortmund
+bundesliga,2003,EINF,Ein Frankfurt
+bundesliga,2003,FRE,Freiburg
+bundesliga,2003,HAM,Hamburg
+bundesliga,2003,HAN,Hannover
+bundesliga,2003,HANR,Hansa Rostock
+bundesliga,2003,HERT,Hertha
+bundesliga,2003,KAI,Kaiserslautern
+bundesliga,2003,KOL,FC Koln
+bundesliga,2003,LEVK,Leverkusen
+bundesliga,2003,MGL,MGladbach
+bundesliga,2003,MUN1,Munich 1860
+bundesliga,2003,SCH,Schalke 04
+bundesliga,2003,STU,Stuttgart
+bundesliga,2003,WERB,Werder Bremen
+bundesliga,2003,WOB,Wolfsburg
+bundesliga,2002,BAY,Bayern Munich
+bundesliga,2002,BIE,Bielefeld
+bundesliga,2002,BOC,Bochum
+bundesliga,2002,COT,Cottbus
+bundesliga,2002,DOR,Dortmund
+bundesliga,2002,HAM,Hamburg
+bundesliga,2002,HAN,Hannover
+bundesliga,2002,HANR,Hansa Rostock
+bundesliga,2002,HERT,Hertha
+bundesliga,2002,KAI,Kaiserslautern
+bundesliga,2002,LEVK,Leverkusen
+bundesliga,2002,MGL,MGladbach
+bundesliga,2002,MUN1,Munich 1860
+bundesliga,2002,NUR,Nurnberg
+bundesliga,2002,SCH,Schalke 04
+bundesliga,2002,STU,Stuttgart
+bundesliga,2002,WERB,Werder Bremen
+bundesliga,2002,WOB,Wolfsburg
+bundesliga,2001,BAY,Bayern Munich
+bundesliga,2001,COT,Cottbus
+bundesliga,2001,DOR,Dortmund
+bundesliga,2001,FRE,Freiburg
+bundesliga,2001,HAM,Hamburg
+bundesliga,2001,HANR,Hansa Rostock
+bundesliga,2001,HERT,Hertha
+bundesliga,2001,KAI,Kaiserslautern
+bundesliga,2001,KOL,FC Koln
+bundesliga,2001,LEVK,Leverkusen
+bundesliga,2001,MGL,MGladbach
+bundesliga,2001,MUN1,Munich 1860
+bundesliga,2001,NUR,Nurnberg
+bundesliga,2001,SCH,Schalke 04
+bundesliga,2001,STP,St Pauli
+bundesliga,2001,STU,Stuttgart
+bundesliga,2001,WERB,Werder Bremen
+bundesliga,2001,WOB,Wolfsburg
+bundesliga,2000,BAY,Bayern Munich
+bundesliga,2000,BOC,Bochum
+bundesliga,2000,COT,Cottbus
+bundesliga,2000,DOR,Dortmund
+bundesliga,2000,EINF,Ein Frankfurt
+bundesliga,2000,FRE,Freiburg
+bundesliga,2000,HAM,Hamburg
+bundesliga,2000,HANR,Hansa Rostock
+bundesliga,2000,HERT,Hertha
+bundesliga,2000,KAI,Kaiserslautern
+bundesliga,2000,KOL,FC Koln
+bundesliga,2000,LEVK,Leverkusen
+bundesliga,2000,MGL,MGladbach
+bundesliga,2000,MUN1,Munich 1860
+bundesliga,2000,NUR,Nurnberg
+bundesliga,2000,SCH,Schalke 04
+bundesliga,2000,STP,St Pauli
+bundesliga,2000,STU,Stuttgart
+bundesliga,2000,UNT,Unterhaching
+bundesliga,2000,WERB,Werder Bremen
+bundesliga,2000,WOB,Wolfsburg
+la_liga,2024,ALA,Alaves
+la_liga,2024,ATHB,Ath Bilbao
+la_liga,2024,ATHM,Ath Madrid
+la_liga,2024,BARC,Barcelona
+la_liga,2024,BET,Betis
+la_liga,2024,CEL,Celta
+la_liga,2024,ESP,Espanol
+la_liga,2024,GET,Getafe
+la_liga,2024,GIR,Girona
+la_liga,2024,LASP,Las Palmas
+la_liga,2024,LEG,Leganes
+la_liga,2024,MALL,Mallorca
+la_liga,2024,OSA,Osasuna
+la_liga,2024,RAYO,Vallecano
+la_liga,2024,RMA,Real Madrid
+la_liga,2024,RSO,Sociedad
+la_liga,2024,SEV,Sevilla
+la_liga,2024,VIL,Villarreal
+la_liga,2024,VLC,Valencia
+la_liga,2024,VLLD,Valladolid
+la_liga,2023,ALA,Alaves
+la_liga,2023,ALM,Almeria
+la_liga,2023,ATHB,Ath Bilbao
+la_liga,2023,ATHM,Ath Madrid
+la_liga,2023,BARC,Barcelona
+la_liga,2023,BET,Betis
+la_liga,2023,CAD,Cadiz
+la_liga,2023,CEL,Celta
+la_liga,2023,GET,Getafe
+la_liga,2023,GIR,Girona
+la_liga,2023,GRA,Granada
+la_liga,2023,LASP,Las Palmas
+la_liga,2023,MALL,Mallorca
+la_liga,2023,OSA,Osasuna
+la_liga,2023,RAYO,Vallecano
+la_liga,2023,RMA,Real Madrid
+la_liga,2023,RSO,Sociedad
+la_liga,2023,SEV,Sevilla
+la_liga,2023,VIL,Villarreal
+la_liga,2023,VLC,Valencia
+la_liga,2022,ALM,Almeria
+la_liga,2022,ATHB,Ath Bilbao
+la_liga,2022,ATHM,Ath Madrid
+la_liga,2022,BARC,Barcelona
+la_liga,2022,BET,Betis
+la_liga,2022,CAD,Cadiz
+la_liga,2022,CEL,Celta
+la_liga,2022,ELC,Elche
+la_liga,2022,ESP,Espanol
+la_liga,2022,GET,Getafe
+la_liga,2022,GIR,Girona
+la_liga,2022,MALL,Mallorca
+la_liga,2022,OSA,Osasuna
+la_liga,2022,RAYO,Vallecano
+la_liga,2022,RMA,Real Madrid
+la_liga,2022,RSO,Sociedad
+la_liga,2022,SEV,Sevilla
+la_liga,2022,VIL,Villarreal
+la_liga,2022,VLC,Valencia
+la_liga,2022,VLLD,Valladolid
+la_liga,2021,ALA,Alaves
+la_liga,2021,ATHB,Ath Bilbao
+la_liga,2021,ATHM,Ath Madrid
+la_liga,2021,BARC,Barcelona
+la_liga,2021,BET,Betis
+la_liga,2021,CAD,Cadiz
+la_liga,2021,CEL,Celta
+la_liga,2021,ELC,Elche
+la_liga,2021,ESP,Espanol
+la_liga,2021,GET,Getafe
+la_liga,2021,GRA,Granada
+la_liga,2021,LEVA,Levante
+la_liga,2021,MALL,Mallorca
+la_liga,2021,OSA,Osasuna
+la_liga,2021,RAYO,Vallecano
+la_liga,2021,RMA,Real Madrid
+la_liga,2021,RSO,Sociedad
+la_liga,2021,SEV,Sevilla
+la_liga,2021,VIL,Villarreal
+la_liga,2021,VLC,Valencia
+la_liga,2020,ALA,Alaves
+la_liga,2020,ATHB,Ath Bilbao
+la_liga,2020,ATHM,Ath Madrid
+la_liga,2020,BARC,Barcelona
+la_liga,2020,BET,Betis
+la_liga,2020,CAD,Cadiz
+la_liga,2020,CEL,Celta
+la_liga,2020,EIB,Eibar
+la_liga,2020,ELC,Elche
+la_liga,2020,GET,Getafe
+la_liga,2020,GRA,Granada
+la_liga,2020,HUE,Huesca
+la_liga,2020,LEVA,Levante
+la_liga,2020,OSA,Osasuna
+la_liga,2020,RMA,Real Madrid
+la_liga,2020,RSO,Sociedad
+la_liga,2020,SEV,Sevilla
+la_liga,2020,VIL,Villarreal
+la_liga,2020,VLC,Valencia
+la_liga,2020,VLLD,Valladolid
+la_liga,2019,ALA,Alaves
+la_liga,2019,ATHB,Ath Bilbao
+la_liga,2019,ATHM,Ath Madrid
+la_liga,2019,BARC,Barcelona
+la_liga,2019,BET,Betis
+la_liga,2019,CEL,Celta
+la_liga,2019,EIB,Eibar
+la_liga,2019,ESP,Espanol
+la_liga,2019,GET,Getafe
+la_liga,2019,GRA,Granada
+la_liga,2019,LEG,Leganes
+la_liga,2019,LEVA,Levante
+la_liga,2019,MALL,Mallorca
+la_liga,2019,OSA,Osasuna
+la_liga,2019,RMA,Real Madrid
+la_liga,2019,RSO,Sociedad
+la_liga,2019,SEV,Sevilla
+la_liga,2019,VIL,Villarreal
+la_liga,2019,VLC,Valencia
+la_liga,2019,VLLD,Valladolid
+la_liga,2018,ALA,Alaves
+la_liga,2018,ATHB,Ath Bilbao
+la_liga,2018,ATHM,Ath Madrid
+la_liga,2018,BARC,Barcelona
+la_liga,2018,BET,Betis
+la_liga,2018,CEL,Celta
+la_liga,2018,EIB,Eibar
+la_liga,2018,ESP,Espanol
+la_liga,2018,GET,Getafe
+la_liga,2018,GIR,Girona
+la_liga,2018,HUE,Huesca
+la_liga,2018,LEG,Leganes
+la_liga,2018,LEVA,Levante
+la_liga,2018,RAYO,Vallecano
+la_liga,2018,RMA,Real Madrid
+la_liga,2018,RSO,Sociedad
+la_liga,2018,SEV,Sevilla
+la_liga,2018,VIL,Villarreal
+la_liga,2018,VLC,Valencia
+la_liga,2018,VLLD,Valladolid
+la_liga,2017,ALA,Alaves
+la_liga,2017,ATHB,Ath Bilbao
+la_liga,2017,ATHM,Ath Madrid
+la_liga,2017,BARC,Barcelona
+la_liga,2017,BET,Betis
+la_liga,2017,CEL,Celta
+la_liga,2017,EIB,Eibar
+la_liga,2017,ESP,Espanol
+la_liga,2017,GET,Getafe
+la_liga,2017,GIR,Girona
+la_liga,2017,LAC,La Coruna
+la_liga,2017,LASP,Las Palmas
+la_liga,2017,LEG,Leganes
+la_liga,2017,LEVA,Levante
+la_liga,2017,MLG,Malaga
+la_liga,2017,RMA,Real Madrid
+la_liga,2017,RSO,Sociedad
+la_liga,2017,SEV,Sevilla
+la_liga,2017,VIL,Villarreal
+la_liga,2017,VLC,Valencia
+la_liga,2016,ALA,Alaves
+la_liga,2016,ATHB,Ath Bilbao
+la_liga,2016,ATHM,Ath Madrid
+la_liga,2016,BARC,Barcelona
+la_liga,2016,BET,Betis
+la_liga,2016,CEL,Celta
+la_liga,2016,EIB,Eibar
+la_liga,2016,ESP,Espanol
+la_liga,2016,GRA,Granada
+la_liga,2016,LAC,La Coruna
+la_liga,2016,LASP,Las Palmas
+la_liga,2016,LEG,Leganes
+la_liga,2016,MLG,Malaga
+la_liga,2016,OSA,Osasuna
+la_liga,2016,RMA,Real Madrid
+la_liga,2016,RSO,Sociedad
+la_liga,2016,SEV,Sevilla
+la_liga,2016,SPG,Sp Gijon
+la_liga,2016,VIL,Villarreal
+la_liga,2016,VLC,Valencia
+la_liga,2015,ATHB,Ath Bilbao
+la_liga,2015,ATHM,Ath Madrid
+la_liga,2015,BARC,Barcelona
+la_liga,2015,BET,Betis
+la_liga,2015,CEL,Celta
+la_liga,2015,EIB,Eibar
+la_liga,2015,ESP,Espanol
+la_liga,2015,GET,Getafe
+la_liga,2015,GRA,Granada
+la_liga,2015,LAC,La Coruna
+la_liga,2015,LASP,Las Palmas
+la_liga,2015,LEVA,Levante
+la_liga,2015,MLG,Malaga
+la_liga,2015,RAYO,Vallecano
+la_liga,2015,RMA,Real Madrid
+la_liga,2015,RSO,Sociedad
+la_liga,2015,SEV,Sevilla
+la_liga,2015,SPG,Sp Gijon
+la_liga,2015,VIL,Villarreal
+la_liga,2015,VLC,Valencia
+la_liga,2014,ALM,Almeria
+la_liga,2014,ATHB,Ath Bilbao
+la_liga,2014,ATHM,Ath Madrid
+la_liga,2014,BARC,Barcelona
+la_liga,2014,CEL,Celta
+la_liga,2014,COR,Cordoba
+la_liga,2014,EIB,Eibar
+la_liga,2014,ELC,Elche
+la_liga,2014,ESP,Espanol
+la_liga,2014,GET,Getafe
+la_liga,2014,GRA,Granada
+la_liga,2014,LAC,La Coruna
+la_liga,2014,LEVA,Levante
+la_liga,2014,MLG,Malaga
+la_liga,2014,RAYO,Vallecano
+la_liga,2014,RMA,Real Madrid
+la_liga,2014,RSO,Sociedad
+la_liga,2014,SEV,Sevilla
+la_liga,2014,VIL,Villarreal
+la_liga,2014,VLC,Valencia
+la_liga,2013,ALM,Almeria
+la_liga,2013,ATHB,Ath Bilbao
+la_liga,2013,ATHM,Ath Madrid
+la_liga,2013,BARC,Barcelona
+la_liga,2013,BET,Betis
+la_liga,2013,CEL,Celta
+la_liga,2013,ELC,Elche
+la_liga,2013,ESP,Espanol
+la_liga,2013,GET,Getafe
+la_liga,2013,GRA,Granada
+la_liga,2013,LEVA,Levante
+la_liga,2013,MLG,Malaga
+la_liga,2013,OSA,Osasuna
+la_liga,2013,RAYO,Vallecano
+la_liga,2013,RMA,Real Madrid
+la_liga,2013,RSO,Sociedad
+la_liga,2013,SEV,Sevilla
+la_liga,2013,VIL,Villarreal
+la_liga,2013,VLC,Valencia
+la_liga,2013,VLLD,Valladolid
+la_liga,2012,ATHB,Ath Bilbao
+la_liga,2012,ATHM,Ath Madrid
+la_liga,2012,BARC,Barcelona
+la_liga,2012,BET,Betis
+la_liga,2012,CEL,Celta
+la_liga,2012,ESP,Espanol
+la_liga,2012,GET,Getafe
+la_liga,2012,GRA,Granada
+la_liga,2012,LAC,La Coruna
+la_liga,2012,LEVA,Levante
+la_liga,2012,MALL,Mallorca
+la_liga,2012,MLG,Malaga
+la_liga,2012,OSA,Osasuna
+la_liga,2012,RAYO,Vallecano
+la_liga,2012,RMA,Real Madrid
+la_liga,2012,RSO,Sociedad
+la_liga,2012,SEV,Sevilla
+la_liga,2012,VLC,Valencia
+la_liga,2012,VLLD,Valladolid
+la_liga,2012,ZAR,Zaragoza
+la_liga,2011,ATHB,Ath Bilbao
+la_liga,2011,ATHM,Ath Madrid
+la_liga,2011,BARC,Barcelona
+la_liga,2011,BET,Betis
+la_liga,2011,ESP,Espanol
+la_liga,2011,GET,Getafe
+la_liga,2011,GRA,Granada
+la_liga,2011,LEVA,Levante
+la_liga,2011,MALL,Mallorca
+la_liga,2011,MLG,Malaga
+la_liga,2011,OSA,Osasuna
+la_liga,2011,RAYO,Vallecano
+la_liga,2011,RMA,Real Madrid
+la_liga,2011,RSO,Sociedad
+la_liga,2011,SAN,Santander
+la_liga,2011,SEV,Sevilla
+la_liga,2011,SPG,Sp Gijon
+la_liga,2011,VIL,Villarreal
+la_liga,2011,VLC,Valencia
+la_liga,2011,ZAR,Zaragoza
+la_liga,2010,ALM,Almeria
+la_liga,2010,ATHB,Ath Bilbao
+la_liga,2010,ATHM,Ath Madrid
+la_liga,2010,BARC,Barcelona
+la_liga,2010,ESP,Espanol
+la_liga,2010,GET,Getafe
+la_liga,2010,HERC,Hercules
+la_liga,2010,LAC,La Coruna
+la_liga,2010,LEVA,Levante
+la_liga,2010,MALL,Mallorca
+la_liga,2010,MLG,Malaga
+la_liga,2010,OSA,Osasuna
+la_liga,2010,RMA,Real Madrid
+la_liga,2010,RSO,Sociedad
+la_liga,2010,SAN,Santander
+la_liga,2010,SEV,Sevilla
+la_liga,2010,SPG,Sp Gijon
+la_liga,2010,VIL,Villarreal
+la_liga,2010,VLC,Valencia
+la_liga,2010,ZAR,Zaragoza
+la_liga,2009,ALM,Almeria
+la_liga,2009,ATHB,Ath Bilbao
+la_liga,2009,ATHM,Ath Madrid
+la_liga,2009,BARC,Barcelona
+la_liga,2009,ESP,Espanol
+la_liga,2009,GET,Getafe
+la_liga,2009,LAC,La Coruna
+la_liga,2009,MALL,Mallorca
+la_liga,2009,MLG,Malaga
+la_liga,2009,OSA,Osasuna
+la_liga,2009,RMA,Real Madrid
+la_liga,2009,SAN,Santander
+la_liga,2009,SEV,Sevilla
+la_liga,2009,SPG,Sp Gijon
+la_liga,2009,TEN,Tenerife
+la_liga,2009,VIL,Villarreal
+la_liga,2009,VLC,Valencia
+la_liga,2009,VLLD,Valladolid
+la_liga,2009,XER,Xerez
+la_liga,2009,ZAR,Zaragoza
+la_liga,2008,ALM,Almeria
+la_liga,2008,ATHB,Ath Bilbao
+la_liga,2008,ATHM,Ath Madrid
+la_liga,2008,BARC,Barcelona
+la_liga,2008,BET,Betis
+la_liga,2008,ESP,Espanol
+la_liga,2008,GET,Getafe
+la_liga,2008,LAC,La Coruna
+la_liga,2008,MALL,Mallorca
+la_liga,2008,MLG,Malaga
+la_liga,2008,NUM,Numancia
+la_liga,2008,OSA,Osasuna
+la_liga,2008,REC,Recreativo
+la_liga,2008,RMA,Real Madrid
+la_liga,2008,SAN,Santander
+la_liga,2008,SEV,Sevilla
+la_liga,2008,SPG,Sp Gijon
+la_liga,2008,VIL,Villarreal
+la_liga,2008,VLC,Valencia
+la_liga,2008,VLLD,Valladolid
+la_liga,2007,ALM,Almeria
+la_liga,2007,ATHB,Ath Bilbao
+la_liga,2007,ATHM,Ath Madrid
+la_liga,2007,BARC,Barcelona
+la_liga,2007,BET,Betis
+la_liga,2007,ESP,Espanol
+la_liga,2007,GET,Getafe
+la_liga,2007,LAC,La Coruna
+la_liga,2007,LEVA,Levante
+la_liga,2007,MALL,Mallorca
+la_liga,2007,MUR,Murcia
+la_liga,2007,OSA,Osasuna
+la_liga,2007,REC,Recreativo
+la_liga,2007,RMA,Real Madrid
+la_liga,2007,SAN,Santander
+la_liga,2007,SEV,Sevilla
+la_liga,2007,VIL,Villarreal
+la_liga,2007,VLC,Valencia
+la_liga,2007,VLLD,Valladolid
+la_liga,2007,ZAR,Zaragoza
+la_liga,2005,ALA,Alaves
+la_liga,2005,ATHB,Ath Bilbao
+la_liga,2005,ATHM,Ath Madrid
+la_liga,2005,BARC,Barcelona
+la_liga,2005,BET,Betis
+la_liga,2005,CAD,Cadiz
+la_liga,2005,CEL,Celta
+la_liga,2005,ESP,Espanol
+la_liga,2005,GET,Getafe
+la_liga,2005,LAC,La Coruna
+la_liga,2005,MALL,Mallorca
+la_liga,2005,MLG,Malaga
+la_liga,2005,OSA,Osasuna
+la_liga,2005,RMA,Real Madrid
+la_liga,2005,RSO,Sociedad
+la_liga,2005,SAN,Santander
+la_liga,2005,SEV,Sevilla
+la_liga,2005,VIL,Villarreal
+la_liga,2005,VLC,Valencia
+la_liga,2005,ZAR,Zaragoza
+la_liga,2004,ALB,Albacete
+la_liga,2004,ATHB,Ath Bilbao
+la_liga,2004,ATHM,Ath Madrid
+la_liga,2004,BARC,Barcelona
+la_liga,2004,BET,Betis
+la_liga,2004,ESP,Espanol
+la_liga,2004,GET,Getafe
+la_liga,2004,LAC,La Coruna
+la_liga,2004,LEVA,Levante
+la_liga,2004,MALL,Mallorca
+la_liga,2004,MLG,Malaga
+la_liga,2004,NUM,Numancia
+la_liga,2004,OSA,Osasuna
+la_liga,2004,RMA,Real Madrid
+la_liga,2004,RSO,Sociedad
+la_liga,2004,SAN,Santander
+la_liga,2004,SEV,Sevilla
+la_liga,2004,VIL,Villarreal
+la_liga,2004,VLC,Valencia
+la_liga,2004,ZAR,Zaragoza
+la_liga,2003,ALB,Albacete
+la_liga,2003,ATHB,Ath Bilbao
+la_liga,2003,ATHM,Ath Madrid
+la_liga,2003,BARC,Barcelona
+la_liga,2003,BET,Betis
+la_liga,2003,CEL,Celta
+la_liga,2003,ESP,Espanol
+la_liga,2003,LAC,La Coruna
+la_liga,2003,MALL,Mallorca
+la_liga,2003,MLG,Malaga
+la_liga,2003,MUR,Murcia
+la_liga,2003,OSA,Osasuna
+la_liga,2003,RMA,Real Madrid
+la_liga,2003,RSO,Sociedad
+la_liga,2003,SAN,Santander
+la_liga,2003,SEV,Sevilla
+la_liga,2003,VIL,Villarreal
+la_liga,2003,VLC,Valencia
+la_liga,2003,VLLD,Valladolid
+la_liga,2003,ZAR,Zaragoza
+la_liga,2002,ALA,Alaves
+la_liga,2002,ATHB,Ath Bilbao
+la_liga,2002,ATHM,Ath Madrid
+la_liga,2002,BARC,Barcelona
+la_liga,2002,BET,Betis
+la_liga,2002,CEL,Celta
+la_liga,2002,ESP,Espanol
+la_liga,2002,LAC,La Coruna
+la_liga,2002,MALL,Mallorca
+la_liga,2002,MLG,Malaga
+la_liga,2002,OSA,Osasuna
+la_liga,2002,RAYO,Vallecano
+la_liga,2002,REC,Recreativo
+la_liga,2002,RMA,Real Madrid
+la_liga,2002,RSO,Sociedad
+la_liga,2002,SAN,Santander
+la_liga,2002,SEV,Sevilla
+la_liga,2002,VIL,Villarreal
+la_liga,2002,VLC,Valencia
+la_liga,2002,VLLD,Valladolid
+la_liga,2001,ALA,Alaves
+la_liga,2001,ATHB,Ath Bilbao
+la_liga,2001,BARC,Barcelona
+la_liga,2001,BET,Betis
+la_liga,2001,CEL,Celta
+la_liga,2001,ESP,Espanol
+la_liga,2001,LAC,La Coruna
+la_liga,2001,LASP,Las Palmas
+la_liga,2001,MALL,Mallorca
+la_liga,2001,MLG,Malaga
+la_liga,2001,OSA,Osasuna
+la_liga,2001,RAYO,Vallecano
+la_liga,2001,RMA,Real Madrid
+la_liga,2001,RSO,Sociedad
+la_liga,2001,SEV,Sevilla
+la_liga,2001,TEN,Tenerife
+la_liga,2001,VIL,Villarreal
+la_liga,2001,VLC,Valencia
+la_liga,2001,VLLD,Valladolid
+la_liga,2001,ZAR,Zaragoza
+la_liga,2000,ALA,Alaves
+la_liga,2000,ATHB,Ath Bilbao
+la_liga,2000,BARC,Barcelona
+la_liga,2000,CEL,Celta
+la_liga,2000,ESP,Espanol
+la_liga,2000,LAC,La Coruna
+la_liga,2000,LASP,Las Palmas
+la_liga,2000,MALL,Mallorca
+la_liga,2000,MLG,Malaga
+la_liga,2000,NUM,Numancia
+la_liga,2000,OSA,Osasuna
+la_liga,2000,OVI,Oviedo
+la_liga,2000,RAYO,Vallecano
+la_liga,2000,RMA,Real Madrid
+la_liga,2000,RSO,Sociedad
+la_liga,2000,SAN,Santander
+la_liga,2000,VIL,Villarreal
+la_liga,2000,VLC,Valencia
+la_liga,2000,VLLD,Valladolid
+la_liga,2000,ZAR,Zaragoza
+premier_league,2024,ARS,Arsenal
+premier_league,2024,AVL,Aston Villa
+premier_league,2024,BHA,Brighton
+premier_league,2024,BOU,Bournemouth
+premier_league,2024,BRNT,Brentford
+premier_league,2024,CHE,Chelsea
+premier_league,2024,CRY,Crystal Palace
+premier_league,2024,EVE,Everton
+premier_league,2024,FUL,Fulham
+premier_league,2024,IPS,Ipswich
+premier_league,2024,LEIC,Leicester
+premier_league,2024,LIVP,Liverpool
+premier_league,2024,MANC,Man City
+premier_league,2024,MANU,Man United
+premier_league,2024,NEW,Newcastle
+premier_league,2024,NOTF,Nott'm Forest
+premier_league,2024,SOU,Southampton
+premier_league,2024,TOT,Tottenham
+premier_league,2024,WHU,West Ham
+premier_league,2024,WOLV,Wolves
+premier_league,2023,ARS,Arsenal
+premier_league,2023,AVL,Aston Villa
+premier_league,2023,BHA,Brighton
+premier_league,2023,BOU,Bournemouth
+premier_league,2023,BRNT,Brentford
+premier_league,2023,BUR,Burnley
+premier_league,2023,CHE,Chelsea
+premier_league,2023,CRY,Crystal Palace
+premier_league,2023,EVE,Everton
+premier_league,2023,FUL,Fulham
+premier_league,2023,LIVP,Liverpool
+premier_league,2023,LUT,Luton
+premier_league,2023,MANC,Man City
+premier_league,2023,MANU,Man United
+premier_league,2023,NEW,Newcastle
+premier_league,2023,NOTF,Nott'm Forest
+premier_league,2023,SHU,Sheffield United
+premier_league,2023,TOT,Tottenham
+premier_league,2023,WHU,West Ham
+premier_league,2023,WOLV,Wolves
+premier_league,2022,ARS,Arsenal
+premier_league,2022,AVL,Aston Villa
+premier_league,2022,BHA,Brighton
+premier_league,2022,BOU,Bournemouth
+premier_league,2022,BRNT,Brentford
+premier_league,2022,CHE,Chelsea
+premier_league,2022,CRY,Crystal Palace
+premier_league,2022,EVE,Everton
+premier_league,2022,FUL,Fulham
+premier_league,2022,LEE,Leeds
+premier_league,2022,LEIC,Leicester
+premier_league,2022,LIVP,Liverpool
+premier_league,2022,MANC,Man City
+premier_league,2022,MANU,Man United
+premier_league,2022,NEW,Newcastle
+premier_league,2022,NOTF,Nott'm Forest
+premier_league,2022,SOU,Southampton
+premier_league,2022,TOT,Tottenham
+premier_league,2022,WHU,West Ham
+premier_league,2022,WOLV,Wolves
+premier_league,2021,ARS,Arsenal
+premier_league,2021,AVL,Aston Villa
+premier_league,2021,BHA,Brighton
+premier_league,2021,BRNT,Brentford
+premier_league,2021,BUR,Burnley
+premier_league,2021,CHE,Chelsea
+premier_league,2021,CRY,Crystal Palace
+premier_league,2021,EVE,Everton
+premier_league,2021,LEE,Leeds
+premier_league,2021,LEIC,Leicester
+premier_league,2021,LIVP,Liverpool
+premier_league,2021,MANC,Man City
+premier_league,2021,MANU,Man United
+premier_league,2021,NEW,Newcastle
+premier_league,2021,NOR,Norwich
+premier_league,2021,SOU,Southampton
+premier_league,2021,TOT,Tottenham
+premier_league,2021,WAT,Watford
+premier_league,2021,WHU,West Ham
+premier_league,2021,WOLV,Wolves
+premier_league,2020,ARS,Arsenal
+premier_league,2020,AVL,Aston Villa
+premier_league,2020,BHA,Brighton
+premier_league,2020,BUR,Burnley
+premier_league,2020,CHE,Chelsea
+premier_league,2020,CRY,Crystal Palace
+premier_league,2020,EVE,Everton
+premier_league,2020,FUL,Fulham
+premier_league,2020,LEE,Leeds
+premier_league,2020,LEIC,Leicester
+premier_league,2020,LIVP,Liverpool
+premier_league,2020,MANC,Man City
+premier_league,2020,MANU,Man United
+premier_league,2020,NEW,Newcastle
+premier_league,2020,SHU,Sheffield United
+premier_league,2020,SOU,Southampton
+premier_league,2020,TOT,Tottenham
+premier_league,2020,WBA,West Brom
+premier_league,2020,WHU,West Ham
+premier_league,2020,WOLV,Wolves
+premier_league,2019,ARS,Arsenal
+premier_league,2019,AVL,Aston Villa
+premier_league,2019,BHA,Brighton
+premier_league,2019,BOU,Bournemouth
+premier_league,2019,BUR,Burnley
+premier_league,2019,CHE,Chelsea
+premier_league,2019,CRY,Crystal Palace
+premier_league,2019,EVE,Everton
+premier_league,2019,LEIC,Leicester
+premier_league,2019,LIVP,Liverpool
+premier_league,2019,MANC,Man City
+premier_league,2019,MANU,Man United
+premier_league,2019,NEW,Newcastle
+premier_league,2019,NOR,Norwich
+premier_league,2019,SHU,Sheffield United
+premier_league,2019,SOU,Southampton
+premier_league,2019,TOT,Tottenham
+premier_league,2019,WAT,Watford
+premier_league,2019,WHU,West Ham
+premier_league,2019,WOLV,Wolves
+premier_league,2018,ARS,Arsenal
+premier_league,2018,BHA,Brighton
+premier_league,2018,BOU,Bournemouth
+premier_league,2018,BUR,Burnley
+premier_league,2018,CARD,Cardiff
+premier_league,2018,CHE,Chelsea
+premier_league,2018,CRY,Crystal Palace
+premier_league,2018,EVE,Everton
+premier_league,2018,FUL,Fulham
+premier_league,2018,HUD,Huddersfield
+premier_league,2018,LEIC,Leicester
+premier_league,2018,LIVP,Liverpool
+premier_league,2018,MANC,Man City
+premier_league,2018,MANU,Man United
+premier_league,2018,NEW,Newcastle
+premier_league,2018,SOU,Southampton
+premier_league,2018,TOT,Tottenham
+premier_league,2018,WAT,Watford
+premier_league,2018,WHU,West Ham
+premier_league,2018,WOLV,Wolves
+premier_league,2017,ARS,Arsenal
+premier_league,2017,BHA,Brighton
+premier_league,2017,BOU,Bournemouth
+premier_league,2017,BUR,Burnley
+premier_league,2017,CHE,Chelsea
+premier_league,2017,CRY,Crystal Palace
+premier_league,2017,EVE,Everton
+premier_league,2017,HUD,Huddersfield
+premier_league,2017,HUL,Hull
+premier_league,2017,LEIC,Leicester
+premier_league,2017,LIVP,Liverpool
+premier_league,2017,MANC,Man City
+premier_league,2017,MANU,Man United
+premier_league,2017,MID,Middlesbrough
+premier_league,2017,NEW,Newcastle
+premier_league,2017,SOU,Southampton
+premier_league,2017,STO,Stoke
+premier_league,2017,SUN,Sunderland
+premier_league,2017,SWA,Swansea
+premier_league,2017,TOT,Tottenham
+premier_league,2017,WAT,Watford
+premier_league,2017,WBA,West Brom
+premier_league,2017,WHU,West Ham
+premier_league,2016,ARS,Arsenal
+premier_league,2016,BOU,Bournemouth
+premier_league,2016,BUR,Burnley
+premier_league,2016,CHE,Chelsea
+premier_league,2016,CRY,Crystal Palace
+premier_league,2016,EVE,Everton
+premier_league,2016,HUL,Hull
+premier_league,2016,LEIC,Leicester
+premier_league,2016,LIVP,Liverpool
+premier_league,2016,MANC,Man City
+premier_league,2016,MANU,Man United
+premier_league,2016,MID,Middlesbrough
+premier_league,2016,SOU,Southampton
+premier_league,2016,STO,Stoke
+premier_league,2016,SUN,Sunderland
+premier_league,2016,SWA,Swansea
+premier_league,2016,TOT,Tottenham
+premier_league,2016,WAT,Watford
+premier_league,2016,WBA,West Brom
+premier_league,2016,WHU,West Ham
+premier_league,2015,ARS,Arsenal
+premier_league,2015,AVL,Aston Villa
+premier_league,2015,BOU,Bournemouth
+premier_league,2015,BUR,Burnley
+premier_league,2015,CHE,Chelsea
+premier_league,2015,CRY,Crystal Palace
+premier_league,2015,EVE,Everton
+premier_league,2015,HUL,Hull
+premier_league,2015,LEIC,Leicester
+premier_league,2015,LIVP,Liverpool
+premier_league,2015,MANC,Man City
+premier_league,2015,MANU,Man United
+premier_league,2015,MID,Middlesbrough
+premier_league,2015,NEW,Newcastle
+premier_league,2015,NOR,Norwich
+premier_league,2015,QPR,QPR
+premier_league,2015,SOU,Southampton
+premier_league,2015,STO,Stoke
+premier_league,2015,SUN,Sunderland
+premier_league,2015,SWA,Swansea
+premier_league,2015,TOT,Tottenham
+premier_league,2015,WAT,Watford
+premier_league,2015,WBA,West Brom
+premier_league,2015,WHU,West Ham
+premier_league,2014,ARS,Arsenal
+premier_league,2014,AVL,Aston Villa
+premier_league,2014,BUR,Burnley
+premier_league,2014,CARD,Cardiff
+premier_league,2014,CHE,Chelsea
+premier_league,2014,CRY,Crystal Palace
+premier_league,2014,EVE,Everton
+premier_league,2014,FUL,Fulham
+premier_league,2014,HUL,Hull
+premier_league,2014,LEIC,Leicester
+premier_league,2014,LIVP,Liverpool
+premier_league,2014,MANC,Man City
+premier_league,2014,MANU,Man United
+premier_league,2014,NEW,Newcastle
+premier_league,2014,NOR,Norwich
+premier_league,2014,QPR,QPR
+premier_league,2014,SOU,Southampton
+premier_league,2014,STO,Stoke
+premier_league,2014,SUN,Sunderland
+premier_league,2014,SWA,Swansea
+premier_league,2014,TOT,Tottenham
+premier_league,2014,WBA,West Brom
+premier_league,2014,WHU,West Ham
+premier_league,2013,ARS,Arsenal
+premier_league,2013,AVL,Aston Villa
+premier_league,2013,BUR,Burnley
+premier_league,2013,CARD,Cardiff
+premier_league,2013,CHE,Chelsea
+premier_league,2013,CRY,Crystal Palace
+premier_league,2013,EVE,Everton
+premier_league,2013,FUL,Fulham
+premier_league,2013,HUL,Hull
+premier_league,2013,LEIC,Leicester
+premier_league,2013,LIVP,Liverpool
+premier_league,2013,MANC,Man City
+premier_league,2013,MANU,Man United
+premier_league,2013,NEW,Newcastle
+premier_league,2013,NOR,Norwich
+premier_league,2013,QPR,QPR
+premier_league,2013,REA,Reading
+premier_league,2013,SOU,Southampton
+premier_league,2013,STO,Stoke
+premier_league,2013,SUN,Sunderland
+premier_league,2013,SWA,Swansea
+premier_league,2013,TOT,Tottenham
+premier_league,2013,WBA,West Brom
+premier_league,2013,WHU,West Ham
+premier_league,2013,WIG,Wigan
+premier_league,2012,ARS,Arsenal
+premier_league,2012,AVL,Aston Villa
+premier_league,2012,BLBN,Blackburn
+premier_league,2012,BOLN,Bolton
+premier_league,2012,CARD,Cardiff
+premier_league,2012,CHE,Chelsea
+premier_league,2012,CRY,Crystal Palace
+premier_league,2012,EVE,Everton
+premier_league,2012,FUL,Fulham
+premier_league,2012,HUL,Hull
+premier_league,2012,LIVP,Liverpool
+premier_league,2012,MANC,Man City
+premier_league,2012,MANU,Man United
+premier_league,2012,NEW,Newcastle
+premier_league,2012,NOR,Norwich
+premier_league,2012,QPR,QPR
+premier_league,2012,REA,Reading
+premier_league,2012,SOU,Southampton
+premier_league,2012,STO,Stoke
+premier_league,2012,SUN,Sunderland
+premier_league,2012,SWA,Swansea
+premier_league,2012,TOT,Tottenham
+premier_league,2012,WBA,West Brom
+premier_league,2012,WHU,West Ham
+premier_league,2012,WIG,Wigan
+premier_league,2012,WOLV,Wolves
+premier_league,2011,ARS,Arsenal
+premier_league,2011,AVL,Aston Villa
+premier_league,2011,BIR,Birmingham
+premier_league,2011,BLBN,Blackburn
+premier_league,2011,BLPL,Blackpool
+premier_league,2011,BOLN,Bolton
+premier_league,2011,CHE,Chelsea
+premier_league,2011,EVE,Everton
+premier_league,2011,FUL,Fulham
+premier_league,2011,LIVP,Liverpool
+premier_league,2011,MANC,Man City
+premier_league,2011,MANU,Man United
+premier_league,2011,NEW,Newcastle
+premier_league,2011,NOR,Norwich
+premier_league,2011,QPR,QPR
+premier_league,2011,REA,Reading
+premier_league,2011,SOU,Southampton
+premier_league,2011,STO,Stoke
+premier_league,2011,SUN,Sunderland
+premier_league,2011,SWA,Swansea
+premier_league,2011,TOT,Tottenham
+premier_league,2011,WBA,West Brom
+premier_league,2011,WHU,West Ham
+premier_league,2011,WIG,Wigan
+premier_league,2011,WOLV,Wolves
+premier_league,2010,ARS,Arsenal
+premier_league,2010,AVL,Aston Villa
+premier_league,2010,BIR,Birmingham
+premier_league,2010,BLBN,Blackburn
+premier_league,2010,BLPL,Blackpool
+premier_league,2010,BOLN,Bolton
+premier_league,2010,BUR,Burnley
+premier_league,2010,CHE,Chelsea
+premier_league,2010,EVE,Everton
+premier_league,2010,FUL,Fulham
+premier_league,2010,HUL,Hull
+premier_league,2010,LIVP,Liverpool
+premier_league,2010,MANC,Man City
+premier_league,2010,MANU,Man United
+premier_league,2010,NEW,Newcastle
+premier_league,2010,NOR,Norwich
+premier_league,2010,POR,Portsmouth
+premier_league,2010,QPR,QPR
+premier_league,2010,STO,Stoke
+premier_league,2010,SUN,Sunderland
+premier_league,2010,SWA,Swansea
+premier_league,2010,TOT,Tottenham
+premier_league,2010,WBA,West Brom
+premier_league,2010,WHU,West Ham
+premier_league,2010,WIG,Wigan
+premier_league,2010,WOLV,Wolves
+premier_league,2009,ARS,Arsenal
+premier_league,2009,AVL,Aston Villa
+premier_league,2009,BIR,Birmingham
+premier_league,2009,BLBN,Blackburn
+premier_league,2009,BLPL,Blackpool
+premier_league,2009,BOLN,Bolton
+premier_league,2009,BUR,Burnley
+premier_league,2009,CHE,Chelsea
+premier_league,2009,EVE,Everton
+premier_league,2009,FUL,Fulham
+premier_league,2009,HUL,Hull
+premier_league,2009,LIVP,Liverpool
+premier_league,2009,MANC,Man City
+premier_league,2009,MANU,Man United
+premier_league,2009,MID,Middlesbrough
+premier_league,2009,NEW,Newcastle
+premier_league,2009,POR,Portsmouth
+premier_league,2009,STO,Stoke
+premier_league,2009,SUN,Sunderland
+premier_league,2009,TOT,Tottenham
+premier_league,2009,WBA,West Brom
+premier_league,2009,WHU,West Ham
+premier_league,2009,WIG,Wigan
+premier_league,2009,WOLV,Wolves
+premier_league,2008,ARS,Arsenal
+premier_league,2008,AVL,Aston Villa
+premier_league,2008,BIR,Birmingham
+premier_league,2008,BLBN,Blackburn
+premier_league,2008,BOLN,Bolton
+premier_league,2008,BUR,Burnley
+premier_league,2008,CHE,Chelsea
+premier_league,2008,DER,Derby
+premier_league,2008,EVE,Everton
+premier_league,2008,FUL,Fulham
+premier_league,2008,HUL,Hull
+premier_league,2008,LIVP,Liverpool
+premier_league,2008,MANC,Man City
+premier_league,2008,MANU,Man United
+premier_league,2008,MID,Middlesbrough
+premier_league,2008,NEW,Newcastle
+premier_league,2008,POR,Portsmouth
+premier_league,2008,REA,Reading
+premier_league,2008,STO,Stoke
+premier_league,2008,SUN,Sunderland
+premier_league,2008,TOT,Tottenham
+premier_league,2008,WBA,West Brom
+premier_league,2008,WHU,West Ham
+premier_league,2008,WIG,Wigan
+premier_league,2008,WOLV,Wolves
+premier_league,2007,ARS,Arsenal
+premier_league,2007,AVL,Aston Villa
+premier_league,2007,BIR,Birmingham
+premier_league,2007,BLBN,Blackburn
+premier_league,2007,BOLN,Bolton
+premier_league,2007,CHA,Charlton
+premier_league,2007,CHE,Chelsea
+premier_league,2007,DER,Derby
+premier_league,2007,EVE,Everton
+premier_league,2007,FUL,Fulham
+premier_league,2007,HUL,Hull
+premier_league,2007,LIVP,Liverpool
+premier_league,2007,MANC,Man City
+premier_league,2007,MANU,Man United
+premier_league,2007,MID,Middlesbrough
+premier_league,2007,NEW,Newcastle
+premier_league,2007,POR,Portsmouth
+premier_league,2007,REA,Reading
+premier_league,2007,SHU,Sheffield United
+premier_league,2007,STO,Stoke
+premier_league,2007,SUN,Sunderland
+premier_league,2007,TOT,Tottenham
+premier_league,2007,WAT,Watford
+premier_league,2007,WBA,West Brom
+premier_league,2007,WHU,West Ham
+premier_league,2007,WIG,Wigan
+premier_league,2006,ARS,Arsenal
+premier_league,2006,AVL,Aston Villa
+premier_league,2006,BIR,Birmingham
+premier_league,2006,BLBN,Blackburn
+premier_league,2006,BOLN,Bolton
+premier_league,2006,CHA,Charlton
+premier_league,2006,CHE,Chelsea
+premier_league,2006,DER,Derby
+premier_league,2006,EVE,Everton
+premier_league,2006,FUL,Fulham
+premier_league,2006,LIVP,Liverpool
+premier_league,2006,MANC,Man City
+premier_league,2006,MANU,Man United
+premier_league,2006,MID,Middlesbrough
+premier_league,2006,NEW,Newcastle
+premier_league,2006,POR,Portsmouth
+premier_league,2006,REA,Reading
+premier_league,2006,SHU,Sheffield United
+premier_league,2006,SUN,Sunderland
+premier_league,2006,TOT,Tottenham
+premier_league,2006,WAT,Watford
+premier_league,2006,WBA,West Brom
+premier_league,2006,WHU,West Ham
+premier_league,2006,WIG,Wigan
+premier_league,2005,ARS,Arsenal
+premier_league,2005,AVL,Aston Villa
+premier_league,2005,BIR,Birmingham
+premier_league,2005,BLBN,Blackburn
+premier_league,2005,BOLN,Bolton
+premier_league,2005,CHA,Charlton
+premier_league,2005,CHE,Chelsea
+premier_league,2005,EVE,Everton
+premier_league,2005,FUL,Fulham
+premier_league,2005,LIVP,Liverpool
+premier_league,2005,MANC,Man City
+premier_league,2005,MANU,Man United
+premier_league,2005,MID,Middlesbrough
+premier_league,2005,NEW,Newcastle
+premier_league,2005,POR,Portsmouth
+premier_league,2005,REA,Reading
+premier_league,2005,SHU,Sheffield United
+premier_league,2005,SUN,Sunderland
+premier_league,2005,TOT,Tottenham
+premier_league,2005,WAT,Watford
+premier_league,2005,WBA,West Brom
+premier_league,2005,WHU,West Ham
+premier_league,2005,WIG,Wigan
+premier_league,2004,ARS,Arsenal
+premier_league,2004,AVL,Aston Villa
+premier_league,2004,BIR,Birmingham
+premier_league,2004,BLBN,Blackburn
+premier_league,2004,BOLN,Bolton
+premier_league,2004,CHA,Charlton
+premier_league,2004,CHE,Chelsea
+premier_league,2004,EVE,Everton
+premier_league,2004,FUL,Fulham
+premier_league,2004,LIVP,Liverpool
+premier_league,2004,MANC,Man City
+premier_league,2004,MANU,Man United
+premier_league,2004,MID,Middlesbrough
+premier_league,2004,NEW,Newcastle
+premier_league,2004,POR,Portsmouth
+premier_league,2004,SUN,Sunderland
+premier_league,2004,TOT,Tottenham
+premier_league,2004,WBA,West Brom
+premier_league,2004,WHU,West Ham
+premier_league,2004,WIG,Wigan
+premier_league,2002,ARS,Arsenal
+premier_league,2002,AVL,Aston Villa
+premier_league,2002,BIR,Birmingham
+premier_league,2002,BLBN,Blackburn
+premier_league,2002,BOLN,Bolton
+premier_league,2002,CHA,Charlton
+premier_league,2002,CHE,Chelsea
+premier_league,2002,EVE,Everton
+premier_league,2002,FUL,Fulham
+premier_league,2002,LEE,Leeds
+premier_league,2002,LIVP,Liverpool
+premier_league,2002,MANC,Man City
+premier_league,2002,MANU,Man United
+premier_league,2002,MID,Middlesbrough
+premier_league,2002,NEW,Newcastle
+premier_league,2002,SOU,Southampton
+premier_league,2002,SUN,Sunderland
+premier_league,2002,TOT,Tottenham
+premier_league,2002,WBA,West Brom
+premier_league,2002,WHU,West Ham
+serie_a,2024,ATA,Atalanta
+serie_a,2024,BOLG,Bologna
+serie_a,2024,CAG,Cagliari
+serie_a,2024,COM,Como
+serie_a,2024,EMP,Empoli
+serie_a,2024,FIO,Fiorentina
+serie_a,2024,GEN,Genoa
+serie_a,2024,INT,Inter
+serie_a,2024,JUV,Juventus
+serie_a,2024,LAZ,Lazio
+serie_a,2024,LEC,Lecce
+serie_a,2024,MIL,Milan
+serie_a,2024,MON,Monza
+serie_a,2024,NAP,Napoli
+serie_a,2024,PAR,Parma
+serie_a,2024,ROM,Roma
+serie_a,2024,TOR,Torino
+serie_a,2024,UDI,Udinese
+serie_a,2024,VEN,Venezia
+serie_a,2024,VER,Verona
+serie_a,2023,ATA,Atalanta
+serie_a,2023,BOLG,Bologna
+serie_a,2023,CAG,Cagliari
+serie_a,2023,EMP,Empoli
+serie_a,2023,FIO,Fiorentina
+serie_a,2023,FRO,Frosinone
+serie_a,2023,GEN,Genoa
+serie_a,2023,INT,Inter
+serie_a,2023,JUV,Juventus
+serie_a,2023,LAZ,Lazio
+serie_a,2023,LEC,Lecce
+serie_a,2023,MIL,Milan
+serie_a,2023,MON,Monza
+serie_a,2023,NAP,Napoli
+serie_a,2023,ROM,Roma
+serie_a,2023,SAL,Salernitana
+serie_a,2023,SAS,Sassuolo
+serie_a,2023,TOR,Torino
+serie_a,2023,UDI,Udinese
+serie_a,2023,VER,Verona
+serie_a,2022,ATA,Atalanta
+serie_a,2022,BOLG,Bologna
+serie_a,2022,CRE,Cremonese
+serie_a,2022,EMP,Empoli
+serie_a,2022,FIO,Fiorentina
+serie_a,2022,INT,Inter
+serie_a,2022,JUV,Juventus
+serie_a,2022,LAZ,Lazio
+serie_a,2022,LEC,Lecce
+serie_a,2022,MIL,Milan
+serie_a,2022,MON,Monza
+serie_a,2022,NAP,Napoli
+serie_a,2022,ROM,Roma
+serie_a,2022,SAL,Salernitana
+serie_a,2022,SAM,Sampdoria
+serie_a,2022,SAS,Sassuolo
+serie_a,2022,SPE,Spezia
+serie_a,2022,TOR,Torino
+serie_a,2022,UDI,Udinese
+serie_a,2022,VER,Verona
+serie_a,2021,ATA,Atalanta
+serie_a,2021,BOLG,Bologna
+serie_a,2021,CAG,Cagliari
+serie_a,2021,EMP,Empoli
+serie_a,2021,FIO,Fiorentina
+serie_a,2021,GEN,Genoa
+serie_a,2021,INT,Inter
+serie_a,2021,JUV,Juventus
+serie_a,2021,LAZ,Lazio
+serie_a,2021,MIL,Milan
+serie_a,2021,NAP,Napoli
+serie_a,2021,ROM,Roma
+serie_a,2021,SAL,Salernitana
+serie_a,2021,SAM,Sampdoria
+serie_a,2021,SAS,Sassuolo
+serie_a,2021,SPE,Spezia
+serie_a,2021,TOR,Torino
+serie_a,2021,UDI,Udinese
+serie_a,2021,VEN,Venezia
+serie_a,2021,VER,Verona
+serie_a,2020,ATA,Atalanta
+serie_a,2020,BEN,Benevento
+serie_a,2020,BOLG,Bologna
+serie_a,2020,BRES,Brescia
+serie_a,2020,CAG,Cagliari
+serie_a,2020,CRO,Crotone
+serie_a,2020,FIO,Fiorentina
+serie_a,2020,GEN,Genoa
+serie_a,2020,INT,Inter
+serie_a,2020,JUV,Juventus
+serie_a,2020,LAZ,Lazio
+serie_a,2020,LEC,Lecce
+serie_a,2020,MIL,Milan
+serie_a,2020,NAP,Napoli
+serie_a,2020,PAR,Parma
+serie_a,2020,ROM,Roma
+serie_a,2020,SAM,Sampdoria
+serie_a,2020,SAS,Sassuolo
+serie_a,2020,SPA,Spal
+serie_a,2020,SPE,Spezia
+serie_a,2020,TOR,Torino
+serie_a,2020,UDI,Udinese
+serie_a,2020,VER,Verona
+serie_a,2019,ATA,Atalanta
+serie_a,2019,BOLG,Bologna
+serie_a,2019,BRES,Brescia
+serie_a,2019,CAG,Cagliari
+serie_a,2019,FIO,Fiorentina
+serie_a,2019,GEN,Genoa
+serie_a,2019,INT,Inter
+serie_a,2019,JUV,Juventus
+serie_a,2019,LAZ,Lazio
+serie_a,2019,LEC,Lecce
+serie_a,2019,MIL,Milan
+serie_a,2019,NAP,Napoli
+serie_a,2019,PAR,Parma
+serie_a,2019,ROM,Roma
+serie_a,2019,SAM,Sampdoria
+serie_a,2019,SAS,Sassuolo
+serie_a,2019,SPA,Spal
+serie_a,2019,TOR,Torino
+serie_a,2019,UDI,Udinese
+serie_a,2019,VER,Verona
+serie_a,2018,ATA,Atalanta
+serie_a,2018,BEN,Benevento
+serie_a,2018,BOLG,Bologna
+serie_a,2018,CAG,Cagliari
+serie_a,2018,CHI,Chievo
+serie_a,2018,CRO,Crotone
+serie_a,2018,EMP,Empoli
+serie_a,2018,FIO,Fiorentina
+serie_a,2018,FRO,Frosinone
+serie_a,2018,GEN,Genoa
+serie_a,2018,INT,Inter
+serie_a,2018,JUV,Juventus
+serie_a,2018,LAZ,Lazio
+serie_a,2018,MIL,Milan
+serie_a,2018,NAP,Napoli
+serie_a,2018,PAR,Parma
+serie_a,2018,ROM,Roma
+serie_a,2018,SAM,Sampdoria
+serie_a,2018,SAS,Sassuolo
+serie_a,2018,SPA,Spal
+serie_a,2018,TOR,Torino
+serie_a,2018,UDI,Udinese
+serie_a,2018,VER,Verona
+serie_a,2017,ATA,Atalanta
+serie_a,2017,BEN,Benevento
+serie_a,2017,BOLG,Bologna
+serie_a,2017,CAG,Cagliari
+serie_a,2017,CHI,Chievo
+serie_a,2017,CRO,Crotone
+serie_a,2017,EMP,Empoli
+serie_a,2017,FIO,Fiorentina
+serie_a,2017,GEN,Genoa
+serie_a,2017,INT,Inter
+serie_a,2017,JUV,Juventus
+serie_a,2017,LAZ,Lazio
+serie_a,2017,MIL,Milan
+serie_a,2017,NAP,Napoli
+serie_a,2017,PAL,Palermo
+serie_a,2017,PES,Pescara
+serie_a,2017,ROM,Roma
+serie_a,2017,SAM,Sampdoria
+serie_a,2017,SAS,Sassuolo
+serie_a,2017,SPA,Spal
+serie_a,2017,TOR,Torino
+serie_a,2017,UDI,Udinese
+serie_a,2017,VER,Verona
+serie_a,2016,ATA,Atalanta
+serie_a,2016,BEN,Benevento
+serie_a,2016,BOLG,Bologna
+serie_a,2016,CAG,Cagliari
+serie_a,2016,CARP,Carpi
+serie_a,2016,CHI,Chievo
+serie_a,2016,CRO,Crotone
+serie_a,2016,EMP,Empoli
+serie_a,2016,FIO,Fiorentina
+serie_a,2016,FRO,Frosinone
+serie_a,2016,GEN,Genoa
+serie_a,2016,INT,Inter
+serie_a,2016,JUV,Juventus
+serie_a,2016,LAZ,Lazio
+serie_a,2016,MIL,Milan
+serie_a,2016,NAP,Napoli
+serie_a,2016,PAL,Palermo
+serie_a,2016,PES,Pescara
+serie_a,2016,ROM,Roma
+serie_a,2016,SAM,Sampdoria
+serie_a,2016,SAS,Sassuolo
+serie_a,2016,SPA,Spal
+serie_a,2016,TOR,Torino
+serie_a,2016,UDI,Udinese
+serie_a,2016,VER,Verona
+serie_a,2015,ATA,Atalanta
+serie_a,2015,BOLG,Bologna
+serie_a,2015,CAG,Cagliari
+serie_a,2015,CARP,Carpi
+serie_a,2015,CES,Cesena
+serie_a,2015,CHI,Chievo
+serie_a,2015,CRO,Crotone
+serie_a,2015,EMP,Empoli
+serie_a,2015,FIO,Fiorentina
+serie_a,2015,FRO,Frosinone
+serie_a,2015,GEN,Genoa
+serie_a,2015,INT,Inter
+serie_a,2015,JUV,Juventus
+serie_a,2015,LAZ,Lazio
+serie_a,2015,MIL,Milan
+serie_a,2015,NAP,Napoli
+serie_a,2015,PAL,Palermo
+serie_a,2015,PAR,Parma
+serie_a,2015,PES,Pescara
+serie_a,2015,ROM,Roma
+serie_a,2015,SAM,Sampdoria
+serie_a,2015,SAS,Sassuolo
+serie_a,2015,TOR,Torino
+serie_a,2015,UDI,Udinese
+serie_a,2015,VER,Verona
+serie_a,2014,ATA,Atalanta
+serie_a,2014,BOLG,Bologna
+serie_a,2014,CAG,Cagliari
+serie_a,2014,CARP,Carpi
+serie_a,2014,CAT,Catania
+serie_a,2014,CES,Cesena
+serie_a,2014,CHI,Chievo
+serie_a,2014,EMP,Empoli
+serie_a,2014,FIO,Fiorentina
+serie_a,2014,FRO,Frosinone
+serie_a,2014,GEN,Genoa
+serie_a,2014,INT,Inter
+serie_a,2014,JUV,Juventus
+serie_a,2014,LAZ,Lazio
+serie_a,2014,LIVO,Livorno
+serie_a,2014,MIL,Milan
+serie_a,2014,NAP,Napoli
+serie_a,2014,PAL,Palermo
+serie_a,2014,PAR,Parma
+serie_a,2014,ROM,Roma
+serie_a,2014,SAM,Sampdoria
+serie_a,2014,SAS,Sassuolo
+serie_a,2014,TOR,Torino
+serie_a,2014,UDI,Udinese
+serie_a,2014,VER,Verona
+serie_a,2013,ATA,Atalanta
+serie_a,2013,BOLG,Bologna
+serie_a,2013,CAG,Cagliari
+serie_a,2013,CAT,Catania
+serie_a,2013,CES,Cesena
+serie_a,2013,CHI,Chievo
+serie_a,2013,EMP,Empoli
+serie_a,2013,FIO,Fiorentina
+serie_a,2013,GEN,Genoa
+serie_a,2013,INT,Inter
+serie_a,2013,JUV,Juventus
+serie_a,2013,LAZ,Lazio
+serie_a,2013,LIVO,Livorno
+serie_a,2013,MIL,Milan
+serie_a,2013,NAP,Napoli
+serie_a,2013,PAL,Palermo
+serie_a,2013,PAR,Parma
+serie_a,2013,PES,Pescara
+serie_a,2013,ROM,Roma
+serie_a,2013,SAM,Sampdoria
+serie_a,2013,SAS,Sassuolo
+serie_a,2013,SIE,Siena
+serie_a,2013,TOR,Torino
+serie_a,2013,UDI,Udinese
+serie_a,2013,VER,Verona
+serie_a,2012,ATA,Atalanta
+serie_a,2012,BOLG,Bologna
+serie_a,2012,CAG,Cagliari
+serie_a,2012,CAT,Catania
+serie_a,2012,CES,Cesena
+serie_a,2012,CHI,Chievo
+serie_a,2012,FIO,Fiorentina
+serie_a,2012,GEN,Genoa
+serie_a,2012,INT,Inter
+serie_a,2012,JUV,Juventus
+serie_a,2012,LAZ,Lazio
+serie_a,2012,LEC,Lecce
+serie_a,2012,LIVO,Livorno
+serie_a,2012,MIL,Milan
+serie_a,2012,NAP,Napoli
+serie_a,2012,NOV,Novara
+serie_a,2012,PAL,Palermo
+serie_a,2012,PAR,Parma
+serie_a,2012,PES,Pescara
+serie_a,2012,ROM,Roma
+serie_a,2012,SAM,Sampdoria
+serie_a,2012,SAS,Sassuolo
+serie_a,2012,SIE,Siena
+serie_a,2012,TOR,Torino
+serie_a,2012,UDI,Udinese
+serie_a,2012,VER,Verona
+serie_a,2011,ATA,Atalanta
+serie_a,2011,BARI,Bari
+serie_a,2011,BOLG,Bologna
+serie_a,2011,BRES,Brescia
+serie_a,2011,CAG,Cagliari
+serie_a,2011,CAT,Catania
+serie_a,2011,CES,Cesena
+serie_a,2011,CHI,Chievo
+serie_a,2011,FIO,Fiorentina
+serie_a,2011,GEN,Genoa
+serie_a,2011,INT,Inter
+serie_a,2011,JUV,Juventus
+serie_a,2011,LAZ,Lazio
+serie_a,2011,LEC,Lecce
+serie_a,2011,MIL,Milan
+serie_a,2011,NAP,Napoli
+serie_a,2011,NOV,Novara
+serie_a,2011,PAL,Palermo
+serie_a,2011,PAR,Parma
+serie_a,2011,PES,Pescara
+serie_a,2011,ROM,Roma
+serie_a,2011,SAM,Sampdoria
+serie_a,2011,SIE,Siena
+serie_a,2011,TOR,Torino
+serie_a,2011,UDI,Udinese
+serie_a,2010,ATA,Atalanta
+serie_a,2010,BARI,Bari
+serie_a,2010,BOLG,Bologna
+serie_a,2010,BRES,Brescia
+serie_a,2010,CAG,Cagliari
+serie_a,2010,CAT,Catania
+serie_a,2010,CES,Cesena
+serie_a,2010,CHI,Chievo
+serie_a,2010,FIO,Fiorentina
+serie_a,2010,GEN,Genoa
+serie_a,2010,INT,Inter
+serie_a,2010,JUV,Juventus
+serie_a,2010,LAZ,Lazio
+serie_a,2010,LEC,Lecce
+serie_a,2010,LIVO,Livorno
+serie_a,2010,MIL,Milan
+serie_a,2010,NAP,Napoli
+serie_a,2010,NOV,Novara
+serie_a,2010,PAL,Palermo
+serie_a,2010,PAR,Parma
+serie_a,2010,ROM,Roma
+serie_a,2010,SAM,Sampdoria
+serie_a,2010,SIE,Siena
+serie_a,2010,UDI,Udinese
+serie_a,2009,ATA,Atalanta
+serie_a,2009,BARI,Bari
+serie_a,2009,BOLG,Bologna
+serie_a,2009,BRES,Brescia
+serie_a,2009,CAG,Cagliari
+serie_a,2009,CAT,Catania
+serie_a,2009,CES,Cesena
+serie_a,2009,CHI,Chievo
+serie_a,2009,FIO,Fiorentina
+serie_a,2009,GEN,Genoa
+serie_a,2009,INT,Inter
+serie_a,2009,JUV,Juventus
+serie_a,2009,LAZ,Lazio
+serie_a,2009,LEC,Lecce
+serie_a,2009,LIVO,Livorno
+serie_a,2009,MIL,Milan
+serie_a,2009,NAP,Napoli
+serie_a,2009,PAL,Palermo
+serie_a,2009,PAR,Parma
+serie_a,2009,REG,Reggina
+serie_a,2009,ROM,Roma
+serie_a,2009,SAM,Sampdoria
+serie_a,2009,SIE,Siena
+serie_a,2009,TOR,Torino
+serie_a,2009,UDI,Udinese
+serie_a,2008,ATA,Atalanta
+serie_a,2008,BARI,Bari
+serie_a,2008,BOLG,Bologna
+serie_a,2008,CAG,Cagliari
+serie_a,2008,CAT,Catania
+serie_a,2008,CHI,Chievo
+serie_a,2008,EMP,Empoli
+serie_a,2008,FIO,Fiorentina
+serie_a,2008,GEN,Genoa
+serie_a,2008,INT,Inter
+serie_a,2008,JUV,Juventus
+serie_a,2008,LAZ,Lazio
+serie_a,2008,LEC,Lecce
+serie_a,2008,LIVO,Livorno
+serie_a,2008,MIL,Milan
+serie_a,2008,NAP,Napoli
+serie_a,2008,PAL,Palermo
+serie_a,2008,PAR,Parma
+serie_a,2008,REG,Reggina
+serie_a,2008,ROM,Roma
+serie_a,2008,SAM,Sampdoria
+serie_a,2008,SIE,Siena
+serie_a,2008,TOR,Torino
+serie_a,2008,UDI,Udinese
+serie_a,2007,ASC,Ascoli
+serie_a,2007,ATA,Atalanta
+serie_a,2007,BOLG,Bologna
+serie_a,2007,CAG,Cagliari
+serie_a,2007,CAT,Catania
+serie_a,2007,CHI,Chievo
+serie_a,2007,EMP,Empoli
+serie_a,2007,FIO,Fiorentina
+serie_a,2007,GEN,Genoa
+serie_a,2007,INT,Inter
+serie_a,2007,JUV,Juventus
+serie_a,2007,LAZ,Lazio
+serie_a,2007,LEC,Lecce
+serie_a,2007,LIVO,Livorno
+serie_a,2007,MES,Messina
+serie_a,2007,MIL,Milan
+serie_a,2007,NAP,Napoli
+serie_a,2007,PAL,Palermo
+serie_a,2007,PAR,Parma
+serie_a,2007,REG,Reggina
+serie_a,2007,ROM,Roma
+serie_a,2007,SAM,Sampdoria
+serie_a,2007,SIE,Siena
+serie_a,2007,TOR,Torino
+serie_a,2007,UDI,Udinese
+serie_a,2006,ASC,Ascoli
+serie_a,2006,ATA,Atalanta
+serie_a,2006,CAG,Cagliari
+serie_a,2006,CAT,Catania
+serie_a,2006,CHI,Chievo
+serie_a,2006,EMP,Empoli
+serie_a,2006,FIO,Fiorentina
+serie_a,2006,GEN,Genoa
+serie_a,2006,INT,Inter
+serie_a,2006,JUV,Juventus
+serie_a,2006,LAZ,Lazio
+serie_a,2006,LEC,Lecce
+serie_a,2006,LIVO,Livorno
+serie_a,2006,MES,Messina
+serie_a,2006,MIL,Milan
+serie_a,2006,NAP,Napoli
+serie_a,2006,PAL,Palermo
+serie_a,2006,PAR,Parma
+serie_a,2006,REG,Reggina
+serie_a,2006,ROM,Roma
+serie_a,2006,SAM,Sampdoria
+serie_a,2006,SIE,Siena
+serie_a,2006,TOR,Torino
+serie_a,2006,TRE,Treviso
+serie_a,2006,UDI,Udinese
+serie_a,2005,ASC,Ascoli
+serie_a,2005,ATA,Atalanta
+serie_a,2005,BOLG,Bologna
+serie_a,2005,BRES,Brescia
+serie_a,2005,CAG,Cagliari
+serie_a,2005,CAT,Catania
+serie_a,2005,CHI,Chievo
+serie_a,2005,EMP,Empoli
+serie_a,2005,FIO,Fiorentina
+serie_a,2005,INT,Inter
+serie_a,2005,JUV,Juventus
+serie_a,2005,LAZ,Lazio
+serie_a,2005,LEC,Lecce
+serie_a,2005,LIVO,Livorno
+serie_a,2005,MES,Messina
+serie_a,2005,MIL,Milan
+serie_a,2005,PAL,Palermo
+serie_a,2005,PAR,Parma
+serie_a,2005,REG,Reggina
+serie_a,2005,ROM,Roma
+serie_a,2005,SAM,Sampdoria
+serie_a,2005,SIE,Siena
+serie_a,2005,TOR,Torino
+serie_a,2005,TRE,Treviso
+serie_a,2005,UDI,Udinese
+serie_a,2004,ANC,Ancona
+serie_a,2004,ASC,Ascoli
+serie_a,2004,ATA,Atalanta
+serie_a,2004,BOLG,Bologna
+serie_a,2004,BRES,Brescia
+serie_a,2004,CAG,Cagliari
+serie_a,2004,CHI,Chievo
+serie_a,2004,EMP,Empoli
+serie_a,2004,FIO,Fiorentina
+serie_a,2004,INT,Inter
+serie_a,2004,JUV,Juventus
+serie_a,2004,LAZ,Lazio
+serie_a,2004,LEC,Lecce
+serie_a,2004,LIVO,Livorno
+serie_a,2004,MES,Messina
+serie_a,2004,MIL,Milan
+serie_a,2004,MOD,Modena
+serie_a,2004,PAL,Palermo
+serie_a,2004,PAR,Parma
+serie_a,2004,PER,Perugia
+serie_a,2004,REG,Reggina
+serie_a,2004,ROM,Roma
+serie_a,2004,SAM,Sampdoria
+serie_a,2004,SIE,Siena
+serie_a,2004,TRE,Treviso
+serie_a,2004,UDI,Udinese
+serie_a,2003,ANC,Ancona
+serie_a,2003,ATA,Atalanta
+serie_a,2003,BOLG,Bologna
+serie_a,2003,BRES,Brescia
+serie_a,2003,CAG,Cagliari
+serie_a,2003,CHI,Chievo
+serie_a,2003,COM,Como
+serie_a,2003,EMP,Empoli
+serie_a,2003,FIO,Fiorentina
+serie_a,2003,INT,Inter
+serie_a,2003,JUV,Juventus
+serie_a,2003,LAZ,Lazio
+serie_a,2003,LEC,Lecce
+serie_a,2003,LIVO,Livorno
+serie_a,2003,MES,Messina
+serie_a,2003,MIL,Milan
+serie_a,2003,MOD,Modena
+serie_a,2003,PAL,Palermo
+serie_a,2003,PAR,Parma
+serie_a,2003,PER,Perugia
+serie_a,2003,PIA,Piacenza
+serie_a,2003,REG,Reggina
+serie_a,2003,ROM,Roma
+serie_a,2003,SAM,Sampdoria
+serie_a,2003,SIE,Siena
+serie_a,2003,TOR,Torino
+serie_a,2003,UDI,Udinese
+serie_a,2002,ANC,Ancona
+serie_a,2002,ATA,Atalanta
+serie_a,2002,BOLG,Bologna
+serie_a,2002,BRES,Brescia
+serie_a,2002,CHI,Chievo
+serie_a,2002,COM,Como
+serie_a,2002,EMP,Empoli
+serie_a,2002,FIO,Fiorentina
+serie_a,2002,INT,Inter
+serie_a,2002,JUV,Juventus
+serie_a,2002,LAZ,Lazio
+serie_a,2002,LEC,Lecce
+serie_a,2002,MIL,Milan
+serie_a,2002,MOD,Modena
+serie_a,2002,PAR,Parma
+serie_a,2002,PER,Perugia
+serie_a,2002,PIA,Piacenza
+serie_a,2002,REG,Reggina
+serie_a,2002,ROM,Roma
+serie_a,2002,SAM,Sampdoria
+serie_a,2002,SIE,Siena
+serie_a,2002,TOR,Torino
+serie_a,2002,UDI,Udinese
+serie_a,2002,VEN,Venezia
+serie_a,2002,VER,Verona
+serie_a,2001,ATA,Atalanta
+serie_a,2001,BARI,Bari
+serie_a,2001,BOLG,Bologna
+serie_a,2001,BRES,Brescia
+serie_a,2001,CHI,Chievo
+serie_a,2001,COM,Como
+serie_a,2001,EMP,Empoli
+serie_a,2001,FIO,Fiorentina
+serie_a,2001,INT,Inter
+serie_a,2001,JUV,Juventus
+serie_a,2001,LAZ,Lazio
+serie_a,2001,LEC,Lecce
+serie_a,2001,MIL,Milan
+serie_a,2001,MOD,Modena
+serie_a,2001,NAP,Napoli
+serie_a,2001,PAR,Parma
+serie_a,2001,PER,Perugia
+serie_a,2001,PIA,Piacenza
+serie_a,2001,REG,Reggina
+serie_a,2001,ROM,Roma
+serie_a,2001,TOR,Torino
+serie_a,2001,UDI,Udinese
+serie_a,2001,VEN,Venezia
+serie_a,2001,VER,Verona
+serie_a,2001,VIC,Vicenza
+serie_a,2000,ATA,Atalanta
+serie_a,2000,BARI,Bari
+serie_a,2000,BOLG,Bologna
+serie_a,2000,BRES,Brescia
+serie_a,2000,CHI,Chievo
+serie_a,2000,FIO,Fiorentina
+serie_a,2000,INT,Inter
+serie_a,2000,JUV,Juventus
+serie_a,2000,LAZ,Lazio
+serie_a,2000,LEC,Lecce
+serie_a,2000,MIL,Milan
+serie_a,2000,NAP,Napoli
+serie_a,2000,PAR,Parma
+serie_a,2000,PER,Perugia
+serie_a,2000,PIA,Piacenza
+serie_a,2000,REG,Reggina
+serie_a,2000,ROM,Roma
+serie_a,2000,TOR,Torino
+serie_a,2000,UDI,Udinese
+serie_a,2000,VEN,Venezia
+serie_a,2000,VER,Verona
+serie_a,2000,VIC,Vicenza
+serie_a,1999,ATA,Atalanta
+serie_a,1999,BARI,Bari
+serie_a,1999,BOLG,Bologna
+serie_a,1999,BRES,Brescia
+serie_a,1999,FIO,Fiorentina
+serie_a,1999,INT,Inter
+serie_a,1999,JUV,Juventus
+serie_a,1999,LAZ,Lazio
+serie_a,1999,LEC,Lecce
+serie_a,1999,MIL,Milan
+serie_a,1999,NAP,Napoli
+serie_a,1999,PAR,Parma
+serie_a,1999,PER,Perugia
+serie_a,1999,REG,Reggina
+serie_a,1999,ROM,Roma
+serie_a,1999,UDI,Udinese
+serie_a,1999,VER,Verona
+serie_a,1999,VIC,Vicenza
