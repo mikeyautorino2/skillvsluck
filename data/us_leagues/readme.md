@@ -4,6 +4,8 @@
 
 ## Table of Contents
 - [0 Data Dictionary](#0-data-dictionary)
+  - [0.1 Data Dictionary for game-by-game datasets](#01-data-dictionary-for-game-by-game-datasets-tables-by-leages-and-combined)
+  - [0.2 Data Dictionary for end-of-season rankings](#02-data-dictionary-for-end-of-season-rankings)
 - [1 MLB Data](#1-mlb-data)
   - [1.1 Dimension](#11-dimension)
   - [1.2 Descriptive Statistics](#12-descriptive-statistics)
@@ -24,16 +26,39 @@
 
 For **all** datasets in `us_league`, we have the same columns, as shown below:
 
+### 0.1 Data Dictionary for game-by-game datasets (tables by leages and combined)
+
+| Variable    | Description                                 | Data Type | Coding Conventions                         | Periodicity  | Notes                                                        |
+| ----------- | ------------------------------------------- | --------- | ------------------------------------------ | ------------ | ------------------------------------------------------------ |
+| `season`    | Year of the season                          | Integer   | YYYY (e.g. 2024)                           | Season-level | If a season crosses 2 years, then use the first year. (e.g. Season 2024-25 -> 2024) |
+| `date`      | Date of the game                            | Date      | YYYY-MM-DD (e.g. 2024-02-01)               | Game-level   | Only includes games in the regular season (no play-offs)     |
+| `league`    | League Identifier                           | String    | Abbreviation of the league name (e.g. MLB) | League-level | We will study 3 US Leagues in this project (MLB, NBA, NFL)   |
+| `team1`     | The first team in the game                  | String    | Abbreviation of the team name (e.g. SEA)   | Game-level   | The first team is always the **Home** team                   |
+| `team2`     | The second team in the game                 | String    | Abbreviation of the team name (e.g. SEA)   | Game-level   | The first team is always the **Away** team                   |
+| `result`    | The result of the game, based on the scores | Integer   | {1, 0, -1}                                 | Game-level   | 1 means the **home** team wins, -1 means the **away** team wins, 0 means there is a **tie** |
+| `score1`    | The score of the first team                 | Integer   | Non-negative                               | Game-level   | The score of the **Home** team                               |
+| `score2`    | The score of the second team                | Integer   | Non-negative                               | Game-level   | The score of the **Away** team                               |
+| `home_away` | Indicator of if `team1` is **Home**         | Integer   | {0, 1}                                     | Game-level   | 1 means `team1` is home, 0 means `team` is not home.         |
+
+### 0.2 Data Dictionary for end-of-season rankings
+
+For **all** end of seasons rankings datasets in `us_league`, we have the same columns, as shown below:
+
 | Variable    | Description                                 | Data Type | Coding Conventions                       | Periodicity  | Notes                                                        |
 | ----------- | ------------------------------------------- | --------- | ---------------------------------------- | ------------ | ------------------------------------------------------------ |
+| `league`    | Identifies which sports league         | String   | (e.g. NFL, MLB, NBA)                         | League-level | Uses standard league codes like NBA, MLB, NFL |
 | `season`    | Year of the season                          | Integer   | YYYY (e.g. 2024)                         | Season-level | If a season crosses 2 years, then use the first year. (e.g. Season 2024-25 -> 2024) |
-| `date`      | Date of the game                            | Date      | YYYY-MM-DD (e.g. 2024-02-01)             | Game-level   | Only includes games in the regular season (no play-offs)     |
-| `team1`     | The first team in the game                  | String    | Abbreviation of the team name (e.g. SEA) | Game-level   | The first team is always the **Home** team                   |
-| `team2`     | The second team in the game                 | String    | Abbreviation of the team name (e.g. SEA) | Game-level   | The first team is always the **Away** team                   |
-| `result`    | The result of the game, based on the scores | Integer   | {0, 1, 3}                                | Game-level   | 3 means the **home** team wins, 0 means the **away** team wins, 1 means there is a **tie** |
-| `score1`    | The score of the first team                 | Integer   | Non-negative                             | Game-level   | The score of the **Home** team                               |
-| `score2`    | The score of the second team                | Integer   | Non-negative                             | Game-level   | The score of the **Away** team                               |
-| `home_away` | Indicator of if `team1` is **Home**         | Integer   | {0, 1}                                   | Game-level   | 1 means `team1` is home, 0 means `team` is not home.         |
+| `team_id`    | Team identifier                        | String  | Abbreviation of the team name (e.g. SEA)   | Season-level | Identifies how the team preformed |
+| `games_played`    | Total number of games played by the team                       | Integer | Non-negative   | Season-level | Regular season games only |
+| `wins`    | Total number of games won by the team                       | Integer | Non-negative   | Season-level | Counts number of games where team won |
+| `losses`    | Total number of games lost by the team                       | Integer | Non-negative   | Season-level | Counts number of games where team lost |
+| `ties`    | Total number of games tied by the team                       | Integer | Non-negative   | Season-level | Counts number of games where team tied |
+| `win_pct`    | Win percentage of the team                       | Float | 0.0 to 1.0  | Season-level | Calculated as (wins + 0.5 * ties) / games_played |
+| `points_for`    | Total points scored by the team                       | Integer | Non-negative  | Season-level | Sum of all points scored across season by team |
+| `points_against`    | Total points scored against the team                       | Integer | Non-negative  | Season-level | Sum of all points scored against team across season|
+| `point_diff`    | Point differentail                      | Integer | can be negative  | Season-level | Calculated as points_for - points_against|
+| `rank`    | Teams ranking within the league season                   | Integer | non-negative  | Season-level | Ranked by win_pct (desc), then point_diff (desc), then team_id (desc). (1 is best rank)|
+
 
 ## 1 MLB Data
 
@@ -68,6 +93,9 @@ Descriptive statistics of **scores**:
 | **Q3**                | 6.000    | 6.000    |
 | **Max**               | 29.000   | 30.000   |
 | **IQR**               | 4.000    | 4.000    |
+
+![](../../output/us_leagues/figures/points_distributions/mlb_1.png)
+![](../../output/us_leagues/figures/points_distributions/mlb_2.png)
 
 Descriptive statistics of **results**:
 
@@ -125,6 +153,10 @@ Descriptive statistics of **scores**:
 | **Max**               | 184.000  | 186.000  |
 | **IQR**               | 19.000   | 18.000   |
 
+![](../../output/us_leagues/figures/points_distributions/nba_1.png)
+![](../../output/us_leagues/figures/points_distributions/nba_2.png)
+
+
 Descriptive statistics of **results**:
 
 | Result             | Count | Proportion (%) |
@@ -180,6 +212,9 @@ Descriptive statistics of **scores**:
 | **Q3**                | 29.000   | 27.000   | 28.000  |
 | **Max**               | 72.000   | 62.000   | 72.000  |
 | **IQR**               | 14.000   | 14.000   | 14.000  |
+
+![](../../output/us_leagues/figures/points_distributions/nfl_1.png)
+![](../../output/us_leagues/figures/points_distributions/nfl_2.png)
 
 Descriptive statistics of **results**:
 
