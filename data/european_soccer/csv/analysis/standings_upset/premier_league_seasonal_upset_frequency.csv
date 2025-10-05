@@ -1,0 +1,23 @@
+,league,season,upset_frequency,total_predictions,total_upsets,accuracy,non_draw_matches
+0,Premier League,2001,0.28,380,78,0.529,279
+1,Premier League,2002,0.293,380,85,0.539,290
+2,Premier League,2005,0.244,380,74,0.603,303
+3,Premier League,2006,0.305,380,86,0.516,282
+4,Premier League,2007,0.225,380,63,0.571,280
+5,Premier League,2008,0.254,380,72,0.555,283
+6,Premier League,2009,0.243,380,69,0.566,284
+7,Premier League,2010,0.346,380,93,0.463,269
+8,Premier League,2011,0.293,380,84,0.534,287
+9,Premier League,2012,0.272,380,74,0.521,272
+10,Premier League,2013,0.255,380,77,0.592,302
+11,Premier League,2014,0.314,380,90,0.518,287
+12,Premier League,2015,0.297,380,81,0.505,273
+13,Premier League,2016,0.243,380,72,0.589,296
+14,Premier League,2017,0.256,380,72,0.55,281
+15,Premier League,2018,0.252,380,78,0.608,309
+16,Premier League,2019,0.264,380,76,0.558,288
+17,Premier League,2020,0.3,380,89,0.547,297
+18,Premier League,2021,0.26,380,76,0.568,292
+19,Premier League,2022,0.27,380,79,0.563,293
+20,Premier League,2023,0.275,380,82,0.568,298
+21,Premier League,2024,0.261,380,75,0.558,287
