@@ -112,6 +112,7 @@ For each league and season:
 
 ## Folder layout
 
+```text
 analysis/
 ├── betting_upset/
 │   ├── bundesliga_seasonal_upset_frequency.csv
@@ -124,6 +125,7 @@ analysis/
 │   └── serie_a_team_upset_frequency.csv
 ├── standings_upset/
 │   └── (same filenames & schemas as above, computed with the standings predictor)
+```
 
 ---
 
