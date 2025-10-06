@@ -114,16 +114,16 @@ For each league and season:
 
 analysis/
 ├── betting_upset/
-│ ├── bundesliga_seasonal_upset_frequency.csv
-│ ├── bundesliga_team_upset_frequency.csv
-│ ├── la_liga_seasonal_upset_frequency.csv
-│ ├── la_liga_team_upset_frequency.csv
-│ ├── premier_league_seasonal_upset_frequency.csv
-│ ├── premier_league_team_upset_frequency.csv
-│ ├── serie_a_seasonal_upset_frequency.csv
-│ └── serie_a_team_upset_frequency.csv
+│   ├── bundesliga_seasonal_upset_frequency.csv
+│   ├── bundesliga_team_upset_frequency.csv
+│   ├── la_liga_seasonal_upset_frequency.csv
+│   ├── la_liga_team_upset_frequency.csv
+│   ├── premier_league_seasonal_upset_frequency.csv
+│   ├── premier_league_team_upset_frequency.csv
+│   ├── serie_a_seasonal_upset_frequency.csv
+│   └── serie_a_team_upset_frequency.csv
 ├── standings_upset/
-│ └── (same filenames & schemas as above, computed with the standings predictor)
+│   └── (same filenames & schemas as above, computed with the standings predictor)
 
 ---
 
