@@ -19,7 +19,7 @@ This folder stores the code we wrote to process and analyze the data.
 - `simulated_leagues.ipynb` — Monte Carlo simulations to estimate upset likelihood under random draws vs strength-based outcomes.
 - `recalculate_upsets.py` — Script version of the upset-frequency pipeline that regenerates CSVs and figures headlessly.
 
-## In Depth Step by Step Walkthrough of Each Code File
+## File Descriptions
 
 ### cleaning.ipynb
 1. Download the upstream `Original_Matches.csv` / `Original_EloRatings.csv`.
