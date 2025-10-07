@@ -1,5 +1,12 @@
 # Predictive Persistence (NBA / NFL / MLB)
+## Main Conclusions:
+- **NBA**: The first-half win percentage is a pretty good predictor of second-half win percentage across seasons, since the NBA data plot is tight and diagonally alligned.
 
+-  **MLB**: The MLB points form a compact oval around .500 with a less harsh diagonal, meaning first-half win percentage is a predictor of second-half win percentage, but weaker than it is for the NBA. The strong pull towards .500 also means that extremely poor or extremely high-performing teams in the first-half tend to perform more average in the second half. 
+ 
+-  **NFL**: The first-half win percentage tells you very little about the second-half win percentage, which could be because there are fewer games per season. 
+
+## Deeper Explanation
 
 ## What the graphs show
 
