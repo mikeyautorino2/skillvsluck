@@ -8,86 +8,73 @@ This folder stores the code we wrote to process and analyze the data.
 
 ## Files in this folder
 
-- `cleaning.ipynb` — Cleaning and retrieving the soccer data from the GitHub source.
-- `descriptive_statistics.ipynb` — Exploratory data analysis of the soccer data we collected.
-- `end_of_season_tables.ipynb`  — Finding the standings of each team within each league and season. 
-- `extract_teams.py`  — Creating a dictionary of full team names and their abbreviated names.
-- `master_team_names_cleaning.ipynb`  — Finalizing the abbreviated team names, making sure there are no duplicates and abbreviations are unique
-- `upset_frequencies.ipynb`  — Match result simulations based on rankings and betting odds
+- `cleaning.ipynb` — Pull raw match/elo CSVs from the upstream GitHub project and standardize columns.
+- `descriptive_statistics_new.ipynb` — Exploratory data analysis on the standardized match tables.
+- `end_of_season_tables.ipynb` — Build prior-season standings tables (points, ranks, etc.) per league.
+- `extract_teams.py` — Map full club names to short codes and export team-season lookup tables.
+- `master_team_names_cleaning.ipynb` — Consolidate naming variations, enforce unique abbreviations, update `master_team_names.csv`.
+- `seriea_cleaning.ipynb` — League-specific cleanup for Serie A before export to the processed folder.
+- `upset_frequency.ipynb` — Compute league/season/team upset metrics using betting odds or standings predictors with draws worth 0.5 upsets.
+- `correlations.ipynb` — Compare first-half vs second-half points/goals splits to quantify persistence.
+- `simulated_leagues.ipynb` — Monte Carlo simulations to estimate upset likelihood under random draws vs strength-based outcomes.
+- `recalculate_upsets.py` — Script version of the upset-frequency pipeline that regenerates CSVs and figures headlessly.
 
 ## In Depth Step by Step Walkthrough of Each Code File
 
 ### cleaning.ipynb
-<!-- add step by step -->
+1. Download the upstream `Original_Matches.csv` / `Original_EloRatings.csv`.
+2. Filter to the four target European leagues and rename columns into the unified schema.
+3. Persist cleaned per-league tables to `csv/processed/`.
 
 ---
 
-### descriptive_statistics.ipynb
-<!-- add step by step -->
+### descriptive_statistics_new.ipynb
+1. Load each processed league table into pandas.
+2. Generate distribution plots (goals, points, odds) and basic summary tables.
+3. Export selected figures to `output/european_soccer/figures/descriptive_statistics/`.
 
 ---
 
 ### end_of_season_tables.ipynb
-<!-- add step by step -->
+1. Aggregate match-level results into season-level standings (points, wins, draws, losses, goal stats).
+2. Rank clubs within each league-season and compute tie-break columns.
+3. Save per-league standings to `csv/auxiliary/*_standings_all_seasons.csv`.
+
+---
+
+### extract_teams.py
+1. Read the processed match tables for each league.
+2. Standardize club abbreviations via the `create_standardized_name` helper.
+3. Emit `[league]_teams.csv` with season/team/abbreviation info (used by downstream analyses).
 
 ---
 
 ### master_team_names_cleaning.ipynb
-<!-- add step by step -->
+1. Combine multiple team lists (processed matches, manual mappings).
+2. Resolve duplicates or conflicting abbreviations.
+3. Write the curated `master_team_names.csv` used by visualization layers.
 
 ---
 
-### upset_frequencies.ipynb
-<!-- add step by step -->
+### seriea_cleaning.ipynb
+1. Apply Serie A–specific fixes (date parsing, name corrections).
+2. Align schema to the shared processed format.
+3. Overwrite `serie_a_std.csv` with the cleaned output.
 
 ---
 
-### correlation.ipynb
-# Step-by-Step Summary of the Code
+### upset_frequency.ipynb
+1. Define reusable predictors: season-ranking vs Bet365 odds.
+2. Compute upset metrics where draws contribute 0.5 toward the upset tally.
+3. Aggregate by league, season, and team for both predictors and emit plots/CSVs.
+4. Produce comparison charts (line + box/whisker) for betting vs standings predictors.
 
-## 1. Load All League Data
-- The code starts by calling `load_all_league_data()`, which reads match data and standings for multiple soccer leagues: Premier League, Serie A, Bundesliga, and La Liga.
-- The data is stored in two dictionaries:
-  - `league_data` → match information per league
-  - `standings_data` → team standings per league
+---
 
-## 2. Prepare for Results Collection
-- An empty list `results` is created to store the calculated statistics for every team, season, and league.
+### correlations.ipynb
+1. Build first-half vs second-half splits for each team-season.
+2. Calculate correlation coefficients to assess performance persistence.
+3. Export the consolidated metrics to `csv/analysis/correlation_metrics.csv`.
 
-## 3. Define a Helper Function to Calculate Total Points/Goals
-- `goal_calculation(team, games)` takes a subset of matches for a team and calculates:
-  - Points/goals scored in home matches
-  - Points/goals scored in away matches
-- Returns the total points/goals for that subset of matches.
+---
 
-## 4. Define a Function to Compute First-Half and Second-Half Totals
-- `correlation(team, season, matches_played)` performs the following steps:
-  1. Filters the DataFrame to include only matches for the given team in the given season.
-  2. Sorts matches by date to ensure chronological order.
-  3. Splits the season into first half and second half using the midpoint of the total number of matches.
-  4. Calls `goal_calculation()` on each half to compute total points/goals.
-  5. Returns a dictionary containing:
-     - `team`
-     - `season`
-     - `first_half_goals`
-     - `second_half_goals`
-
-## 5. Loop Through Every League
-- For each league in `league_data`:
-  - Extract the matches DataFrame.
-  - Create a set of unique `(season, home_team)` pairs so that each team-season combination is processed exactly once.
-
-## 6. Loop Through Every Team-Season Pair
-- For each `(season, team)` pair:
-  1. Call `correlation()` to calculate first-half and second-half points/goals.
-  2. Add the league information to the result dictionary.
-  3. Append the dictionary to the `results` list.
-
-## 7. Convert Results to a DataFrame
-- After processing all leagues, teams, and seasons:
-  - Convert the `results` list of dictionaries into a pandas DataFrame called `allleagues`.
-  - Sort the DataFrame by `league`, `season`, and `team` for easier reading and analysis.
-
-## 8. Export the Results
-- Save the DataFrame to `correlation_metrics.csv`.
-- The CSV contains all teams, seasons, leagues, and their first-half and second-half totals.
