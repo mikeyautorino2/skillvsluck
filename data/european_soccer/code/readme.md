@@ -16,7 +16,7 @@ This folder stores the code we wrote to process and analyze the data.
 - `seriea_cleaning.ipynb` — League-specific cleanup for Serie A before export to the processed folder.
 - `upset_frequency.ipynb` — Compute league/season/team upset metrics using betting odds or standings predictors with draws worth 0.5 upsets.
 - `correlations.ipynb` — Compare first-half vs second-half points/goals splits to quantify persistence.
-- `simulated_leagues.ipynb` — Monte Carlo simulations to estimate upset likelihood under random draws vs strength-based outcomes.
+- `simulated_leagues.ipynb` — Simulations to estimate upset likelihood under random draws vs strength-based outcomes.
 - `recalculate_upsets.py` — Script version of the upset-frequency pipeline that regenerates CSVs and figures headlessly.
 
 ## File Descriptions
