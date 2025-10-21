@@ -6,6 +6,24 @@
  
 -  **NFL**: The first-half win percentage tells you very little about the second-half win percentage, which could be because there are fewer games per season. 
 
+# Coin-Flip Season Simulations 
+
+## Key conclusions (all figures)
+1. **No predictive power between halves.**  
+   Across leagues and for both p = 0.5 and p = 0.7, first-half records do not predict second-half records. Points form a symmetric cloud around the diagonal; the correlation distributions center near ρ = 0.
+
+
+2. **A biased coin doesn’t create correlation.**  
+   With p = 0.7, home teams win more on average in both halves, so the cloud is centered at a higher win%. But the halves remain independent, so ρ still concentrates near 0. A shared bias shifts the mean, not the relationship.
+
+---
+
+
+## How to read the visuals
+- **Scatterplots:** A cloud around y = x with no slope → independence
+- **ρ histograms:** Centered near 0 → no relationship
+
+
 ## Deeper Explanation
 
 ## What the graphs show
