@@ -1,5 +1,30 @@
 # Predictive Persistence (NBA / NFL / MLB)
+## Main Conclusions:
+- **NBA**: The first-half win percentage is a pretty good predictor of second-half win percentage across seasons, since the NBA data plot is tight and diagonally alligned.
 
+-  **MLB**: The MLB points form a compact oval around .500 with a less harsh diagonal, meaning first-half win percentage is a predictor of second-half win percentage, but weaker than it is for the NBA. The strong pull towards .500 also means that extremely poor or extremely high-performing teams in the first-half tend to perform more average in the second half. 
+ 
+-  **NFL**: The first-half win percentage tells you very little about the second-half win percentage, which could be because there are fewer games per season. 
+
+# Coin-Flip Season Simulations 
+
+## Key conclusions (all figures)
+1. **No predictive power between halves.**  
+   Across leagues and for both p = 0.5 and p = 0.7, first-half records do not predict second-half records. Points form a symmetric cloud around the diagonal; the correlation distributions center near ρ = 0.
+
+
+2. **A biased coin doesn’t create correlation.**  
+   With p = 0.7, home teams win more on average in both halves, so the cloud is centered at a higher win%. But the halves remain independent, so ρ still concentrates near 0. A shared bias shifts the mean, not the relationship.
+
+---
+
+
+## How to read the visuals
+- **Scatterplots:** A cloud around y = x with no slope → independence
+- **ρ histograms:** Centered near 0 → no relationship
+
+
+## Deeper Explanation
 
 ## What the graphs show
 
