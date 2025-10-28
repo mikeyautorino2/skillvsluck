@@ -234,3 +234,31 @@ Table 4 which focuses on the result shows that the home team ends up winning 56.
 **Data source:** NFL dataset (nfl data.csv).
 
 This dataset contains data collected and cleaned from NFL dataset from Kaggle on September 7, 2025.
+
+
+
+## 4 Simulations 
+
+### 4.1 Coin-Flip Model (Pure-Luck)
+
+In this simulation we are simulating the result of each existing games by a Bernoulli distribution random number generator:
+
+$$P(result= 1) = 0.5 + \alpha$$
+
+$$P(result= 0) = 0.5 - \alpha$$
+
+Where $\alpha$  controls the **home advantage**.
+
+The files ending with `_coin_filp_0.5` represents the simulation of the coin-flip model with **NO** home advantage; the files ending with `_coin_filp_0.7` represents the simulation of the coin-flip model with **SOME** home advantage ($\alpha=0.2$).
+
+
+
+### 4.2 Pure-Skill Model
+
+In this simulation we are simulating the result of each existing games according to the rankings of the teams in the **PREVIOUS** season. Our simulation starts on the **second earliest** season of each league.
+
+If there is a team that is not participated in the previous season, we have 2 ways to "assign" a rank
+
+**Way 1: Assign the worst rank: ** We assign a team that is not participated in the previous season the worst rank. The results are in the files ending in `_pure_skill_worst`.
+
+**Way 2: Assign the middle rank: ** We assign a team that is not participated in the previous season the "middle" rank (the number of teams divided by 2). The results are in the files ending in `_pure_skill_middle`.
