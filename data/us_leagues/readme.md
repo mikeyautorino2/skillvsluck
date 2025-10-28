@@ -261,4 +261,4 @@ If there is a team that is not participated in the previous season, we have 2 wa
 
 **Way 1: Assign the worst rank: ** We assign a team that is not participated in the previous season the worst rank. The results are in the files ending in `_pure_skill_worst`.
 
-**Way 2: Assign the middle rank: ** We assign a team that is not participated in the previous season the "middle" rank ($\lfloor{\#teams }/{ 2}\rfloor$). The results are in the files ending in `_pure_skill_middle`.
+**Way 2: Assign the middle rank: ** We assign a team that is not participated in the previous season the "middle" rank (the number of teams divided by 2). The results are in the files ending in `_pure_skill_middle`.
