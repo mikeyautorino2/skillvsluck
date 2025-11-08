@@ -6,17 +6,7 @@
  
 -  **NFL**: The first-half win percentage tells you very little about the second-half win percentage, which could be because there are fewer games per season. 
 
-# Coin-Flip Season Simulations 
-
-## Key conclusions (all figures)
-1. **No predictive power between halves.**  
-   Across leagues and for both p = 0.5 and p = 0.7, first-half records do not predict second-half records. Points form a symmetric cloud around the diagonal; the correlation distributions center near ρ = 0.
-
-
-2. **A biased coin doesn’t create correlation.**  
-   With p = 0.7, home teams win more on average in both halves, so the cloud is centered at a higher win%. But the halves remain independent, so ρ still concentrates near 0. A shared bias shifts the mean, not the relationship.
-
----
+- Across **pure luck leagues**, first-half performance does not predict second-half performance. 
 
 
 ## How to read the visuals
@@ -97,11 +87,10 @@ We compute one **Spearman r** per season (comparing teams’ first-half and seco
 
 ## How to run
 
-1. Place your league dataset CSV in the files of the google colab notebook:  
+1. Place your league dataset CSV in the files of the google colab notebook for the datatype you want. Put them in mnt/data.
    - `nba_data.csv`  
    - `nfl_data.csv`  
    - `mlb_data.csv`
 
-2. In the script, set:
-   ```python
-   DATA_PATH = 'nba_data.csv'   # or 'nfl_data.csv', 'mlb_data.csv'
+2. Run the Spearman code (first code block) three times: once with league = nba, and then nfl, and then mlb.
+3. Run the second code block and obtain your first half versus second half win percentage CSV, and your spearman csv for that data type and all leagues.
