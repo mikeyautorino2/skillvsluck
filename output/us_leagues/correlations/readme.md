@@ -6,7 +6,7 @@
  
 -  **NFL**: The first-half win percentage tells you very little about the second-half win percentage, which could be because there are fewer games per season. 
 
-- Across **pure luck leagues**, first-half records do not predict second-half records. 
+- Across **pure luck leagues**, first-half performance does not predict second-half performance. 
 
 
 ## How to read the visuals
