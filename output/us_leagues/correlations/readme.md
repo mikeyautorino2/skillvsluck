@@ -6,12 +6,7 @@
  
 -  **NFL**: The first-half win percentage tells you very little about the second-half win percentage, which could be because there are fewer games per season. 
 
-# Pure Luck Simulations
-
-**No predictive power between halves.**  
-   Across pure luck leagues, first-half records do not predict second-half records. 
-
----
+- Across **pure luck leagues**, first-half records do not predict second-half records. 
 
 
 ## How to read the visuals
