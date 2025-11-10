@@ -1,0 +1,5 @@
+league,matches_total,home_wins,draws,away_wins,home_win_with_draws,home_win_pct
+bundesliga,6426,2883,1601,1942,3416.666667,53.17
+la_liga,8740,4105,2199,2436,4838.0,55.35
+premier_league,8360,3826,2028,2506,4502.0,53.85
+serie_a,8518,3811,2278,2429,4570.333333,53.66
