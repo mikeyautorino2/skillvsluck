@@ -42,5 +42,5 @@ Interpretation of \(q\):
 
 ## Outputs
 
-- A CSV with columns: `sport`, `season`, `metric_name`, `metric_real`, `metric_skill`, `metric_luck`, `q_skill`, `luck_share`.  
+- A CSV with columns: `sport`, `season`, `team`, `metric_name`, `metric_real`, `metric_skill`, `metric_luck`, `q_skill`, `luck_share`.  
 - Visualizations (bar charts) showing how the skill share \(q\) varies by league and season.
