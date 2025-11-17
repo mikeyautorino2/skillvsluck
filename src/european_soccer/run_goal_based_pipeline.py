@@ -256,9 +256,146 @@ def upset_stats(truth: pd.Series, preds: pd.Series) -> dict:
     }
 
 
+def aggregate_upset_overall(per_seed_df: pd.DataFrame) -> pd.DataFrame:
+    """Pivot per-seed overall upset data into one wide frame."""
+    if per_seed_df.empty:
+        return pd.DataFrame(columns=["league", "total_matches", "total_upsets_avg", "upset_frequency_avg"])
+
+    seeds = sorted(per_seed_df["seed"].unique())
+    rows: list[dict[str, float | int | str]] = []
+    for league, grp in per_seed_df.groupby("league"):
+        row: dict[str, float | int | str] = {"league": league}
+        matches = grp["total_matches"].dropna()
+        row["total_matches"] = int(matches.iloc[0]) if not matches.empty else 0
+        for seed in seeds:
+            sub = grp[grp["seed"] == seed]
+            if sub.empty:
+                continue
+            row[f"total_upsets_seed_{int(seed)}"] = float(sub["total_upsets"].iloc[0])
+            row[f"upset_frequency_seed_{int(seed)}"] = float(sub["upset_frequency"].iloc[0])
+        row["total_upsets_avg"] = float(grp["total_upsets"].mean())
+        row["upset_frequency_avg"] = float(grp["upset_frequency"].mean())
+        rows.append(row)
+
+    ordered_cols = ["league", "total_matches"]
+    for seed in seeds:
+        ordered_cols.append(f"total_upsets_seed_{int(seed)}")
+        ordered_cols.append(f"upset_frequency_seed_{int(seed)}")
+    ordered_cols.extend(["total_upsets_avg", "upset_frequency_avg"])
+    wide = pd.DataFrame(rows)
+    return wide[ordered_cols].sort_values("league").reset_index(drop=True)
+
+
+def aggregate_upset_seasonal(per_seed_df: pd.DataFrame) -> pd.DataFrame:
+    """Pivot per-seed seasonal upset data into one wide frame."""
+    if per_seed_df.empty:
+        return pd.DataFrame(
+            columns=["league", "season", "total_matches", "total_upsets_avg", "upset_frequency_avg"]
+        )
+
+    seeds = sorted(per_seed_df["seed"].unique())
+    rows: list[dict[str, float | int | str]] = []
+    for (league, season), grp in per_seed_df.groupby(["league", "season"]):
+        row: dict[str, float | int | str] = {"league": league, "season": int(season)}
+        matches = grp["total_matches"].dropna()
+        row["total_matches"] = int(matches.iloc[0]) if not matches.empty else 0
+        for seed in seeds:
+            sub = grp[grp["seed"] == seed]
+            if sub.empty:
+                continue
+            row[f"total_upsets_seed_{int(seed)}"] = float(sub["total_upsets"].iloc[0])
+            row[f"upset_frequency_seed_{int(seed)}"] = float(sub["upset_frequency"].iloc[0])
+        row["total_upsets_avg"] = float(grp["total_upsets"].mean())
+        row["upset_frequency_avg"] = float(grp["upset_frequency"].mean())
+        rows.append(row)
+
+    ordered_cols = ["league", "season", "total_matches"]
+    for seed in seeds:
+        ordered_cols.append(f"total_upsets_seed_{int(seed)}")
+        ordered_cols.append(f"upset_frequency_seed_{int(seed)}")
+    ordered_cols.extend(["total_upsets_avg", "upset_frequency_avg"])
+    wide = pd.DataFrame(rows)
+    return wide[ordered_cols].sort_values(["league", "season"]).reset_index(drop=True)
+
+
+def save_upset_frequency_plots(overall_df: pd.DataFrame, seasonal_df: pd.DataFrame) -> None:
+    """Persist the aggregate upset plots using the average columns."""
+    if overall_df.empty or seasonal_df.empty:
+        return
+
+    sns.set_theme(style="whitegrid")
+
+    fig, ax = plt.subplots(figsize=(8, 5))
+    sns.barplot(
+        data=overall_df,
+        x="league",
+        y="upset_frequency_avg",
+        hue="league",
+        palette=PALETTE,
+        dodge=False,
+        legend=False,
+        ax=ax,
+    )
+    ax.set_ylabel("Upset Frequency")
+    ax.set_xlabel("")
+    ax.set_ylim(0, 0.6)
+    fig.tight_layout()
+    fig.savefig(UPSET_OUTPUT_DIR / "upset_frequency_by_league_totals_avg.png", dpi=300)
+    plt.close(fig)
+
+    fig, ax = plt.subplots(figsize=(11, 6))
+    sns.lineplot(
+        data=seasonal_df,
+        x="season",
+        y="upset_frequency_avg",
+        hue="league",
+        palette=PALETTE,
+        marker="o",
+        ax=ax,
+    )
+    ax.set_ylabel("Upset Frequency")
+    ax.set_xlabel("Season")
+    ax.set_ylim(0, 0.6)
+    ax.legend(title="League")
+    fig.tight_layout()
+    fig.savefig(UPSET_OUTPUT_DIR / "upset_frequency_by_season_all_leagues_avg.png", dpi=300)
+    plt.close(fig)
+
+    fig, ax = plt.subplots(figsize=(8, 6))
+    sns.boxplot(
+        data=seasonal_df,
+        x="league",
+        y="upset_frequency_avg",
+        hue="league",
+        palette=PALETTE,
+        dodge=False,
+        legend=False,
+        ax=ax,
+    )
+    ax.set_xlabel("")
+    ax.set_ylabel("Upset Frequency")
+    ax.set_ylim(0, 0.6)
+    fig.tight_layout()
+    fig.savefig(UPSET_OUTPUT_DIR / "upset_frequency_boxplot_by_league_avg.png", dpi=300)
+    plt.close(fig)
+
+
 def generate_upset_outputs(league_dfs: Dict[str, pd.DataFrame]) -> None:
-    """Write CSV summaries + PNGs per seed."""
+    """Write combined upset summaries and plots."""
     UPSET_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    for pattern in (
+        "overall_upset_frequency_summary_seed_*.csv",
+        "season_upset_frequency_summary_seed_*.csv",
+        "avg_upset_frequency_by_league_seed_*.png",
+        "upset_frequency_by_season_seed_*.png",
+        "upset_frequency_boxplot_by_league_seed_*.png",
+    ):
+        for stale in UPSET_OUTPUT_DIR.glob(pattern):
+            stale.unlink(missing_ok=True)
+
+    per_seed_overall = []
+    per_seed_seasonal = []
 
     for seed_idx in range(1, NUM_SIM_RUNS + 1):
         seed_col = f"simulated_home_team_result_seed_{seed_idx}"
@@ -277,67 +414,22 @@ def generate_upset_outputs(league_dfs: Dict[str, pd.DataFrame]) -> None:
 
         overall_df = pd.DataFrame(overall_rows).sort_values("league")
         seasonal_df = pd.DataFrame(seasonal_rows).sort_values(["league", "season"])
+        overall_df["seed"] = seed_idx
+        seasonal_df["seed"] = seed_idx
+        per_seed_overall.append(overall_df)
+        per_seed_seasonal.append(seasonal_df)
 
-        overall_fp = UPSET_OUTPUT_DIR / f"overall_upset_frequency_summary_seed_{seed_idx}.csv"
-        seasonal_fp = UPSET_OUTPUT_DIR / f"season_upset_frequency_summary_seed_{seed_idx}.csv"
-        overall_df.to_csv(overall_fp, index=False)
-        seasonal_df.to_csv(seasonal_fp, index=False)
+    if not per_seed_overall or not per_seed_seasonal:
+        return
 
-        # Charts
-        sns.set_theme(style="whitegrid")
-        fig, ax = plt.subplots(figsize=(8, 5))
-        sns.barplot(
-            data=overall_df,
-            x="league",
-            y="upset_frequency",
-            hue="league",
-            palette=PALETTE,
-            dodge=False,
-            ax=ax,
-            legend=False,
-        )
-        ax.set_ylabel("Upset Frequency")
-        ax.set_xlabel("")
-        ax.set_ylim(0, 0.6)
-        fig.tight_layout()
-        fig.savefig(UPSET_OUTPUT_DIR / f"avg_upset_frequency_by_league_seed_{seed_idx}.png", dpi=300)
-        plt.close(fig)
+    combined_overall = pd.concat(per_seed_overall, ignore_index=True)
+    combined_seasonal = pd.concat(per_seed_seasonal, ignore_index=True)
+    league_summary = aggregate_upset_overall(combined_overall)
+    season_summary = aggregate_upset_seasonal(combined_seasonal)
 
-        fig, ax = plt.subplots(figsize=(11, 6))
-        sns.lineplot(
-            data=seasonal_df,
-            x="season",
-            y="upset_frequency",
-            hue="league",
-            palette=PALETTE,
-            marker="o",
-            ax=ax,
-        )
-        ax.set_ylabel("Upset Frequency")
-        ax.set_xlabel("Season")
-        ax.set_ylim(0, 0.6)
-        ax.legend(title="League")
-        fig.tight_layout()
-        fig.savefig(UPSET_OUTPUT_DIR / f"upset_frequency_by_season_seed_{seed_idx}.png", dpi=300)
-        plt.close(fig)
-
-        fig, ax = plt.subplots(figsize=(8, 6))
-        sns.boxplot(
-            data=seasonal_df,
-            x="league",
-            y="upset_frequency",
-            hue="league",
-            palette=PALETTE,
-            ax=ax,
-            dodge=False,
-            legend=False,
-        )
-        ax.set_xlabel("")
-        ax.set_ylabel("Upset Frequency")
-        ax.set_ylim(0, 0.6)
-        fig.tight_layout()
-        fig.savefig(UPSET_OUTPUT_DIR / f"upset_frequency_boxplot_by_league_seed_{seed_idx}.png", dpi=300)
-        plt.close(fig)
+    league_summary.to_csv(UPSET_OUTPUT_DIR / "league_upset_frequency_summary_all_seeds.csv", index=False)
+    season_summary.to_csv(UPSET_OUTPUT_DIR / "season_upset_frequency_summary_all_seeds.csv", index=False)
+    save_upset_frequency_plots(league_summary, season_summary)
 
 
 # -----------------------------------------------------------------------------
