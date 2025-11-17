@@ -1,4 +1,4 @@
-league,season,date,home_team,away_team,actual_home_team_result,skilled_league_home_team_result
+league,season,date,home_team,away_team,actual_home_team_result,hometeamresult
 Bundesliga,2004,2004-08-06,WERB,SCH,1,-1
 Bundesliga,2004,2004-08-07,DOR,WOB,-1,1
 Bundesliga,2004,2004-08-07,FRE,HANR,0,-1
