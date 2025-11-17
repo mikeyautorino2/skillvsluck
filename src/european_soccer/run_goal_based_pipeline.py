@@ -435,64 +435,92 @@ def correlation_summaries(team_halves: pd.DataFrame) -> tuple[pd.DataFrame, pd.D
     return overall_df, seasonal_df
 
 
+def reshape_halves_by_seed(team_halves: pd.DataFrame) -> pd.DataFrame:
+    """Pivot the per-seed halves data into a single wide CSV."""
+    if team_halves.empty:
+        return pd.DataFrame(
+            columns=["league", "season", "team", "first_half_win_pct_avg", "second_half_win_pct_avg"]
+        )
+
+    seeds = sorted(team_halves["seed"].unique())
+    rows: list[dict[str, float | int | str]] = []
+    for (league, season, team), grp in team_halves.groupby(["league", "season", "team"]):
+        row: dict[str, float | int | str] = {"league": league, "season": int(season), "team": team}
+        grp = grp.sort_values("seed")
+        for seed in seeds:
+            sub = grp[grp["seed"] == seed]
+            if sub.empty:
+                continue
+            row[f"first_half_win_pct_seed_{int(seed)}"] = float(sub["first_half_win_pct"].iloc[0])
+            row[f"second_half_win_pct_seed_{int(seed)}"] = float(sub["second_half_win_pct"].iloc[0])
+
+        row["first_half_win_pct_avg"] = float(grp["first_half_win_pct"].mean())
+        row["second_half_win_pct_avg"] = float(grp["second_half_win_pct"].mean())
+        rows.append(row)
+
+    wide = pd.DataFrame(rows)
+    ordered_cols = ["league", "season", "team"]
+    for seed in seeds:
+        ordered_cols.append(f"first_half_win_pct_seed_{int(seed)}")
+        ordered_cols.append(f"second_half_win_pct_seed_{int(seed)}")
+    ordered_cols.extend(["first_half_win_pct_avg", "second_half_win_pct_avg"])
+    return wide[ordered_cols].sort_values(["league", "season", "team"]).reset_index(drop=True)
+
+
+def save_league_avg_plots(all_seed_df: pd.DataFrame) -> None:
+    """Create one scatter plot per league using the averaged win percentages."""
+    if all_seed_df.empty:
+        return
+
+    for league, grp in all_seed_df.groupby("league"):
+        if grp.empty:
+            continue
+        fig, ax = plt.subplots(figsize=(6, 6))
+        sns.scatterplot(
+            data=grp,
+            x="first_half_win_pct_avg",
+            y="second_half_win_pct_avg",
+            ax=ax,
+        )
+        ax.plot([0, 1], [0, 1], color="black", linestyle="--", linewidth=1)
+        ax.set_xlim(0, 1)
+        ax.set_ylim(0, 1)
+        ax.set_xlabel("First-Half Win % (avg)")
+        ax.set_ylabel("Second-Half Win % (avg)")
+        ax.set_title(f"{league} Avg First vs Second Half Win%")
+        fig.tight_layout()
+        slug = league.lower().replace(" ", "_")
+        fig.savefig(CORR_OUTPUT_DIR / f"{slug}_first_second_win_pct_avg.png", dpi=300)
+        plt.close(fig)
+
+
 def generate_correlation_outputs(league_dfs: Dict[str, pd.DataFrame]) -> None:
     """Replicate the correlation bundle for the goals-based simulations."""
     CORR_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     per_seed_frames = []
 
     for seed_idx in range(1, NUM_SIM_RUNS + 1):
-        league_rows = []
         for key, df in league_dfs.items():
             league_pretty = LEAGUES[key].pretty
             halves = build_team_halves(df, seed_idx, league_pretty)
             if halves.empty:
                 continue
-            league_rows.append(halves)
-
-            league_fp = (
-                CORR_OUTPUT_DIR / f"{league_pretty.lower().replace(' ', '_')}_first_second_win_pct_seed_{seed_idx}.csv"
-            )
-            halves.to_csv(league_fp, index=False)
-
-            fig, ax = plt.subplots(figsize=(6, 6))
-            sns.scatterplot(
-                data=halves,
-                x="first_half_win_pct",
-                y="second_half_win_pct",
-                ax=ax,
-            )
-            ax.plot([0, 1], [0, 1], color="black", linestyle="--", linewidth=1)
-            ax.set_xlim(0, 1)
-            ax.set_ylim(0, 1)
-            ax.set_title(f"{league_pretty} Seed {seed_idx}")
-            ax.set_xlabel("First-Half Win %")
-            ax.set_ylabel("Second-Half Win %")
-            fig.tight_layout()
-            fig.savefig(
-                CORR_OUTPUT_DIR
-                / f"{league_pretty.lower().replace(' ', '_')}_first_second_win_pct_seed_{seed_idx}.png",
-                dpi=300,
-            )
-            plt.close(fig)
-
             per_seed_frames.append(halves)
-
-        if league_rows:
-            combined = pd.concat(league_rows, ignore_index=True)
-            combined.to_csv(
-                CORR_OUTPUT_DIR / f"all_leagues_first_second_win_pct_seed_{seed_idx}.csv",
-                index=False,
-            )
 
     if not per_seed_frames:
         return
 
     combined_all = pd.concat(per_seed_frames, ignore_index=True)
-    combined_all.to_csv(CORR_OUTPUT_DIR / "all_leagues_combined_with_seed.csv", index=False)
+    wide_df = reshape_halves_by_seed(combined_all)
+    wide_df.to_csv(CORR_OUTPUT_DIR / "first_second_win_pct_all_seeds.csv", index=False)
+    save_league_avg_plots(wide_df)
 
     overall_df, seasonal_df = correlation_summaries(combined_all)
-    overall_df.to_csv(CORR_OUTPUT_DIR / "overall_correlations_pure_luck.csv", index=False)
-    seasonal_df.to_csv(CORR_OUTPUT_DIR / "seasonal_correlations_pure_luck.csv", index=False)
+    overall_df.to_csv(CORR_OUTPUT_DIR / "spearman_first_second_by_league.csv", index=False)
+    seasonal_df.to_csv(
+        CORR_OUTPUT_DIR / "spearman_first_second_correlations_by_league_season.csv",
+        index=False,
+    )
 
 
 # -----------------------------------------------------------------------------
