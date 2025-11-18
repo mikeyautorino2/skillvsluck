@@ -65,16 +65,6 @@ This allows **direct comparison** across all four models.
 
 ---
 
-## Output Use-Cases
-
-The dispersion summaries are used for:
-
-- Skill vs luck decomposition  
-- Comparing competitiveness across leagues  
-- Validating whether actual parity resembles skill, luck, or a mix  
-
----
-
 ## Summary
 
 This directory provides model-consistent dispersion metrics across 20 years of European soccer:
