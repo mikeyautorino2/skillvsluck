@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This folder stores **unaltered snapshot(s)** of upstream soccer datasets used for exploration and cross-checks.  
+This folder stores the original soccer dataset used for exploration and cross-checks.  
 These files are kept **as-downloaded** so that downstream scripts can reproduce our processing steps and compare against the source.
 
 ---
