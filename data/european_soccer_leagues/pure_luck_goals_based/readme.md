@@ -60,12 +60,6 @@ This produces a full simulated match dataset with realistic-but-random scores.
 
 ### **3. Build simulated standings for each seed**
 
-Ranking reconstruction uses:
-
-```python
-season_rankings_from_simulation(sim_df, seed)
-```
-
 For each seed, we:
 - accumulate team points  
 - calculate goals for/against, goal difference  
@@ -130,7 +124,6 @@ Each file aggregates simulation results into full league tables.
 | `team` | Team code |
 | `rank` | Simulated final standing |
 | `simulation_seed` | Seed index (1–10) |
-| *(may also include points, GF, GA depending on the script)* |
 
 ---
 

@@ -19,21 +19,6 @@ This folder is the **central data hub** of the project.
 
 ---
 
-## Folder Structure Overview
-
-data/
-└── european_soccer_leagues/
-├── actual/
-├── pure_luck_goals_based/
-├── pure_luck_result_based/
-├── pure_skill/
-├── source_data/
-├── home_advantage_by_league.csv
-├── master_team_names.csv
-└── readme.md (this file)
-
----
-
 # 1. `actual/` — Cleaned real-world match & standings data
 
 This folder contains the **official match results and standings** for all leagues and seasons included in the analysis.

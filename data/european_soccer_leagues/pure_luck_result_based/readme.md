@@ -1,4 +1,5 @@
-# About this directory: `data/european_soccer_leagues/pure_luck_result_based/`
+# About this directory: 
+`data/european_soccer_leagues/pure_luck_result_based/`
 
 ## Purpose
 
