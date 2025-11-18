@@ -1,80 +1,200 @@
-# European Soccer Match Data (Top 5 Leagues)
+# About this directory: `data/european_soccer_leagues/`
 
-> Premier League · Serie A · Bundesliga · Ligue 1 · La Liga  
-> Source: Football-Data.co.uk (season-by-season CSVs)
+## Purpose
 
-## Overview
+This directory contains **all datasets** used in the Skill-vs-Luck analysis for the four major European soccer leagues:
 
-This repo aggregates **match-level data** for Europe’s “Top 5” leagues, downloaded **per season** from Football-Data.co.uk, then **combined and normalized** with Python/pandas into **one CSV per league**. We keep a compact format (dates, teams, full-time score/result, match week when available, and Bet365 odds) and add derived fields (season start year and per-team match points).
+- **Bundesliga (Germany)**
+- **La Liga (Spain)**
+- **Premier League (England)**
+- **Serie A (Italy)**
 
-- **Primary source:** Football-Data.co.uk — data download page: https://www.football-data.co.uk/data.php  
-- **Leagues covered:** Premier League (E0), Serie A (I1), Bundesliga (D1), Ligue 1 (F1), La Liga (SP1)  
-- **Data:** One row per regular-season match
+The datasets here include:
+- cleaned real-world match data  
+- cleaned real-world standings  
+- three separate simulation models (pure luck – goals, pure luck – results, pure skill)  
+- reference metadata needed for consistent analysis  
 
-> Note: This directory has also referenced the *xgabora/Club-Football-Match-Data-2000-2025* project for exploration. Though we have also included downloads **directly** from Football-Data.co.uk as well. See **References** below.
-
----
-
-## What’s inside
-
-- `code/` — Python code that was used to load, normalize, and export league-level CSVs.  
-- `data/` — includes all data gathered for the project – both raw and final.
-  - `original/` — Original raw data found (pulled from github cited).
-  - `processed/` — Final per-league CSVs (e.g., `premier_league.csv`, `serie_a.csv`, etc.).
+This folder is the **central data hub** of the project.
 
 ---
 
-## Fields we select (as downloaded)
+## Folder Structure Overview
 
-These come *verbatim* from Football-Data season files before normalization:
-
-| Column | Description |
-|---|---|
-| `Date` | Match date in **dd/mm/yyyy** format (string in the raw files). |
-| `HomeTeam` | Home team name (string). |
-| `AwayTeam` | Away team name (string). |
-| `FTHG` | Full-time home goals (int). |
-| `FTAG` | Full-time away goals (int). |
-| `FTR` | Full-time result (enum: `H`=home win, `D`=draw, `A`=away win). |
-| `MW` | Match week (int). *Not present for all seasons.* |
-| `B365H` | Bet365 home-win odds (float). |
-| `B365D` | Bet365 draw odds (float). |
-| `B365A` | Bet365 away-win odds (float). |
-
+data/
+└── european_soccer_leagues/
+├── actual/
+├── pure_luck_goals_based/
+├── pure_luck_result_based/
+├── pure_skill/
+├── source_data/
+├── home_advantage_by_league.csv
+├── master_team_names.csv
+└── readme.md (this file)
 
 ---
 
-## Normalization & derived variables
+# 1. `actual/` — Cleaned real-world match & standings data
 
-During processing we standardize names and compute extra fields:
+This folder contains the **official match results and standings** for all leagues and seasons included in the analysis.
 
-- **Parsed date** → `date` (ISO `YYYY-MM-DD`)
-- **Season start year** → `season` (e.g., **2023** means 2023/24)  
-  - Rule: if `date.month >= 8` (Aug–Dec) then `season = date.year`; else (Jan–Jul) `season = date.year - 1`.
-- **Team names** → `home_team`, `away_team` (renamed from `HomeTeam`, `AwayTeam`)
-- **Goals** → `hometeamgoals`, `awayteamgoals` (from `FTHG`, `FTAG`)
-- **Home-team result (ternary)** → `hometeamresult` ∈ {`win`, `draw`, `loss`} (derived from goals)
-- **Per-match points** → `home_team_points`, `away_team_points` (3/1/0 and 0/1/3)
-- **Odds (standardized names)** → `OddHome`, `OddDraw`, `OddAway` (renamed from `B365H/D/A`)
-- **Match week** → `week` (renamed from `MW` when available)
+### Contents include:
 
+- `*_actual.csv`  
+  → cleaned, standardized match-level data  
+- `*_standings_all_seasons.csv`  
+  → season-by-season league tables (points, wins, draws, goal difference, rank)
 
-**Final per-league CSV schema**
+### Purpose
 
-| Column | Type | Example | Notes |
-|---|---|---|---|
-| `season` | Int64 | `2023` | Start year of the season (e.g., 2023 → 2023/24). |
-| `date` | date (YYYY-MM-DD) | `2024-04-06` | Parsed from raw `Date`. |
-| `week` | Int64 (optional) | `28` | Included only if `MW` was present. |
-| `home_team` | string | `Arsenal` | From `HomeTeam`. |
-| `away_team` | string | `Liverpool` | From `AwayTeam`. |
-| `hometeamgoals` | Int64 | `3` | From `FTHG`. |
-| `awayteamgoals` | Int64 | `1` | From `FTAG`. |
-| `hometeamresult` | string (`win`/`draw`/`loss`) | `win` | Derived from goals. |
-| `home_team_points` | Int64 | `3` | 3 if `win`, 1 if `draw`, 0 if `loss`. |
-| `away_team_points` | Int64 | `0` | Complement of home points. |
-| `OddHome` | float | `1.85` | From `B365H`. |
-| `OddDraw` | float | `3.60` | From `B365D`. |
-| `OddAway` | float | `4.10` | From `B365A`. |
+This is the **baseline dataset** from which:
+- home advantage is computed  
+- empirical goal distributions are learned  
+- pure-skill rankings are taken  
+- real upset frequencies and correlations are measured  
 
-> We include **regular-season** league matches. Cups/playoffs are excluded by file selection (divisions) and, when needed, by date/league filters.
+All simulations in other folders depend on the data stored here.
+
+---
+
+# 2. `pure_luck_goals_based/` — Empirical goals-only randomness model
+
+This folder implements a **pure luck model based on goal scoring distributions**.
+
+For each league:
+1. The real dataset is used to learn the **empirical distribution of goals scored** per season.  
+2. Each match is re-simulated 10 times by **sampling home and away goals independently**.  
+3. Standings are recomputed for each simulation seed.  
+
+### Files include:
+- `*_simulated_matches_all_seeds.csv`  
+- `*_simulated_standings_all_seasons.csv`  
+- `pure_luck_goals_all_leagues_combined.csv`  
+- `simulate_goals_empirical.ipynb`  
+
+### Purpose
+
+Provides the **luck baseline where randomness emerges from goal scoring volatility**, not from direct match-result sampling.
+
+---
+
+# 3. `pure_luck_result_based/` — Result-only randomness model with home advantage
+
+This folder implements the pure luck model where **match outcomes are drawn randomly**, but each league’s **empirical home advantage** is preserved.
+
+For every match:
+- Home win probability = historical `home_win_with_draws / matches_total`  
+- Remaining probability is split between draw and away win  
+- 10 simulation seeds are run to smooth variance  
+- Standings are rebuilt for every seed  
+
+### Files include:
+- `*_simulated_matches_all_seeds.csv`  
+- `*_simulated_standings_all_seasons.csv`  
+- `all_leagues_combined.csv`  
+- the notebooks that generated these outputs  
+
+### Purpose
+
+Provides the **pure-luck alternative** where **only outcomes (H/D/A)** are simulated, not goals.
+
+---
+
+# 4. `pure_skill/` — Deterministic skill-only model
+
+This folder contains simulations in a world where **skill fully determines every match**.
+
+Rule:
+> The team with the better real-world **end-of-season rank** always wins.
+
+- No randomness  
+- No draws  
+- Stronger team always defeats weaker team  
+
+### Files include:
+- `bundesliga_skilled_matches.csv`  
+- `la_liga_skilled_matches.csv`  
+- `premier_league_skilled_matches.csv`  
+- `serie_a_skilled_matches.csv`  
+- `skill_based_league.csv`  
+- `skill_simulations.ipynb`  
+
+### Purpose
+
+Provides the **upper bound of predictability**, forming the "skill-only" extreme of the Skill-vs-Luck framework.
+
+---
+
+# 5. `source_data/` — Raw upstream data snapshots
+
+This folder stores **minimally processed** or original datasets used for:
+- cross-checking  
+- validation  
+- reproducibility  
+
+### Files include:
+- `Original_Matches.csv`  
+- `Original_EloRatings.csv`  
+- `readme.md` describing the raw dataset fields  
+
+### Purpose
+
+Ensures that the project can always trace results back to the **true source dataset**, mirroring an industry-standard reproducibility pipeline.
+
+---
+
+# 6. `master_team_names.csv` — Team name standardization map
+
+This file is a **reference mapping** used throughout the project to ensure consistent team identifiers across seasons and leagues.
+
+### Example rows:
+
+| league | season | team_std | team_full        |
+|--------|--------|----------|------------------|
+| bundesliga | 2004 | BAY | Bayern Munich |
+| bundesliga | 2004 | BIE | Bielefeld |
+| bundesliga | 2004 | BOC | Bochum |
+| bundesliga | 2004 | DOR | Dortmund |
+
+### Purpose
+
+- Enforces a unified naming scheme (`team_std`) across raw, actual, and simulated datasets  
+- Prevents mismatched merges caused by inconsistent naming conventions  
+- Critical for multi-season and multi-league joins  
+
+---
+
+# 7. `home_advantage_by_league.csv` — Empirical home advantage benchmark
+
+This file summarizes the **historical home bias** of each league.
+
+It is used **only** by the result-based pure luck model in `pure_luck_result_based/`.
+
+### Columns include:
+- total matches  
+- home wins  
+- draws  
+- away wins  
+- home-win-equivalent metric (H + ⅓·D)  
+- home win %  
+
+### Purpose
+
+This is the **only non-random bias** preserved in the result-based simulation framework.
+
+---
+
+## Summary
+
+The `european_soccer_leagues/` directory organizes all real and simulated data needed for the Skill-vs-Luck decomposition into a clean, reproducible hierarchy:
+
+- **actual/** → real-world matches and standings  
+- **pure_skill/** → deterministic skill-only world  
+- **pure_luck_result_based/** → random outcomes with home advantage  
+- **pure_luck_goals_based/** → random goals sampled from empirical distributions  
+- **source_data/** → original raw datasets  
+- **master_team_names.csv** → consistent team naming  
+- **home_advantage_by_league.csv** → structural bias preserved in result-based luck model  
+
+This folder underpins the entire analysis pipeline.
+
