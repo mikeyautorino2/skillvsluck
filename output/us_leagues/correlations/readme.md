@@ -56,8 +56,8 @@ We compute one **Spearman r** per season (comparing teams’ first-half and seco
 - **NFL / MLB (with ties):**  
   We encode ties as **0.5**, so:
   - win = 1  
-  - tie = 0 
-  - loss = -1  
+  - tie = 0.5
+  - loss = 0 
   Then the **mean** of these values over a half equals the win % that includes ties.
 
 ---
